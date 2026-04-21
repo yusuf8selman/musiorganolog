@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musiorganolog — Enstrüman Haritası</title>
+  <meta name="description" content="Müzik enstrümanlarının Hornbostel-Sachs sınıflandırması üzerine interaktif aile ağacı.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css?v=9">
+</head>
+<body>
+
+  <!-- Arka plan dokusu -->
+  <div class="bg-texture" aria-hidden="true"></div>
+
+  <!-- ─── HEADER ─────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <div class="title-block">
+        <h1 class="site-title">Musiorganolog</h1>
+        <p class="site-subtitle" id="site-subtitle">Enstrüman Haritası</p>
+        <div class="title-ornament"></div>
+      </div>
+
+      <div class="header-controls">
+        <!-- Dil toggle + Hakkında -->
+        <div class="lang-toggle" role="group" aria-label="Dil seçimi / Language / Sprache">
+          <button class="lang-btn" id="lang-tr" data-lang="tr" aria-pressed="true">TR</button>
+          <span class="lang-sep" aria-hidden="true">|</span>
+          <button class="lang-btn" id="lang-en" data-lang="en" aria-pressed="false">EN</button>
+          <span class="lang-sep" aria-hidden="true">|</span>
+          <button class="lang-btn" id="lang-de" data-lang="de" aria-pressed="false">DE</button>
+          <span class="lang-sep" aria-hidden="true">|</span>
+          <button class="about-btn" id="about-btn" aria-label="Site hakkında">Hakkında</button>
+        </div>
+
+        <!-- Arama -->
+        <div class="search-wrap" id="search-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="16.5" y1="16.5" x2="22" y2="22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <input
+            type="text"
+            class="search-input"
+            id="search-input"
+            placeholder="Enstrüman ara..."
+            autocomplete="off"
+            spellcheck="false"
+            role="combobox"
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-controls="search-dropdown"
+            aria-autocomplete="list"
+          >
+          <ul class="search-dropdown" id="search-dropdown" role="listbox" hidden></ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ─── BREADCRUMB ────────────────────────────────── -->
+  <nav class="breadcrumb-nav" id="breadcrumb-nav" aria-label="Gezinme yolu" hidden>
+    <ol class="breadcrumb" id="breadcrumb"></ol>
+  </nav>
+
+  <!-- ─── TREE STAGE ───────────────────────────────── -->
+  <main class="tree-stage" id="tree-stage" role="main" aria-label="Enstrüman aile ağacı"></main>
+
+  <!-- ─── PAN/ZOOM SINIR GERİ BİLDİRİMİ ───────────────── -->
+  <div id="r-pan-feedback" aria-hidden="true"></div>
+
+  <!-- ─── RADYAL AĞAÇ KONTROL BUTONLARI (sabit) ────────── -->
+  <div class="r-controls" id="r-controls" aria-label="Harita kontrolleri">
+    <button class="r-ctrl-btn" id="r-ctrl-in"     title="Yakınlaş (zoom in)"  aria-label="Yakınlaş">+</button>
+    <button class="r-ctrl-btn" id="r-ctrl-out"    title="Uzaklaş (zoom out)"  aria-label="Uzaklaş">−</button>
+    <div class="r-ctrl-sep"></div>
+    <button class="r-ctrl-btn" id="r-ctrl-center" title="Tüm ağacı göster"    aria-label="Merkeze al">⌖</button>
+  </div>
+
+  <!-- ─── DETAIL MODAL ──────────────────────────────── -->
+  <div class="modal-backdrop" id="modal-backdrop" hidden aria-hidden="true"></div>
+
+  <div
+    class="modal"
+    id="modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-name-primary"
+    hidden
+  >
+    <button class="modal-close" id="modal-close" aria-label="Kapat">×</button>
+
+    <div class="modal-image-area" id="modal-image-area">
+
+      <!-- ── Carousel (görsel varsa aktif) ─────────────── -->
+      <div class="m-carousel" id="modal-carousel" hidden aria-label="Enstrüman görselleri">
+        <div class="m-carousel-viewport" id="carousel-viewport">
+          <div class="m-carousel-track" id="carousel-track"></div>
+        </div>
+
+        <!-- Navigasyon -->
+        <button class="m-carousel-nav m-carousel-prev" id="carousel-prev" aria-label="Önceki görsel" hidden>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><polyline points="15 18 9 12 15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="m-carousel-nav m-carousel-next" id="carousel-next" aria-label="Sonraki görsel" hidden>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><polyline points="9 6 15 12 9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+
+        <!-- Alt overlay: caption + dots + sayaç -->
+        <div class="m-carousel-overlay">
+          <p class="m-carousel-caption" id="carousel-caption"></p>
+          <div class="m-carousel-bar">
+            <div class="m-carousel-dots" id="carousel-dots" role="tablist" aria-label="Görsel seçimi"></div>
+            <span class="m-carousel-counter" id="carousel-counter" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Fallback: gradient + isim (görsel yoksa) ─── -->
+      <span class="modal-image-label" id="modal-image-label" aria-hidden="true"></span>
+
+    </div>
+
+    <div class="modal-info">
+      <div class="modal-name-block">
+        <h2 class="modal-name-primary" id="modal-name-primary"></h2>
+        <p class="modal-name-secondary" id="modal-name-secondary"></p>
+      </div>
+      <div class="modal-divider"></div>
+      <p class="modal-desc" id="modal-desc"></p>
+
+      <!-- Video butonu — sadece video_id varsa görünür -->
+      <button class="modal-video-btn" id="modal-video-btn" hidden aria-expanded="false">
+        <svg class="modal-video-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.4"/>
+          <polygon points="10,8 17,12 10,16" fill="currentColor"/>
+        </svg>
+        <span id="modal-video-btn-text">Enstrümanı dinle</span>
+      </button>
+
+      <!-- Video alanı — buton açınca genişler -->
+      <div class="modal-video-wrap" id="modal-video-wrap" hidden>
+        <div class="modal-video-ratio">
+          <iframe
+            id="modal-video-iframe"
+            class="modal-video-iframe"
+            src=""
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+            title="Enstrüman performans videosu"
+          ></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ─── ABOUT MODAL ─────────────────────────────── -->
+  <div class="modal-backdrop" id="about-backdrop" hidden aria-hidden="true"></div>
+
+  <div
+    class="about-modal"
+    id="about-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="about-modal-title"
+    hidden
+  >
+    <button class="modal-close" id="about-close" aria-label="Kapat">×</button>
+
+    <!-- Başlık -->
+    <div class="about-header">
+      <div class="about-logo-mark" aria-hidden="true">◆</div>
+      <h2 class="about-title" id="about-modal-title">Musiorganolog</h2>
+      <p class="about-tagline" id="about-tagline">Enstrüman Haritası</p>
+    </div>
+
+    <!-- Sekmeler -->
+    <div class="about-tabs" role="tablist" aria-label="Hakkında sekmeleri">
+      <button class="about-tab active" id="tab-about" role="tab" aria-selected="true"  aria-controls="panel-about"  data-panel="panel-about">Site Hakkında</button>
+      <button class="about-tab"        id="tab-sources" role="tab" aria-selected="false" aria-controls="panel-sources" data-panel="panel-sources">Kaynaklar</button>
+    </div>
+
+    <!-- Panel: Site Hakkında -->
+    <div class="about-panel" id="panel-about" role="tabpanel" aria-labelledby="tab-about">
+      <p class="about-text" id="about-text-main">
+        Musiorganolog, dünya müzik enstrümanlarını Hornbostel-Sachs organolojik sınıflandırma sistemi üzerine inşa edilmiş interaktif bir haritadır. 389 düğüm ve 287 yaprak enstrümanı kapsayan bu koleksiyon; kordofonlar, aerofonlar, idiofonlar, membranofonlar ve elektrofonlar olmak üzere beş ana kategoride düzenlenmiştir.
+      </p>
+      <p class="about-text" id="about-text-desc">
+        Her enstrüman Türkçe, İngilizce ve Almanca açıklamalar, etimoloji, tarihsel köken, yapım tekniği ve kültürel bağlam bilgileriyle zenginleştirilmiştir. Seçilmiş performans videoları dünya arşivlerinden küratörlüklü olarak sunulmaktadır.
+      </p>
+      <div class="about-stats">
+        <div class="about-stat"><span class="about-stat-num">389</span><span class="about-stat-label" id="stat-nodes">Düğüm</span></div>
+        <div class="about-stat"><span class="about-stat-num">287</span><span class="about-stat-label" id="stat-instruments">Enstrüman</span></div>
+        <div class="about-stat"><span class="about-stat-num">3</span><span class="about-stat-label" id="stat-langs">Dil</span></div>
+        <div class="about-stat"><span class="about-stat-num">5</span><span class="about-stat-label" id="stat-cats">Kategori</span></div>
+      </div>
+      <p class="about-credit" id="about-credit">Hornbostel-Sachs (1914) · MIMO Thesaurus (2011, 2021)</p>
+    </div>
+
+    <!-- Panel: Kaynaklar -->
+    <div class="about-panel" id="panel-sources" role="tabpanel" aria-labelledby="tab-sources" hidden>
+      <ul class="sources-list">
+        <li><span class="src-cat" id="src-cat-ency">Ansiklopediler</span>
+          <ul>
+            <li>Sadie, S. (ed.) <em>The New Grove Dictionary of Music and Musicians</em>. Oxford University Press, 2001.</li>
+            <li>Sadie, S. (ed.) <em>The New Grove Dictionary of Musical Instruments</em>. Macmillan, 1984.</li>
+            <li>Baines, A. <em>The Oxford Companion to Musical Instruments</em>. Oxford University Press, 1992.</li>
+            <li>TDV <em>İslam Ansiklopedisi</em> — Müzik Aletleri maddeleri.</li>
+            <li><em>Encyclopædia Iranica</em> — Musical Instruments of Iran.</li>
+          </ul>
+        </li>
+        <li><span class="src-cat" id="src-cat-class">Sınıflandırma</span>
+          <ul>
+            <li>Hornbostel, E.M. von &amp; Sachs, C. "Systematik der Musikinstrumente." <em>Zeitschrift für Ethnologie</em>, 46, 1914.</li>
+            <li>MIMO Consortium. <em>MIMO Revision of the Hornbostel-Sachs Classification</em>. 2011.</li>
+            <li>MIMO Consortium. <em>MIMO Addenda</em>. 2021.</li>
+          </ul>
+        </li>
+        <li><span class="src-cat" id="src-cat-books">Kitaplar</span>
+          <ul>
+            <li>Sachs, C. <em>The History of Musical Instruments</em>. W.W. Norton, 1940.</li>
+            <li>Montagu, J. <em>Origins and Development of Musical Instruments</em>. Scarecrow Press, 2007.</li>
+            <li>Picken, L. <em>Folk Musical Instruments of Turkey</em>. Oxford University Press, 1975.</li>
+            <li>Baines, A. <em>Woodwind Instruments and Their History</em>. Faber &amp; Faber, 1957.</li>
+            <li>Blades, J. <em>Percussion Instruments and Their History</em>. Faber &amp; Faber, 1970.</li>
+          </ul>
+        </li>
+        <li><span class="src-cat" id="src-cat-online">Çevrimiçi</span>
+          <ul>
+            <li>MIMO Online Thesaurus — <em>mimo-international.com</em></li>
+            <li>Smithsonian Folkways Recordings — <em>folkways.si.edu</em></li>
+            <li>RILM Abstracts of Music Literature — <em>rilm.org</em></li>
+            <li>Wikipedia (TR / EN / DE / FA / AR baskıları)</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- ─── SCRIPTS ──────────────────────────────────── -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <!-- app.js ilk yüklenir: global App namespace'i tanımlar -->
+  <script src="js/app.js?v=8"></script>
+  <!-- radial.js: App.Radial ekler -->
+  <script src="js/radial.js?v=14"></script>
+  <!-- search.js: App.Search ekler -->
+  <script src="js/search.js?v=5"></script>
+
+</body>
+</html>
