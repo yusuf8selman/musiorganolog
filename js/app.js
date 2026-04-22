@@ -40,6 +40,19 @@ window.App = {
     document.getElementById('modal-name-secondary').textContent = secondaryName;
     document.getElementById('modal-desc').textContent           = desc || '';
 
+    // ─── Bölge (coğrafi köken) ────────────────────────────
+    const regionEl    = document.getElementById('modal-region');
+    const regionLabel = document.getElementById('modal-region-label');
+    const regionValue = document.getElementById('modal-region-value');
+    const regionText  = lang === 'tr' ? node.region_tr : node.region_en;
+    if (regionText) {
+      regionLabel.textContent = lang === 'tr' ? 'Bölge' : lang === 'de' ? 'Region' : 'Region';
+      regionValue.textContent = regionText;
+      regionEl.hidden = false;
+    } else {
+      regionEl.hidden = true;
+    }
+
     // ─── Görsel alanı: carousel vs. fallback ──────────────
     const imageArea  = document.getElementById('modal-image-area');
     const carousel   = document.getElementById('modal-carousel');
@@ -326,8 +339,9 @@ window.App = {
     document.getElementById('search-input').placeholder =
       lang === 'tr' ? 'Enstrüman ara...' : lang === 'de' ? 'Instrument suchen...' : 'Search instruments...';
 
-    if (App.Radial) App.Radial.setLanguage();
-    if (App.Search) App.Search.setLanguage(lang);
+    if (App.Radial)   App.Radial.setLanguage();
+    if (App.Search)   App.Search.setLanguage(lang);
+    if (App.MapView)  App.MapView.setLanguage();
 
     // Video butonu metni dil değişiminde güncellenir
     const videoBtn = document.getElementById('modal-video-btn');
@@ -378,9 +392,11 @@ window.App = {
         tab2:       'Kaynaklar',
         main:       'Musiorganolog, dünya müzik enstrümanlarını Hornbostel-Sachs organolojik sınıflandırma sistemi üzerine inşa edilmiş interaktif bir haritadır. 389 düğüm ve 287 yaprak enstrümanı kapsayan bu koleksiyon; kordofonlar, aerofonlar, idiofonlar, membranofonlar ve elektrofonlar olmak üzere beş ana kategoride düzenlenmiştir.',
         desc:       'Her enstrüman Türkçe, İngilizce ve Almanca açıklamalar, etimoloji, tarihsel köken, yapım tekniği ve kültürel bağlam bilgileriyle zenginleştirilmiştir. Seçilmiş performans videoları dünya arşivlerinden küratörlüklü olarak sunulmaktadır.',
-        nodes:      'Düğüm', instruments: 'Enstrüman', langs: 'Dil', cats: 'Kategori',
+        nodes:      'Düğüm', instruments: 'Enstrüman', langs: 'Dil', cats: 'Kategori', visitors: 'Ziyaret',
         srcEncy:    'Ansiklopediler', srcClass: 'Sınıflandırma',
         srcBooks:   'Kitaplar',       srcOnline: 'Çevrimiçi',
+        mapSoon:    'Çok Yakında',    mapDesc: '287 enstrümanı dünya haritası üzerinde keşfet — bölge ve ülke bazlı filtreleme ile.',
+        aboutBtn:   'Hakkında',
       },
       en: {
         tagline:    'Instrument Map',
@@ -388,9 +404,11 @@ window.App = {
         tab2:       'Sources',
         main:       'Musiorganolog is an interactive map of world musical instruments built on the Hornbostel-Sachs organological classification system. Covering 389 nodes and 287 leaf instruments, the collection is organised into five main categories: chordophones, aerophones, idiophones, membranophones, and electrophones.',
         desc:       'Each instrument is enriched with descriptions in Turkish, English, and German covering etymology, historical origins, construction, and cultural context. Curated performance videos are drawn from world archives.',
-        nodes:      'Nodes', instruments: 'Instruments', langs: 'Languages', cats: 'Categories',
+        nodes:      'Nodes', instruments: 'Instruments', langs: 'Languages', cats: 'Categories', visitors: 'Visits',
         srcEncy:    'Encyclopaedias', srcClass: 'Classification',
         srcBooks:   'Books',          srcOnline: 'Online',
+        mapSoon:    'Coming Soon',    mapDesc: 'Explore 287 instruments on a world map — filter by region and country.',
+        aboutBtn:   'About',
       },
       de: {
         tagline:    'Instrumentenkarte',
@@ -398,9 +416,11 @@ window.App = {
         tab2:       'Quellen',
         main:       'Musiorganolog ist eine interaktive Karte der Musikinstrumente der Welt, aufgebaut auf dem organologischen Klassifikationssystem von Hornbostel-Sachs. Die Sammlung umfasst 389 Knoten und 287 Blattinstrumente, gegliedert in fünf Hauptkategorien: Chordophone, Aerophone, Idiophone, Membranophone und Elektophone.',
         desc:       'Jedes Instrument ist mit Beschreibungen auf Türkisch, Englisch und Deutsch angereichert, die Etymologie, historische Herkunft, Konstruktion und kulturellen Kontext abdecken. Kuratierte Aufführungsvideos stammen aus weltweiten Archiven.',
-        nodes:      'Knoten', instruments: 'Instrumente', langs: 'Sprachen', cats: 'Kategorien',
+        nodes:      'Knoten', instruments: 'Instrumente', langs: 'Sprachen', cats: 'Kategorien', visitors: 'Besuche',
         srcEncy:    'Enzyklopädien', srcClass: 'Klassifikation',
         srcBooks:   'Bücher',        srcOnline: 'Online',
+        mapSoon:    'Demnächst',     mapDesc: '287 Instrumente auf einer Weltkarte entdecken — nach Region und Land filtern.',
+        aboutBtn:   'Über uns',
       },
     };
     const s = t[lang] || t.tr;
@@ -414,10 +434,12 @@ window.App = {
     if (el('stat-instruments'))  el('stat-instruments').textContent  = s.instruments;
     if (el('stat-langs'))        el('stat-langs').textContent        = s.langs;
     if (el('stat-cats'))         el('stat-cats').textContent         = s.cats;
-    if (el('src-cat-ency'))      el('src-cat-ency').textContent      = s.srcEncy;
-    if (el('src-cat-class'))     el('src-cat-class').textContent     = s.srcClass;
-    if (el('src-cat-books'))     el('src-cat-books').textContent     = s.srcBooks;
-    if (el('src-cat-online'))    el('src-cat-online').textContent    = s.srcOnline;
+    if (el('src-cat-ency'))        el('src-cat-ency').textContent        = s.srcEncy;
+    if (el('src-cat-class'))       el('src-cat-class').textContent       = s.srcClass;
+    if (el('src-cat-books'))       el('src-cat-books').textContent       = s.srcBooks;
+    if (el('src-cat-online'))      el('src-cat-online').textContent      = s.srcOnline;
+    if (el('stat-visitors-label')) el('stat-visitors-label').textContent = s.visitors;
+    if (el('about-btn'))           el('about-btn').textContent           = s.aboutBtn;
   },
 
   /* ─── ARAMA NAVIGASYON ───────────────────────────────── */
@@ -445,7 +467,7 @@ window.App = {
 
   async init() {
     try {
-      const res = await fetch('./data/instruments.json');
+      const res = await fetch('./data/instruments.json?v=2');
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       this.state.data = await res.json();
     } catch (err) {
@@ -457,6 +479,14 @@ window.App = {
       console.error('instruments.json yükleme hatası:', err);
       return;
     }
+
+    // Header yüksekliğini CSS değişkenine yaz (map-view için gerekli)
+    const syncHeaderH = () => {
+      const h = document.querySelector('.site-header')?.offsetHeight || 72;
+      document.documentElement.style.setProperty('--header-h', h + 'px');
+    };
+    syncHeaderH();
+    window.addEventListener('resize', syncHeaderH);
 
     // Radial ağacı başlat
     App.Radial.init(this.state.data);
@@ -474,10 +504,41 @@ window.App = {
     document.getElementById('modal-close').addEventListener('click',    () => this.closeModal());
     document.getElementById('modal-backdrop').addEventListener('click', () => this.closeModal());
 
-    // About modal
-    document.getElementById('about-btn').addEventListener('click',      () => this.openAbout());
+    // About modal — her açılışta dili senkronize et
+    document.getElementById('about-btn').addEventListener('click', () => {
+      this._updateAboutLang(this.state.language);
+      this.openAbout();
+    });
     document.getElementById('about-close').addEventListener('click',    () => this.closeAbout());
     document.getElementById('about-backdrop').addEventListener('click', () => this.closeAbout());
+
+    // Görünüm toggle: Radyal Ağaç ↔ Harita
+    const treeStage  = document.getElementById('tree-stage');
+    const mapView    = document.getElementById('map-view');
+    const rControls  = document.getElementById('r-controls');
+    const visitorBadge = document.getElementById('visitor-badge');
+    document.getElementById('view-radial').addEventListener('click', () => {
+      document.getElementById('view-radial').setAttribute('aria-pressed', 'true');
+      document.getElementById('view-radial').classList.add('active');
+      document.getElementById('view-map').setAttribute('aria-pressed', 'false');
+      document.getElementById('view-map').classList.remove('active');
+      treeStage.hidden   = false;
+      mapView.hidden     = true;
+      if (rControls)    rControls.hidden    = false;
+      if (visitorBadge) visitorBadge.hidden = false;
+    });
+    document.getElementById('view-map').addEventListener('click', () => {
+      document.getElementById('view-map').setAttribute('aria-pressed', 'true');
+      document.getElementById('view-map').classList.add('active');
+      document.getElementById('view-radial').setAttribute('aria-pressed', 'false');
+      document.getElementById('view-radial').classList.remove('active');
+      treeStage.hidden   = true;
+      mapView.hidden     = false;
+      if (rControls)    rControls.hidden    = true;
+      if (visitorBadge) visitorBadge.hidden = true;
+      // Init or refresh map
+      if (App.MapView) App.MapView.onShow();
+    });
 
     // About sekme geçişleri
     document.querySelectorAll('.about-tab').forEach(btn => {

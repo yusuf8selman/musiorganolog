@@ -987,7 +987,7 @@ body {
 
 .about-stats {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 0.75rem;
   margin: 1.4rem 0 1rem;
   padding: 1.1rem 0.8rem;
@@ -1339,3 +1339,343 @@ path.r-link {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ── Visitor Badge ────────────────────────────────────────── */
+#visitor-badge {
+  position: fixed;
+  bottom: 1.6rem;
+  left: 1.75rem;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(15, 20, 40, 0.82);
+  border: 1px solid var(--border-gold);
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  pointer-events: none;
+  user-select: none;
+}
+.visitor-icon {
+  font-size: 0.55rem;
+  color: var(--gold-dim);
+  opacity: 0.7;
+}
+#visitor-badge #visitor-count {
+  color: var(--gold-dim);
+  font-weight: 500;
+}
+
+/* ── Modal Region (Coğrafi Köken) ────────────────────────── */
+.modal-region {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+  padding: 0.4rem 0.75rem;
+  background: rgba(212, 175, 55, 0.07);
+  border-left: 2px solid var(--gold);
+  border-radius: 0 6px 6px 0;
+}
+.modal-region-label {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  white-space: nowrap;
+}
+.modal-region-value {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--gold-light);
+  letter-spacing: 0.03em;
+}
+
+/* ── Title as Home Link ──────────────────────────────────── */
+.title-home-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.title-home-link:hover .site-title {
+  color: var(--gold-light);
+  transition: color 0.2s ease;
+}
+
+/* ── View Toggle (Radial / Map) ──────────────────────────── */
+.view-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.2rem;
+  background: rgba(15, 20, 40, 0.6);
+  border: 1px solid var(--border-gold);
+  border-radius: 8px;
+  backdrop-filter: blur(6px);
+}
+.view-btn {
+  width: 32px;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.18s ease, color 0.18s ease;
+  padding: 0;
+}
+.view-btn svg {
+  width: 17px;
+  height: 17px;
+}
+.view-btn:hover {
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--gold-dim);
+}
+.view-btn.active {
+  background: rgba(212, 175, 55, 0.15);
+  color: var(--gold-light);
+}
+.view-btn:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 1px;
+}
+
+/* ── Map View ────────────────────────────────────────────── */
+.map-view {
+  position: fixed;
+  inset: 0;
+  top: var(--header-h, 72px);
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-deep);
+  z-index: 10;
+}
+
+/* Filter bar */
+.map-filter-bar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 1.25rem;
+  background: rgba(10, 14, 26, 0.92);
+  border-bottom: 1px solid var(--border-gold);
+  backdrop-filter: blur(10px);
+  z-index: 20;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.map-filter-bar::-webkit-scrollbar { display: none; }
+
+/* Map canvas */
+#map-canvas {
+  flex: 1;
+  min-height: 0;
+}
+
+/* Filter buttons */
+.mfb {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  padding: 0.28rem 0.82rem;
+  border-radius: 20px;
+  border: 1px solid var(--border-gold);
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, border-color 0.18s;
+  white-space: nowrap;
+  user-select: none;
+}
+.mfb:hover {
+  background: rgba(212, 175, 55, 0.08);
+  color: var(--text-primary);
+  border-color: var(--border-gold-hover);
+}
+.mfb.active {
+  background: rgba(212, 175, 55, 0.13);
+  color: var(--gold);
+  border-color: var(--gold-dim);
+}
+.mfb-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--cat-clr, var(--gold));
+  flex-shrink: 0;
+}
+
+/* ── Map region markers ──────────────────────────────────── */
+/* --mc = marker colour.  No backdrop-filter / box-shadow.   */
+.mrm {
+  background: rgba(0, 0, 0, 0.55);
+  border: 2px solid var(--mc, #d4af37);
+  color: var(--mc, #d4af37);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  letter-spacing: .02em;
+  cursor: pointer;
+  opacity: 0.85;
+  will-change: opacity;
+}
+.mrm:hover { opacity: 1; }
+
+/* ── Leaflet base overrides ───────────────────────────────── */
+.leaflet-container {
+  background: var(--bg-deep);
+  font-family: var(--font-sans);
+}
+.leaflet-control-attribution {
+  background: rgba(10, 14, 26, 0.72) !important;
+  color: var(--text-muted) !important;
+  font-size: 0.62rem !important;
+  padding: 2px 6px !important;
+}
+.leaflet-control-attribution a {
+  color: var(--text-secondary) !important;
+}
+.leaflet-control-zoom {
+  border: 1px solid var(--border-gold) !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  box-shadow: var(--shadow-card) !important;
+}
+.leaflet-control-zoom a {
+  background: rgba(13, 18, 38, 0.92) !important;
+  color: var(--gold-dim) !important;
+  border-color: var(--border-gold) !important;
+  width: 34px !important;
+  height: 34px !important;
+  line-height: 34px !important;
+  font-size: 1.15rem !important;
+  transition: background 0.18s, color 0.18s !important;
+}
+.leaflet-control-zoom a:hover {
+  background: rgba(212, 175, 55, 0.12) !important;
+  color: var(--gold-light) !important;
+}
+.leaflet-bar a:last-child { border-bottom: none !important; }
+
+/* ── Instrument popup ─────────────────────────────────────── */
+.map-instr-popup .leaflet-popup-content-wrapper {
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0,0,0,.65), 0 0 18px rgba(212,175,55,.1);
+  padding: 0;
+  overflow: hidden;
+}
+.map-instr-popup .leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+  width: auto !important;
+  font-family: var(--font-sans);
+}
+.map-instr-popup .leaflet-popup-tip {
+  background: var(--bg-card);
+}
+.map-instr-popup .leaflet-popup-close-button {
+  color: var(--text-muted) !important;
+  font-size: 1.05rem !important;
+  top: 5px !important;
+  right: 7px !important;
+  padding: 2px !important;
+}
+.map-instr-popup .leaflet-popup-close-button:hover {
+  color: var(--gold) !important;
+  background: transparent !important;
+}
+
+/* Popup inner */
+.mp-popup { min-width: 200px; max-width: 280px; }
+.mp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--border-gold);
+  background: rgba(212, 175, 55, 0.05);
+}
+.mp-region-name {
+  font-family: var(--font-serif);
+  font-size: 0.88rem;
+  color: var(--gold);
+  font-weight: 600;
+  line-height: 1.2;
+}
+.mp-count-badge {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  background: rgba(212, 175, 55, 0.09);
+  border: 1px solid var(--border-gold);
+  border-radius: 20px;
+  padding: 0.1rem 0.45rem;
+  white-space: nowrap;
+}
+.mp-list {
+  list-style: none;
+  margin: 0;
+  padding: 0.3rem 0;
+  max-height: 252px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-gold) transparent;
+}
+.mp-list::-webkit-scrollbar { width: 4px; }
+.mp-list::-webkit-scrollbar-track { background: transparent; }
+.mp-list::-webkit-scrollbar-thumb {
+  background: var(--border-gold);
+  border-radius: 2px;
+}
+.mp-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.33rem 0.9rem;
+  cursor: pointer;
+  transition: background 0.14s, color 0.14s;
+}
+.mp-item:hover {
+  background: rgba(212, 175, 55, 0.07);
+}
+.mp-item:hover .mp-item-name { color: var(--text-primary); }
+.mp-item-name {
+  font-size: 0.79rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  transition: color 0.14s;
+}
+.mp-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* hidden attribute override fix */
+.map-view[hidden] { display: none !important; }
+.r-controls[hidden],
+#visitor-badge[hidden] { display: none !important; }

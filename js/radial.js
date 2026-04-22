@@ -41,17 +41,29 @@ App.Radial = {
       .attr('width',  '100%')
       .attr('height', '100%');
 
+    this._initTimers = [];   // ilk yüklemede _zoomToFit zamanlayıcıları
+    this._panning    = false; // sürükleme aktifken init timer'ların müdahalesini engeller
+
     this._zoom = d3.zoom()
       .scaleExtent([0.12, 10])                      // min: ağaç kaybolmasın
+      .on('start', ev => {
+        if (ev.sourceEvent) {
+          this._panning = true;
+          // Henüz bekleyen init zamanlayıcılarını iptal et
+          this._initTimers.forEach(id => clearTimeout(id));
+          this._initTimers = [];
+        }
+      })
       .on('zoom', ev => {
         this._gMain.attr('transform', ev.transform);
-        // Min scale sınırına ulaşıldığında görsel geri bildirim
         const k = ev.transform.k;
         if (ev.sourceEvent && k <= 0.125) this._showBoundFeedback();
       })
       .on('end', ev => {
-        // Sürükleme bittikten sonra ağaç ekrandan çıktıysa geri yay
-        if (ev.sourceEvent) this._springBack(ev.transform);
+        if (ev.sourceEvent) {
+          this._panning = false;
+          this._springBack(ev.transform);
+        }
       });
 
     this._svg.call(this._zoom)
@@ -87,8 +99,9 @@ App.Radial = {
     this._initCenterBtn();
     this._update(this._root);
     // Artan gecikmelerle birkaç kez dene — tarayıcı render throttle toleransı
-    [100, 400, 800, 1400].forEach(t =>
-      setTimeout(() => this._zoomToFit(null, true), t)
+    // Kullanıcı etkileşime girerse bu zamanlayıcılar iptal edilir (glitch önleme)
+    this._initTimers = [100, 400, 800, 1400].map(t =>
+      setTimeout(() => { if (!this._panning) this._zoomToFit(null, true); }, t)
     );
 
     window.addEventListener('resize', () => {
@@ -540,29 +553,20 @@ App.Radial = {
 
   /* ─── pan spring-back ───────────────────────────────────── */
 
-  /** Sürükleme bitince ağaç ekrandan çıktıysa smooth geri döner */
+  /** Ağaç merkezi (hub) viewport dışına çıkınca smooth olarak ortaya döner */
   _springBack(t) {
-    const treeR = this._treeRadius();
-    const slack = 120;   // ekranda görünmesi gereken min piksel
-    let nx = t.x, ny = t.y, changed = false;
-
-    // Sınır hesabı: ağacın en az 'slack' px'i her kenardan görünmeli
-    const minX = slack - treeR * t.k;
-    const maxX = this._w - slack + treeR * t.k;
-    const minY = slack - treeR * t.k;
-    const maxY = this._h - slack + treeR * t.k;
-
-    if (t.x < minX) { nx = minX; changed = true; }
-    if (t.x > maxX) { nx = maxX; changed = true; }
-    if (t.y < minY) { ny = minY; changed = true; }
-    if (t.y > maxY) { ny = maxY; changed = true; }
-
-    if (changed) {
+    // t.x / t.y = ağaç merkezinin ekrandaki piksel konumu
+    // Ekranın tamamen dışına çıkınca tetikle
+    const offScreen = t.x < 0 || t.x > this._w || t.y < 0 || t.y > this._h;
+    if (offScreen) {
       this._showBoundFeedback();
-      this._svg.transition()
-        .duration(400)
-        .ease(d3.easeBackOut.overshoot(1.6))
-        .call(this._zoom.transform, d3.zoomIdentity.translate(nx, ny).scale(t.k));
+      const target = d3.zoomIdentity
+        .translate(this._w / 2, this._h / 2)
+        .scale(t.k);
+      this._zoom.transform(
+        this._svg.transition('sb').duration(600).ease(d3.easeCubicOut),
+        target
+      );
     }
   },
 
@@ -716,36 +720,22 @@ App.Radial = {
     step(1);
   },
 
-  /* Tüm açık dalları derinlik derinlik kapat (açılmanın tersi — deepest first) */
+  /* Tüm açık dalları tek seferde kapat */
   _collapseAllGroups() {
-    this._expanding = false;
+    this._expanding  = false;
     this._allExpanded = false;
-    this._updateCenterBtn();
 
-    // Şu an açık olan en derin seviyeyi bul
-    let maxDepth = 0;
-    this._root.descendants().forEach(d => {
-      if (d.children && d.depth > maxDepth) maxDepth = d.depth;
+    // Derinlik 1+ olan tüm açık düğümleri tek geçişte kapat
+    this._root.each(d => {
+      if (d.depth >= 1 && d.children) {
+        d._children = d.children;
+        d.children  = null;
+      }
     });
 
-    const step = (depth) => {
-      let any = false;
-      this._root.each(d => {
-        if (d.depth === depth && d.children) {
-          d._children = d.children;
-          d.children  = null;
-          any = true;
-        }
-      });
-      if (any) this._update(this._root);
-      if (depth > 1) {
-        setTimeout(() => step(depth - 1), this.DUR + 80);
-      } else {
-        setTimeout(() => this._zoomToFit(null, false), this.DUR + 60);
-      }
-    };
-
-    step(maxDepth);
+    this._update(this._root);
+    this._updateCenterBtn();
+    setTimeout(() => this._zoomToFit(null, false), this.DUR + 60);
   },
 
   redrawLines() {}

@@ -43,7 +43,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/History_of_Inventions_USNM_41_Angola_Muscial_Bow.jpg/330px-History_of_Inventions_USNM_41_Angola_Muscial_Bow.jpg",
                     "caption": "Type of musical bow from Brazil"
                   }
-                ]
+                ],
+                "region_tr": "Brezilya",
+                "region_en": "Brazil"
               },
               {
                 "id": "uhadi",
@@ -56,7 +58,9 @@
                 "image": null,
                 "name_de": "Uhadi / Umuduri",
                 "description_de": "Uhadi und Umuduri sind einsaitige Musikbögen der Xhosa- und Tutsi-Gemeinschaften im südlichen Afrika. Der Uhadi besteht aus einem flexiblen Holzschaft, einer Pflanzen- oder Metalldrahtsaite und einem Kürbisresonator, der gegen die Brust gedrückt wird. Der Umuduri nutzt die Mundhöhle als Resonator; Obertöne werden durch Zungen- und Lippenbewegungen hervorgehoben. Traditionell von Frauen gespielt, spielt der Uhadi eine zentrale Rolle in spirituellen Zeremonien der Xhosa.",
-                "video_id": "H_gxODFVMdU"
+                "video_id": "H_gxODFVMdU",
+                "region_tr": "Güney Afrika",
+                "region_en": "South Africa"
               },
               {
                 "id": "pluriarc",
@@ -75,7 +79,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/COLLECTIE_TROPENMUSEUM_Meervoudige_muziekboog_TMnr_A-10433.jpg/330px-COLLECTIE_TROPENMUSEUM_Meervoudige_muziekboog_TMnr_A-10433.jpg",
                     "caption": "West African string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Sahra Altı Afrika",
+                "region_en": "Sub-Saharan Africa"
               }
             ],
             "name_de": "Musikbögen",
@@ -107,7 +113,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Valiha_player_in_Ambohimahasoa.jpg/330px-Valiha_player_in_Ambohimahasoa.jpg",
                     "caption": "Stringed musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Madagaskar",
+                "region_en": "Madagascar"
               },
               {
                 "id": "sasando",
@@ -126,7 +134,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Alat_Musik_Sasando.jpg/330px-Alat_Musik_Sasando.jpg",
                     "caption": "Indonesian traditional musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Endonezya",
+                "region_en": "Indonesia"
               },
               {
                 "id": "koto",
@@ -139,7 +149,9 @@
                 "image": null,
                 "name_de": "Koto",
                 "description_de": "Die Koto (HS 312.12) ist Japans Nationalinstrument, eine 13-saitige Holzzither aus Paulowniaholz von 180 cm Länge. Unter jeder Saite befindet sich ein beweglicher Steg (Ji), der die Tonhöhe durch Verschieben reguliert. Im 8. Jahrhundert aus der chinesischen Zheng in den japanischen Hof eingeführt, entwickelte sie ein eigenständiges Repertoire. Rechte Hand: Plektren (Tsume) an drei Fingern; linke Hand erzeugt Vibrato und Glissando durch Drücken der Saite hinter dem Steg.",
-                "video_id": "VFK8_9RcaOc"
+                "video_id": "VFK8_9RcaOc",
+                "region_tr": "Japonya",
+                "region_en": "Japan"
               },
               {
                 "id": "gayageum",
@@ -158,7 +170,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/%ED%92%8D%EB%A5%98%EA%B0%80%EC%95%BC%EA%B8%88.jpg/330px-%ED%92%8D%EB%A5%98%EA%B0%80%EC%95%BC%EA%B8%88.jpg",
                     "caption": "Traditional Korean string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Güney Kore",
+                "region_en": "South Korea"
               }
             ],
             "name_de": "Röhrenzithern",
@@ -184,7 +198,9 @@
                 "image": null,
                 "name_de": "Kanun",
                 "description_de": "Die Kanun (HS 314.122) ist eines der Grundinstrumente der nahöstlichen, nordafrikanischen, türkischen und zentralasiatischen Musik; der Name leitet sich vom arabischen qānūn ('Regel, Gesetz') ab. 63–78 Saiten in 24–26 Chören (2–4 Saiten pro Chor) sind über ein Trapezbrett gespannt; der Umfang beträgt ca. dreieinhalb Oktaven. Unter jedem Chor befinden sich Hebel (Urwah) für Halbton- und Mikrotonkorrekturen – dieses Mechanismus ermöglicht die feinen Töne der arabischen und türkischen Makam-Musik.",
-                "video_id": "Ma6gNCvhyoM"
+                "video_id": "Ma6gNCvhyoM",
+                "region_tr": "Orta Doğu / Türkiye",
+                "region_en": "Middle East / Turkey"
               },
               {
                 "id": "guqin",
@@ -203,7 +219,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/ZhongNiShi.jpg/330px-ZhongNiShi.jpg",
                     "caption": "Chinese stringed music instrument"
                   }
-                ]
+                ],
+                "region_tr": "Çin",
+                "region_en": "China"
               },
               {
                 "id": "guzheng",
@@ -222,7 +240,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Guzheng_2020_by_Glenn_Francis.jpg/330px-Guzheng_2020_by_Glenn_Francis.jpg",
                     "caption": "Chinese musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Çin",
+                "region_en": "China"
               },
               {
                 "id": "dan-tranh",
@@ -235,7 +255,9 @@
                 "image": null,
                 "name_de": "Đàn Tranh",
                 "description_de": "Die Dan-Tranh (HS 314.122) ist Vietnams traditionelle Zither aus der Guzheng-Familie. Bewegliche Stege (Con Nhạn – 'Wildgans') auf einem langen Holzkorpus mit 16 oder 17 Stahl-Nylon-Saiten werden zur Stimmung verschoben. Es gibt südliche und nördliche Spielstile. Die rechte Hand zupft mit Plektrum oder Fingernagel; die linke erzeugt Ausdruck durch Druck, Gleiten und Vibrato. 2003 wurde die Hue-Hofmusik – und damit auch dieses Instrument – von der UNESCO anerkannt.",
-                "video_id": "Cmxc5J616NE"
+                "video_id": "Cmxc5J616NE",
+                "region_tr": "Vietnam",
+                "region_en": "Vietnam"
               },
               {
                 "id": "swarmandal",
@@ -254,7 +276,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Jasraj_001.jpg/330px-Jasraj_001.jpg",
                     "caption": "Indian box zither"
                   }
-                ]
+                ],
+                "region_tr": "Hindistan",
+                "region_en": "India"
               },
               {
                 "id": "autoharp",
@@ -273,7 +297,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Autoharp_today.jpg/330px-Autoharp_today.jpg",
                     "caption": "Musical string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Amerika",
+                "region_en": "USA"
               },
               {
                 "id": "langspil",
@@ -292,7 +318,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Langspil.jpg/330px-Langspil.jpg",
                     "caption": "String instrument"
                   }
-                ]
+                ],
+                "region_tr": "İzlanda",
+                "region_en": "Iceland"
               }
             ],
             "name_de": "Brettzithern",
@@ -324,7 +352,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Santoor_%288629144022%29.jpg/330px-Santoor_%288629144022%29.jpg",
                     "caption": "Indian musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "İran / Hindistan",
+                "region_en": "Iran / India"
               },
               {
                 "id": "cimbalom",
@@ -343,7 +373,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cimbalom_%28from_Emil_Richards_Collection%29.jpg/330px-Cimbalom_%28from_Emil_Richards_Collection%29.jpg",
                     "caption": "Hammered dulcimer musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Macaristan / Balkanlar",
+                "region_en": "Hungary / Balkans"
               },
               {
                 "id": "hammered-dulcimer",
@@ -362,7 +394,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hammered_dulcimer.JPG/330px-Hammered_dulcimer.JPG",
                     "caption": "Percussion-stringed instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa / Amerika",
+                "region_en": "Europe / Americas"
               },
               {
                 "id": "yangqin",
@@ -381,7 +415,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Yangqin1.jpg/330px-Yangqin1.jpg",
                     "caption": "Musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Çin",
+                "region_en": "China"
               }
             ],
             "name_de": "Trommenzithern (Geschlagene Saiten)",
@@ -426,7 +462,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mousai_Helikon_Staatliche_Antikensammlungen_Schoen80_n1.jpg/330px-Mousai_Helikon_Staatliche_Antikensammlungen_Schoen80_n1.jpg",
                     "caption": "Ancient Greek string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Mezopotamya / Antik Yunan",
+                "region_en": "Mesopotamia / Ancient Greece"
               },
               {
                 "id": "krar",
@@ -445,7 +483,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Krar_Linden-Museum_F55878.jpg/330px-Krar_Linden-Museum_F55878.jpg",
                     "caption": "String musical instrument from Ethiopia and Eritrea"
                   }
-                ]
+                ],
+                "region_tr": "Etiyopya",
+                "region_en": "Ethiopia"
               },
               {
                 "id": "nyatiti",
@@ -464,7 +504,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Nyatiti.jpg/330px-Nyatiti.jpg",
                     "caption": "Musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Kenya",
+                "region_en": "Kenya"
               },
               {
                 "id": "kithara",
@@ -483,7 +525,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Goluchow_Painter_ARV_10_4_young_cithara_player_%2803%29.jpg/330px-Goluchow_Painter_ARV_10_4_young_cithara_player_%2803%29.jpg",
                     "caption": "Ancient Greek musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Antik Yunanistan",
+                "region_en": "Ancient Greece"
               },
               {
                 "id": "begena",
@@ -502,7 +546,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Begena%2C_Ethiopia%2C_wood%2C_leather%2C_skin%2C_bowel_strings%2C_iron_nails_-_Linden-Museum_-_Stuttgart%2C_Germany_-_DSC03896.jpg/330px-Begena%2C_Ethiopia%2C_wood%2C_leather%2C_skin%2C_bowel_strings%2C_iron_nails_-_Linden-Museum_-_Stuttgart%2C_Germany_-_DSC03896.jpg",
                     "caption": "String musical instrument from Ethiopia"
                   }
-                ]
+                ],
+                "region_tr": "Etiyopya",
+                "region_en": "Ethiopia"
               }
             ],
             "name_de": "Leiern",
@@ -534,7 +580,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Rebab-Tiga_tali_%28cropped%29.png/330px-Rebab-Tiga_tali_%28cropped%29.png",
                     "caption": "String instrument"
                   }
-                ]
+                ],
+                "region_tr": "Orta Doğu / Orta Asya",
+                "region_en": "Middle East / Central Asia"
               },
               {
                 "id": "kemence",
@@ -553,7 +601,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/2_Kam%C4%81nches%2C_Persia%2C_ca._1880.jpg/330px-2_Kam%C4%81nches%2C_Persia%2C_ca._1880.jpg",
                     "caption": "Iranian bowed string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Türkiye / Orta Doğu",
+                "region_en": "Turkey / Middle East"
               },
               {
                 "id": "erhu",
@@ -572,7 +622,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Erhu_range.svg/330px-Erhu_range.svg.png",
                     "caption": "Chinese two-stringed bowed musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Çin",
+                "region_en": "China"
               },
               {
                 "id": "morin-khuur",
@@ -591,7 +643,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Morin_Khuur%2C_Today%27s_North_Mongolian_Style.jpg/330px-Morin_Khuur%2C_Today%27s_North_Mongolian_Style.jpg",
                     "caption": "Traditional Mongolian bowed string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Moğolistan",
+                "region_en": "Mongolia"
               },
               {
                 "id": "sarangi",
@@ -610,7 +664,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/The_Childrens_Museum_of_Indianapolis_-_Sarangi.jpg",
                     "caption": "Bowed, short-necked string instrument from South Asia"
                   }
-                ]
+                ],
+                "region_tr": "Hindistan",
+                "region_en": "India"
               },
               {
                 "id": "zhonghu",
@@ -629,7 +685,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Zhonghuplayer.jpg/330px-Zhonghuplayer.jpg",
                     "caption": "Chinese bowed string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Çin",
+                "region_en": "China"
               },
               {
                 "id": "ravanahatha",
@@ -648,7 +706,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ravanhatha_cmdt.jpg/330px-Ravanhatha_cmdt.jpg",
                     "caption": "Ancient Indian bowed string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Sri Lanka / Hindistan",
+                "region_en": "Sri Lanka / India"
               }
             ],
             "name_de": "Spiesslauten",
@@ -680,7 +740,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/%C5%AAd_MET_DP340079.jpg/330px-%C5%AAd_MET_DP340079.jpg",
                     "caption": "Pear-shaped stringed musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Orta Doğu / Türkiye",
+                "region_en": "Middle East / Turkey"
               },
               {
                 "id": "sitar",
@@ -699,7 +761,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Sitar%2C_late_19th_Century.jpg/330px-Sitar%2C_late_19th_Century.jpg",
                     "caption": "Indian plucked stringed instrument"
                   }
-                ]
+                ],
+                "region_tr": "Hindistan",
+                "region_en": "India"
               },
               {
                 "id": "tambura",
@@ -718,7 +782,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Pandit_Murli_Manohar_Shukla_%27MANHAR%27.jpg/330px-Pandit_Murli_Manohar_Shukla_%27MANHAR%27.jpg",
                     "caption": "Indian drone instrument"
                   }
-                ]
+                ],
+                "region_tr": "Hindistan",
+                "region_en": "India"
               },
               {
                 "id": "tar",
@@ -737,7 +803,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tar_Range.svg/330px-Tar_Range.svg.png",
                     "caption": "String Instrument"
                   }
-                ]
+                ],
+                "region_tr": "İran / Azerbaycan",
+                "region_en": "Iran / Azerbaijan"
               },
               {
                 "id": "setar",
@@ -756,7 +824,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Tar_Range.png",
                     "caption": "Persian plucked musical instrument with three strings"
                   }
-                ]
+                ],
+                "region_tr": "İran",
+                "region_en": "Iran"
               },
               {
                 "id": "rubab",
@@ -769,7 +839,9 @@
                 "image": null,
                 "name_de": "Rubab (Afghanisch)",
                 "description_de": "Die Rubab (رباب, HS 321.321.5) ist eine kurzhalse, hautbespannte Laute, anerkannt als Nationalinstrument Afghanistans. Der Holzkorpus ist mit Haut oder Fischblase bedeckt; enthält Doppelchor-Metallsaiten und Sympathiesaiten. Sie ist auch das Hauptinstrument der Sikh-Religionsmusik (Gurbani Kirtan); es existieren Überlieferungen von Guru Nanak, der Rubab spielte.",
-                "video_id": "CIxc7S_0go8"
+                "video_id": "CIxc7S_0go8",
+                "region_tr": "Afganistan",
+                "region_en": "Afghanistan"
               },
               {
                 "id": "dombra",
@@ -788,7 +860,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Kazakh_Dombra2.png/330px-Kazakh_Dombra2.png",
                     "caption": "Long-necked musical string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Kazakistan / Kırgızistan",
+                "region_en": "Kazakhstan / Kyrgyzstan"
               },
               {
                 "id": "komuz",
@@ -807,7 +881,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Kopuz.jpg/330px-Kopuz.jpg",
                     "caption": "Central Asian stringed musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Kırgızistan",
+                "region_en": "Kyrgyzstan"
               },
               {
                 "id": "pipa",
@@ -826,7 +902,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pipa_MET_DP216710.jpg/330px-Pipa_MET_DP216710.jpg",
                     "caption": "Chinese plucked lute"
                   }
-                ]
+                ],
+                "region_tr": "Çin",
+                "region_en": "China"
               },
               {
                 "id": "biwa",
@@ -845,7 +923,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gifujyou5848.JPG/330px-Gifujyou5848.JPG",
                     "caption": "Japanese short necked lute"
                   }
-                ]
+                ],
+                "region_tr": "Japonya",
+                "region_en": "Japan"
               },
               {
                 "id": "shamisen",
@@ -864,7 +944,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tokyo_Geisha_with_Shamisen_c1870s%2C.jpg/330px-Tokyo_Geisha_with_Shamisen_c1870s%2C.jpg",
                     "caption": "Japanese plucked stringed instrument"
                   }
-                ]
+                ],
+                "region_tr": "Japonya",
+                "region_en": "Japan"
               },
               {
                 "id": "balalaika",
@@ -883,7 +965,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/3_string_prim_balalaika.png/330px-3_string_prim_balalaika.png",
                     "caption": "Russian stringed musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Rusya",
+                "region_en": "Russia"
               },
               {
                 "id": "charango",
@@ -902,7 +986,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bolivian_charango_001.jpg/330px-Bolivian_charango_001.jpg",
                     "caption": "Small Andean stringed instrument of the lute family"
                   }
-                ]
+                ],
+                "region_tr": "And Dağları (Güney Amerika)",
+                "region_en": "Andes (South America)"
               },
               {
                 "id": "cumbus",
@@ -921,7 +1007,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Cumbus.jpg/330px-Cumbus.jpg",
                     "caption": "Turkish stringed instrument"
                   }
-                ]
+                ],
+                "region_tr": "Türkiye",
+                "region_en": "Turkey"
               },
               {
                 "id": "dutar",
@@ -940,7 +1028,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Joueur_de_dutar_ouzbek.jpg/330px-Joueur_de_dutar_ouzbek.jpg",
                     "caption": "Long-necked two-stringed lute from Iran and Central Asia"
                   }
-                ]
+                ],
+                "region_tr": "İran / Orta Asya",
+                "region_en": "Iran / Central Asia"
               },
               {
                 "id": "bouzouki",
@@ -959,7 +1049,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Bouzouki_tetrachordo.jpg/330px-Bouzouki_tetrachordo.jpg",
                     "caption": "Greek plucked stringed instrument"
                   }
-                ]
+                ],
+                "region_tr": "Yunanistan",
+                "region_en": "Greece"
               }
             ],
             "name_de": "Halslauten mit Schalenkörper",
@@ -991,7 +1083,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Classical_Guitar_two_views2.png/330px-Classical_Guitar_two_views2.png",
                     "caption": "String instrument"
                   }
-                ]
+                ],
+                "region_tr": "İspanya / Avrupa",
+                "region_en": "Spain / Europe"
               },
               {
                 "id": "akustik-gitar",
@@ -1004,7 +1098,9 @@
                 "image": null,
                 "name_de": "Akustikgitarre",
                 "description_de": "Die Akustikgitarre (HS 321.322) ist ein Stahl-besaitetes, breitkörperiges Folk-/Pop-/Country-Instrument mit stärkerer Klangprojektion. Ihre moderne Form entstand Ende des 19. Jh. durch Martin und Gibson mit dem X-Verstrebungssystem. Verschiedene Korpusformen: Dreadnought, Jumbo, Orchestra Model, Parlor. Hauptinstrument von Blues, Folk, Country, Bluegrass und Singer-Songwriter-Musik.",
-                "video_id": "iXZBSMIaVtc"
+                "video_id": "iXZBSMIaVtc",
+                "region_tr": "Avrupa / Amerika",
+                "region_en": "Europe / Americas"
               },
               {
                 "id": "keman",
@@ -1023,7 +1119,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Violin_VL100.png/330px-Violin_VL100.png",
                     "caption": "Bowed string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa (İtalya)",
+                "region_en": "Europe (Italy)"
               },
               {
                 "id": "viyola",
@@ -1042,7 +1140,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Bratsche.jpg/330px-Bratsche.jpg",
                     "caption": "Bowed string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa",
+                "region_en": "Europe"
               },
               {
                 "id": "viyolonsel",
@@ -1061,7 +1161,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cello_front_side.png/330px-Cello_front_side.png",
                     "caption": "Bowed string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa",
+                "region_en": "Europe"
               },
               {
                 "id": "kontrbas",
@@ -1080,7 +1182,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/AGK_bass1_full.jpg/330px-AGK_bass1_full.jpg",
                     "caption": "Bowed string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa",
+                "region_en": "Europe"
               },
               {
                 "id": "ukulele",
@@ -1099,7 +1203,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kumalae_ukulele_of_c._1910.webm/330px--Kumalae_ukulele_of_c._1910.webm.jpg",
                     "caption": "Musical instrument of the guitar family"
                   }
-                ]
+                ],
+                "region_tr": "Hawaii (ABD)",
+                "region_en": "Hawaii (USA)"
               },
               {
                 "id": "banjo",
@@ -1112,7 +1218,9 @@
                 "image": null,
                 "name_de": "Banjo",
                 "description_de": "Das Banjo (HS 321.322) ist ein Zupfinstrument mit hautbespanntem Korpus, im 17.–18. Jh. aus einer westafrikanischen Membranophon-Chordophon-Synthese durch Sklavenschiffe nach Amerika gebracht. 4, 5 oder 6 Saiten; der kurze Bordunsaite (Daumenstring) des 5-saitigen Banjos ist charakteristisch. Saiten über einen kreisförmigen Metallrahmen mit Haut gespannt; mit Fingern oder Metallfingerklammern gespielt. Hauptinstrument von Minstrel-Theater, Folk, Country, Bluegrass und Dixieland-Jazz.",
-                "video_id": "af9wHDrkjfk"
+                "video_id": "af9wHDrkjfk",
+                "region_tr": "Afrika / Amerika",
+                "region_en": "Africa / Americas"
               },
               {
                 "id": "mandolin",
@@ -1131,7 +1239,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Mandolin_MET_DP169023_%282%29.jpg/330px-Mandolin_MET_DP169023_%282%29.jpg",
                     "caption": "Musical instrument in the lute family"
                   }
-                ]
+                ],
+                "region_tr": "İtalya",
+                "region_en": "Italy"
               },
               {
                 "id": "viola-da-gamba",
@@ -1144,7 +1254,9 @@
                 "image": null,
                 "name_de": "Viola da Gamba",
                 "description_de": "Die Viola da Gamba (Beinviola, HS 321.322.71) bildete vom 15. bis 18. Jh. die angesehenste Streicherfamilie Europas. Vertikal auf dem Bein oder zwischen den Knien gehalten, der Bogen von unten gegriffen (Underhand). Typische Form: 6 Saiten, 7–8 bebündeter Hals. J.S. Bachs Gambasonaten (BWV 1027–1029) sind Meisterwerke für diese Familie. Die Frühmusikbewegung des 20. Jh. (Jordi Savall) belebte sie neu.",
-                "video_id": "9EiPpTEkGUI"
+                "video_id": "9EiPpTEkGUI",
+                "region_tr": "Avrupa (Rönesans)",
+                "region_en": "Europe (Renaissance)"
               },
               {
                 "id": "viola-damore",
@@ -1163,7 +1275,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Range_viola_damore.png/330px-Range_viola_damore.png",
                     "caption": "Musical Instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa (Barok)",
+                "region_en": "Europe (Baroque)"
               },
               {
                 "id": "lavta",
@@ -1182,7 +1296,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Lute_%28by_Princess_Ruto%2C_2013-02-11%29.jpg/330px-Lute_%28by_Princess_Ruto%2C_2013-02-11%29.jpg",
                     "caption": "Plucked string musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Orta Doğu / Avrupa",
+                "region_en": "Middle East / Europe"
               },
               {
                 "id": "theorbo",
@@ -1201,7 +1317,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Theorbo-ref-white.jpg/330px-Theorbo-ref-white.jpg",
                     "caption": "Musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "İtalya (Barok)",
+                "region_en": "Italy (Baroque)"
               },
               {
                 "id": "vihuela",
@@ -1220,7 +1338,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bernardino_di_Betto_Pinturicchio.jpg/330px-Bernardino_di_Betto_Pinturicchio.jpg",
                     "caption": "Spanish string instrument"
                   }
-                ]
+                ],
+                "region_tr": "İspanya",
+                "region_en": "Spain"
               },
               {
                 "id": "cavaquinho",
@@ -1239,7 +1359,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Vea.cavaquinho.png/330px-Vea.cavaquinho.png",
                     "caption": "Small Portuguese plucked string instrument of the European guitar family"
                   }
-                ]
+                ],
+                "region_tr": "Portekiz / Brezilya",
+                "region_en": "Portugal / Brazil"
               },
               {
                 "id": "baglama",
@@ -1258,7 +1380,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Tamburasaz-Baglamasaz.jpg/330px-Tamburasaz-Baglamasaz.jpg",
                     "caption": "Stringed musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Türkiye",
+                "region_en": "Turkey"
               },
               {
                 "id": "hurdy-gurdy",
@@ -1277,7 +1401,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Louvet_Drehleier.JPG/330px-Louvet_Drehleier.JPG",
                     "caption": "Mechanical stringed musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa (Ortaçağ)",
+                "region_en": "Europe (Medieval)"
               }
             ],
             "name_de": "Gitarren-Familie (Halslauten mit Kastenkörper)",
@@ -1309,7 +1435,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Steinway_Vienna_002.JPG/330px-Steinway_Vienna_002.JPG",
                     "caption": "Keyboard instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa (İtalya)",
+                "region_en": "Europe (Italy)"
               },
               {
                 "id": "cembalo",
@@ -1328,7 +1456,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/ClavecinRuckers%26Taskin.JPG/330px-ClavecinRuckers%26Taskin.JPG",
                     "caption": "Plucked-string keyboard instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa (Barok)",
+                "region_en": "Europe (Baroque)"
               },
               {
                 "id": "klavikord",
@@ -1347,7 +1477,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Hillclavichord.jpg/330px-Hillclavichord.jpg",
                     "caption": "Musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa",
+                "region_en": "Europe"
               }
             ],
             "name_de": "Tasten-Saiteninstrumente",
@@ -1382,7 +1514,9 @@
                     "image": null,
                     "name_de": "Saung Gauk",
                     "description_de": "Die Saung-Gauk (burmesische Harfe, HS 322.11) ist Myanmars Nationalinstrument; eine der wenigen Bogenharfen, die heute noch aktiv gespielt wird. Hölzerner Bootskörper mit Lederbespannung; 13–16 Seiden- oder Nylonsaiten am gebogenen Hals. Stimmung durch Knotenverschiebung am Hals. Der Musiker sitzt und hält die Saung-Gauk auf dem Schoß; Fingerkuppen erzeugen gleichzeitig Melodie und Begleitung.",
-                    "video_id": "YYhh3_-K1a0"
+                    "video_id": "YYhh3_-K1a0",
+                    "region_tr": "Myanmar",
+                    "region_en": "Myanmar"
                   },
                   {
                     "id": "ardin",
@@ -1395,7 +1529,9 @@
                     "image": null,
                     "name_de": "Ardin",
                     "description_de": "Die Ardin (HS 322.11) ist eine Bogenharfe aus Mauretanien und der westafrikanischen Sahelzone. Besteht aus einer großen Kalebasse (Resonator), einem gebogenen Hals und 8–12 Seiden- oder Tierhautsaiten. Traditionell nur von Griot-Frauen (Iggawin-Tradition in Mauretanien) gespielt. Sie spielt eine zentrale Rolle in poetischen und religiösen Erzählungen. Wichtige kulturelle Trägerin der westafrikanischen Griot-Erzähltradition.",
-                    "video_id": "HrV1dFR6w-o"
+                    "video_id": "HrV1dFR6w-o",
+                    "region_tr": "Moritanya / Batı Afrika",
+                    "region_en": "Mauritania / West Africa"
                   },
                   {
                     "id": "antik-misir-arpi",
@@ -1408,7 +1544,9 @@
                     "image": null,
                     "name_de": "Altägyptische Harfe",
                     "description_de": "Die altägyptische Harfe bildet eine breite Familie, die Bogen- und Rahmenformen umfasst, die von ca. 2700 v. Chr. bis zur Spätzeit (ca. 350 v. Chr.) verwendet wurden. Ägyptische Grabmalereien und archäologische Funde (Karnak, Theben) dokumentieren dieses Instrument detailliert. Saiten aus Tierhaut oder Pflanzenfaser; jede Saite für eine einzelne Tonhöhe gestimmt. Bekannt als Instrument von Musiker-Priesterinnen bei rituellen Zeremonien.",
-                    "video_id": "IbMd_rySyEU"
+                    "video_id": "IbMd_rySyEU",
+                    "region_tr": "Mısır (Antik)",
+                    "region_en": "Ancient Egypt"
                   }
                 ],
                 "name_de": "Bogenharfen (Offene Harfen)",
@@ -1440,7 +1578,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Trinity_College_harp%2C_Dublin%2C_Ireland%2C_2017_%28cropped2%29.jpg/330px-Trinity_College_harp%2C_Dublin%2C_Ireland%2C_2017_%28cropped2%29.jpg",
                         "caption": "Celtic musical instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "İrlanda / İskoçya",
+                    "region_en": "Ireland / Scotland"
                   },
                   {
                     "id": "paraguay-arpi",
@@ -1459,7 +1599,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Paraguayan_harp.jpg/330px-Paraguayan_harp.jpg",
                         "caption": "Paraguayan musical instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Paraguay",
+                    "region_en": "Paraguay"
                   },
                   {
                     "id": "cross-strung-harp",
@@ -1472,7 +1614,9 @@
                     "image": null,
                     "name_de": "Kreuzbesaitete Harfe",
                     "description_de": "Die Kreuzharfe (Cross-strung Harp, HS 322.21) ist ein einzigartiges Harfendesign, das chromatische Töne nicht in einer einzigen Saitenebene, sondern durch Kreuzen zweier getrennter Saitenebenen erreicht. Linke Hand: diatonische Saiten; rechte Hand: Halbton-Saiten. Ermöglicht vollständige Chromatik ohne Pedalsystem. Im 16.–17. Jh. in Italien und Spanien als Arpa Doppia bekannt. Im 20. Jh. von Henry Howson neu entworfen.",
-                    "video_id": "lXELPuqwPHU"
+                    "video_id": "lXELPuqwPHU",
+                    "region_tr": "Avrupa",
+                    "region_en": "Europe"
                   },
                   {
                     "id": "konser-arpi",
@@ -1491,7 +1635,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Harp.png/330px-Harp.png",
                         "caption": "Plucked string instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Avrupa (Fransa)",
+                    "region_en": "Europe (France)"
                   }
                 ],
                 "name_de": "Rahmenharfen",
@@ -1521,7 +1667,9 @@
                 "image": null,
                 "name_de": "Kora",
                 "description_de": "Die Kora (HS 323) ist die bekannteste hybride Harfenlaute der westafrikanischen Mande-Tradition, verbreitet in Senegal, Gambia, Guinea und Mali. 21 Nylonsaiten, halbe Kokosnussschale als Resonator, Holzsteg auf Lederbespannung; langer Bambushals zweigeteilt für zwei Handbereiche. Linke Hand: 11 Basssaiten; rechte Hand: 10 Diskantsaiten. Das prestigiöseste Instrument der Griot-(Jali-)Tradition. Toumani Diabaté ist ihr internationaler Repräsentant.",
-                "video_id": "yzk677UZbUE"
+                "video_id": "yzk677UZbUE",
+                "region_tr": "Batı Afrika",
+                "region_en": "West Africa"
               },
               {
                 "id": "seperewa",
@@ -1540,7 +1688,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Seperewa.jpg/330px-Seperewa.jpg",
                     "caption": "Traditional Akan harp-lute"
                   }
-                ]
+                ],
+                "region_tr": "Gana",
+                "region_en": "Ghana"
               },
               {
                 "id": "ngombi",
@@ -1559,7 +1709,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/182_Museu_de_la_M%C3%BAsica%2C_el_Bosc.jpg/330px-182_Museu_de_la_M%C3%BAsica%2C_el_Bosc.jpg",
                     "caption": "Central African arched harp"
                   }
-                ]
+                ],
+                "region_tr": "Orta Afrika",
+                "region_en": "Central Africa"
               }
             ],
             "name_de": "Harfenlauten",
@@ -1626,7 +1778,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bull_roarers.jpg/330px-Bull_roarers.jpg",
                         "caption": "Musical instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Avustralya",
+                    "region_en": "Australia"
                   }
                 ],
                 "name_de": "Klingen-/Wirbelaerophone",
@@ -1652,7 +1806,9 @@
                     "image": null,
                     "name_de": "Peitsche (Whip / Slapstick)",
                     "description_de": "Die Peitsche (HS 411.22) ist ein einfaches Freies Aerophone, bei dem eine Peitsche oder Schnur knallt. Die Bewegung der Peitschenspitze übersteigt die Schallgeschwindigkeit und erzeugt einen Knall (kleiner Sonic Boom). Im Orchesterrepertoire simuliert ein Holzblock oder Slapstick diesen Effekt. In spanischen und mexikanischen Festen und europäischen Barock-Pantomimen wurden echte Peitschen für den Knalleffekt eingesetzt.",
-                    "video_id": "L1iIvMoAnEk"
+                    "video_id": "L1iIvMoAnEk",
+                    "region_tr": "Meksika",
+                    "region_en": "Mexico"
                   }
                 ],
                 "name_de": "Peitschentyp",
@@ -1688,7 +1844,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/16-hole_chrom_10-hole_diatonic.jpg/330px-16-hole_chrom_10-hole_diatonic.jpg",
                     "caption": "Free reed wind musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Almanya / Avrupa",
+                "region_en": "Germany / Europe"
               },
               {
                 "id": "akordeon",
@@ -1707,7 +1865,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/A_converter_free-bass_piano-accordion_and_a_Russian_bayan.jpg/330px-A_converter_free-bass_piano-accordion_and_a_Russian_bayan.jpg",
                     "caption": "Bellows-driven free-reed aerophone musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Kolombiya",
+                "region_en": "Colombia"
               },
               {
                 "id": "bandoneon",
@@ -1726,7 +1886,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Buenos_Aires_-_Bandoneon_tango_player_-_7435.jpg/330px-Buenos_Aires_-_Bandoneon_tango_player_-_7435.jpg",
                     "caption": "Type of concertina"
                   }
-                ]
+                ],
+                "region_tr": "Arjantin / Almanya",
+                "region_en": "Argentina / Germany"
               },
               {
                 "id": "concertina",
@@ -1745,7 +1907,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Wheatstone_English_Concertina.jpg/330px-Wheatstone_English_Concertina.jpg",
                     "caption": "Free-reed musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "İrlanda / İskoçya",
+                "region_en": "Ireland / Scotland"
               },
               {
                 "id": "melodika",
@@ -1764,7 +1928,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Melodica.jpg/330px-Melodica.jpg",
                     "caption": "Free-reed instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa",
+                "region_en": "Europe"
               },
               {
                 "id": "sheng",
@@ -1777,7 +1943,9 @@
                 "image": null,
                 "name_de": "Sheng",
                 "description_de": "Die Sheng (笙, HS 412.132) ist Chinas ältestes Blasinstrument mit Spuren bis 1100 v. Chr.; ein Bambus-röhriges Freizungeninstrument. 17–19 Bambus- oder Metallrohre über einem Kalebassen- oder Metallgehäuse; jedes Rohr mit einer freien Zunge. Sowohl Blasen als auch Saugen erzeugt denselben Ton. In jeder Periode der chinesischen Musik verwendet. Akademisch als theoretischer Vorfahre der europäischen Harmonika und des Akkordeons anerkannt.",
-                "video_id": "g6JLu-8Dakc"
+                "video_id": "g6JLu-8Dakc",
+                "region_tr": "Çin",
+                "region_en": "China"
               },
               {
                 "id": "sho",
@@ -1796,7 +1964,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Musicienne_de_Gagaku%2C_ensemble_%22Owari_Miyabie%22_%28Maison_du_Japon%2C_Paris%29.jpg/330px-Musicienne_de_Gagaku%2C_ensemble_%22Owari_Miyabie%22_%28Maison_du_Japon%2C_Paris%29.jpg",
                     "caption": "Japanese mouth organ instrument"
                   }
-                ]
+                ],
+                "region_tr": "Çin",
+                "region_en": "China"
               },
               {
                 "id": "khaen",
@@ -1815,7 +1985,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Khenesarong.jpg",
                     "caption": "National musical instrument of Laos"
                   }
-                ]
+                ],
+                "region_tr": "Laos",
+                "region_en": "Laos"
               },
               {
                 "id": "hulusi",
@@ -1834,7 +2006,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Hu_Lu_Si.jpg/330px-Hu_Lu_Si.jpg",
                     "caption": "Free reed wind instrument"
                   }
-                ]
+                ],
+                "region_tr": "Çin",
+                "region_en": "China"
               },
               {
                 "id": "bawu",
@@ -1853,7 +2027,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Bawuphoto.jpg/330px-Bawuphoto.jpg",
                     "caption": "Chinese wind instrument"
                   }
-                ]
+                ],
+                "region_tr": "Çin",
+                "region_en": "China"
               }
             ],
             "name_de": "Freie Zungeninstrumente",
@@ -1925,7 +2101,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Persian_ney_with_6_holes.jpg/330px-Persian_ney_with_6_holes.jpg",
                                 "caption": "Middle Eastern end-blown flute"
                               }
-                            ]
+                            ],
+                            "region_tr": "İran",
+                            "region_en": "Iran"
                           },
                           {
                             "id": "shakuhachi",
@@ -1944,7 +2122,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Komuso_Buddhist_monk_beggar_Kita-kamakura.jpg/330px-Komuso_Buddhist_monk_beggar_Kita-kamakura.jpg",
                                 "caption": "Japanese end-blown flute"
                               }
-                            ]
+                            ],
+                            "region_tr": "Japonya",
+                            "region_en": "Japan"
                           },
                           {
                             "id": "xiao",
@@ -1957,7 +2137,9 @@
                             "image": null,
                             "name_de": "Xiao",
                             "description_de": "Die Xiao (箫, HS 421.111.12) ist Chinas traditionelle Bambus-Längsflöte; zusammen mit der Guqin gilt sie als das lyhrischste und introvertierteste Instrument der chinesischen Klassik. Gerader zylindrischer Bambus, abgeschrägter Schnitt oben, 5–6 Löcher. Äußerst zartes, tiefes, melancholisches Timbre. Jahrhundertelang von Gelehrten als Privatmusik gespielt.",
-                            "video_id": "B-I1CFa5T7I"
+                            "video_id": "B-I1CFa5T7I",
+                            "region_tr": "Çin",
+                            "region_en": "China"
                           },
                           {
                             "id": "quena",
@@ -1976,7 +2158,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Quena01.jpg/330px-Quena01.jpg",
                                 "caption": "Traditional musical instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "And Dağları (Güney Amerika)",
+                            "region_en": "Andes (South America)"
                           },
                           {
                             "id": "kaval",
@@ -1995,7 +2179,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bulgarian_kaval_in_key_of_D%2C_African_blackwood.jpg/330px-Bulgarian_kaval_in_key_of_D%2C_African_blackwood.jpg",
                                 "caption": "Musical instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Arnavutluk",
+                            "region_en": "Albania"
                           },
                           {
                             "id": "fujara",
@@ -2014,7 +2200,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Fujaro_ludado_tuta_bildo.jpg/330px-Fujaro_ludado_tuta_bildo.jpg",
                                 "caption": "Large Slovakian shepherd's flute"
                               }
-                            ]
+                            ],
+                            "region_tr": "Slovakya",
+                            "region_en": "Slovakia"
                           },
                           {
                             "id": "danso",
@@ -2033,7 +2221,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Danso_fingering_chart.svg/330px-Danso_fingering_chart.svg.png",
                                 "caption": "Traditional Korean bamboo flute"
                               }
-                            ]
+                            ],
+                            "region_tr": "Güney Kore",
+                            "region_en": "South Korea"
                           }
                         ],
                         "name_de": "Einfache Längsflöten",
@@ -2065,7 +2255,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ChileanPanpipes-cutout.jpg/330px-ChileanPanpipes-cutout.jpg",
                                 "caption": "Musical instrument, typically made from bamboo"
                               }
-                            ]
+                            ],
+                            "region_tr": "And Dağları (Güney Amerika)",
+                            "region_en": "Andes (South America)"
                           },
                           {
                             "id": "nai",
@@ -2078,7 +2270,9 @@
                             "image": null,
                             "name_de": "Nai",
                             "description_de": "Die Nai (rumänische Panflöte, HS 421.112.2) ist Rumäniens traditionelle Panflöte; bekannt durch ihre gebogene Anordnung von 18–22 Bambus- oder Schilfröhren. Töne mit Vibrato und Glissando verziert; virtuose Schnelligkeit und Ausdruckskapazität bilden Rumäniens einzigartigen Nai-Stil. Gheorghe Zamfirs internationale Aufnahmen machten dieses Instrument weltweit bekannt.",
-                            "video_id": "OIC8YpduaTU"
+                            "video_id": "OIC8YpduaTU",
+                            "region_tr": "Romanya",
+                            "region_en": "Romania"
                           },
                           {
                             "id": "siku",
@@ -2091,7 +2285,9 @@
                             "image": null,
                             "name_de": "Siku / Zampoña",
                             "description_de": "Die Siku (Syrinx, HS 421.112.2) ist die traditionelle Panflöte Boliviens, Perus und der Andenregion; Wurzeln in vorinkaiischen Andenkulturen (um 2000 v. Chr.). Zwei Reihen Bambus- oder Schilfröhren: Arku (große Reihe) und Ira (kleine Reihe). Traditionelle Technik: Zwei Spieler halten je eine Reihe und ergänzen sich gegenseitig (Hocket-Technik). Symbolisiert 'Ayni' (Gegenseitigkeit). Eingetragen in die UNESCO-Liste des immateriellen Kulturerbes.",
-                            "video_id": "uLHHa4BXx_g"
+                            "video_id": "uLHHa4BXx_g",
+                            "region_tr": "And Dağları (Güney Amerika)",
+                            "region_en": "Andes (South America)"
                           }
                         ],
                         "name_de": "Panflöten / Mehrrohrige Längsflöten",
@@ -2127,7 +2323,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Fl%C3%BBte_traversi%C3%A8re.png/330px-Fl%C3%BBte_traversi%C3%A8re.png",
                             "caption": "Transverse woodwind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "pikolo",
@@ -2146,7 +2344,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Piccolo.jpg/330px-Piccolo.jpg",
                             "caption": "Smaller version of the C flute"
                           }
-                        ]
+                        ],
+                        "region_tr": "Amerika",
+                        "region_en": "Americas"
                       },
                       {
                         "id": "alto-flut",
@@ -2159,7 +2359,9 @@
                         "image": null,
                         "name_de": "Altflöte",
                         "description_de": "Die Altflöte (HS 421.121.12) ist die größere Flöte, eine Quarte tiefer (G) als die Standardquerflöte gestimmt, mit längerem, breiterem Rohr. Erzeugt tiefen, warmen, vollen Klang. Aufgrund der Rohrlänge ist eine J-förmige oder gerade Halteoption verfügbar. Stravinsky, Ravel und Holst bevorzugten sie für orchestrale Farbgebung.",
-                        "video_id": "Bkl_5EqQMdM"
+                        "video_id": "Bkl_5EqQMdM",
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "bas-flut",
@@ -2178,7 +2380,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Frank_Gratkowski_playing_solo_Alte_Druckerei_Ottensen.jpg/330px-Frank_Gratkowski_playing_solo_Alte_Druckerei_Ottensen.jpg",
                             "caption": "Large low-pitched flute an octave below the standard flute"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "bansuri",
@@ -2197,7 +2401,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bansuri_bamboo_flute_23inch.jpg/330px-Bansuri_bamboo_flute_23inch.jpg",
                             "caption": "Indian side-blown flute, generally bamboo"
                           }
-                        ]
+                        ],
+                        "region_tr": "Hindistan",
+                        "region_en": "India"
                       },
                       {
                         "id": "dizi",
@@ -2210,7 +2416,9 @@
                         "image": null,
                         "name_de": "Dizi",
                         "description_de": "Die Dizi (笛子, HS 421.121.12) ist Chinas verbreitetste Querflöte; charakteristisches Merkmal ist das Dimo-Loch. Das Dimo-Loch ist mit einer dünnen Membran aus Papier oder Bambus bedeckt; diese Membran schwingt mit der Luftschwingung im Rohr mit und erzeugt das charakteristische 'Buzz'-Timbre. Zwei Grundstimmungsfamilien: 'D-Dizi' und 'G-Dizi'. Erscheint in aller chinesischen Oper, Volksmusik und Konzerrepertoire.",
-                        "video_id": "fVmJkkxgjeU"
+                        "video_id": "fVmJkkxgjeU",
+                        "region_tr": "Çin",
+                        "region_en": "China"
                       },
                       {
                         "id": "daegeum",
@@ -2229,7 +2437,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Daegeum_player.jpg/330px-Daegeum_player.jpg",
                             "caption": "Korean bamboo flute"
                           }
-                        ]
+                        ],
+                        "region_tr": "Çin",
+                        "region_en": "China"
                       },
                       {
                         "id": "ryuteki",
@@ -2248,7 +2458,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Ryuteki_player_by_Ken%40Okinawa_in_Kamakura%2C_Kanagawa.jpg/330px-Ryuteki_player_by_Ken%40Okinawa_in_Kamakura%2C_Kanagawa.jpg",
                             "caption": "Japanese flute"
                           }
-                        ]
+                        ],
+                        "region_tr": "Japonya",
+                        "region_en": "Japan"
                       },
                       {
                         "id": "fife",
@@ -2267,7 +2479,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Crail%2C_Fife%2C_Scotland.jpg/330px-Crail%2C_Fife%2C_Scotland.jpg",
                             "caption": "Council area of Scotland"
                           }
-                        ]
+                        ],
+                        "region_tr": "İrlanda / İskoçya",
+                        "region_en": "Ireland / Scotland"
                       }
                     ],
                     "name_de": "Querflöten (Transversalflöten)",
@@ -2299,7 +2513,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2016-01_Ocarina_front.jpg/330px-2016-01_Ocarina_front.jpg",
                             "caption": "Wind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "İtalya",
+                        "region_en": "Italy"
                       },
                       {
                         "id": "xun",
@@ -2312,7 +2528,9 @@
                         "image": null,
                         "name_de": "Xun",
                         "description_de": "Die Xun (埙, HS 421.13) ist Chinas älteste Tonfliite mit einer ununterbrochenen Aufführungstradition von der Hemudu-Kultur (7000 v. Chr.) bis heute. Ei- oder birnenförmige Tontammer mit 5–10 Löchern. Tiefer, gespenstischer, melancholischer Ton; traditionell bei Beerdigungs- und Religionszeremonien. In der zeitgenössischen chinesischen Musik wiederentdeckt.",
-                        "video_id": "MxX2siybCLw"
+                        "video_id": "MxX2siybCLw",
+                        "region_tr": "Çin",
+                        "region_en": "China"
                       }
                     ],
                     "name_de": "Gefäßflöten",
@@ -2357,7 +2575,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/VariousRecorderFlutes.jpg/330px-VariousRecorderFlutes.jpg",
                             "caption": "Woodwind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Hindistan",
+                        "region_en": "India"
                       },
                       {
                         "id": "tin-whistle",
@@ -2376,7 +2596,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Tin_Whistles.jpg/330px-Tin_Whistles.jpg",
                             "caption": "Six-holed woodwind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "İrlanda / İskoçya",
+                        "region_en": "Ireland / Scotland"
                       },
                       {
                         "id": "flageolet",
@@ -2395,7 +2617,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/French_and_english_flageolets.jpg/330px-French_and_english_flageolets.jpg",
                             "caption": "Woodwind musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Fransa / İngiltere",
+                        "region_en": "France / England"
                       },
                       {
                         "id": "txistu",
@@ -2414,7 +2638,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Leioako_txistulariak_plazan.jpg/330px-Leioako_txistulariak_plazan.jpg",
                             "caption": "Basque fipple flute"
                           }
-                        ]
+                        ],
+                        "region_tr": "Bask Ülkesi",
+                        "region_en": "Basque Country"
                       }
                     ],
                     "name_de": "Interne Kanalflöten (Fippleflöten)",
@@ -2472,7 +2698,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Banquet_Euaion_Louvre_G467_n2_cropped.jpg/330px-Banquet_Euaion_Louvre_G467_n2_cropped.jpg",
                             "caption": "Ancient Greek wind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Yunanistan",
+                        "region_en": "Greece"
                       }
                     ],
                     "name_de": "Zylindrisch-Doppelrohrblatt",
@@ -2504,7 +2732,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Oboe_Patricola_Artista_PT1.jpg/330px-Oboe_Patricola_Artista_PT1.jpg",
                             "caption": "Double-reed woodwind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa (Fransa)",
+                        "region_en": "Europe (France)"
                       },
                       {
                         "id": "fagot",
@@ -2523,7 +2753,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/FoxBassoon.png/330px-FoxBassoon.png",
                             "caption": "Double-reed woodwind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "kontrafagot",
@@ -2536,7 +2768,9 @@
                         "image": null,
                         "name_de": "Kontrafagott",
                         "description_de": "Das Kontrafagott (HS 422.122) ist das tiefste Holzblasinstrument, klingt eine Oktave unter dem Fagott. Erzeugt einige der tiefsten Töne aller Konzertinstrumente (bis B0). Mehrfach gefaltetes Rohr mit Metallstütze. In Beethovens 9. Sinfonie speziell für das harmonische Tiefenfundament des Orchesters eingesetzt. Im 19. Jh. von der Firma Heckel standardisiert.",
-                        "video_id": "jOg8pqAbXMU"
+                        "video_id": "jOg8pqAbXMU",
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "ingiliz-kornosu",
@@ -2555,7 +2789,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/English_Horn_picture.jpg/330px-English_Horn_picture.jpg",
                             "caption": "Double-reed woodwind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "zurna",
@@ -2574,7 +2810,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/BOUTKA2.jpg/330px-BOUTKA2.jpg",
                             "caption": "Wind instrument played in central Eurasia"
                           }
-                        ]
+                        ],
+                        "region_tr": "Çin",
+                        "region_en": "China"
                       },
                       {
                         "id": "shehnai",
@@ -2593,7 +2831,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Shehnai.jpg/330px-Shehnai.jpg",
                             "caption": "Indian reed musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Hindistan",
+                        "region_en": "India"
                       },
                       {
                         "id": "suona",
@@ -2612,7 +2852,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/B-Suonas.JPG/330px-B-Suonas.JPG",
                             "caption": "Chinese double-reeded horn"
                           }
-                        ]
+                        ],
+                        "region_tr": "Çin",
+                        "region_en": "China"
                       },
                       {
                         "id": "duduk",
@@ -2631,7 +2873,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kids_Playing_duduk.jpg/330px-Kids_Playing_duduk.jpg",
                             "caption": "Armenian woodwind musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Ermenistan",
+                        "region_en": "Armenia"
                       },
                       {
                         "id": "mey",
@@ -2644,7 +2888,9 @@
                         "image": null,
                         "name_de": "Mey",
                         "description_de": "Die Mey (HS 422.122) ist ein breites Doppelrohrblattinstrument Ostanatoliens und Aserbaidschans; eng verwandt mit der armenischen Duduk. Konisches Rohr aus Aprikosen- oder Pflaumenholz, breites flaches Doppelrohrblatt, 8–9 Löcher. Weicher, intimer, höhlenartiger Klang. In ostanatolischer und aserbaidschanischer Tradition oft mit Zurna zusammen. In Iran als 'Balaban' bekannt.",
-                        "video_id": "SE7Cf-DEP2M"
+                        "video_id": "SE7Cf-DEP2M",
+                        "region_tr": "Azerbaycan",
+                        "region_en": "Azerbaijan"
                       },
                       {
                         "id": "piri",
@@ -2663,7 +2909,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Piri_in_London%2C_2024_%28cropped%29.png/330px-Piri_in_London%2C_2024_%28cropped%29.png",
                             "caption": "English singer (born 1999)"
                           }
-                        ]
+                        ],
+                        "region_tr": "Çin",
+                        "region_en": "China"
                       },
                       {
                         "id": "hichiriki",
@@ -2682,7 +2930,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Hichiriki.JPG",
                             "caption": "Musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Japonya",
+                        "region_en": "Japan"
                       },
                       {
                         "id": "crumhorn",
@@ -2701,7 +2951,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Moderne_Krummhoerner.jpg/330px-Moderne_Krummhoerner.jpg",
                             "caption": "Double reed musical instrument of the woodwind family"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "shawm",
@@ -2720,7 +2972,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Herderstafereel_met_een_schalmeispeler_Rijksmuseum_SK-A-1494.jpeg/330px-Herderstafereel_met_een_schalmeispeler_Rijksmuseum_SK-A-1494.jpeg",
                             "caption": "Double-reed woodwind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       }
                     ],
                     "name_de": "Konisch-Doppelrohrblatt",
@@ -2743,7 +2997,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Scotland_Independence_March%2C_28_March_2026_%2832%29.jpg/330px-Scotland_Independence_March%2C_28_March_2026_%2832%29.jpg",
                         "caption": "Woodwind instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "İrlanda / İskoçya",
+                    "region_en": "Ireland / Scotland"
                   }
                 ],
                 "name_de": "Doppelrohrblattinstrumente",
@@ -2784,7 +3040,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Leitner%2BKraus_410_320.png/330px-Leitner%2BKraus_410_320.png",
                             "caption": "Single-reed woodwind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "bas-klarnet",
@@ -2803,7 +3061,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/BC_basscl_Prestige_1193_%2B_Yamaha_VCL_622.jpg/330px-BC_basscl_Prestige_1193_%2B_Yamaha_VCL_622.jpg",
                             "caption": "Member of the clarinet family"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "basset-horn",
@@ -2822,7 +3082,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Schwenk%2BSeggelke_Bassetthorn-mue.jpg/330px-Schwenk%2BSeggelke_Bassetthorn-mue.jpg",
                             "caption": "Wind instrument of the clarinet family"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "chalumeau",
@@ -2841,7 +3103,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/JAP_3_Klappen_Chalumeau.jpg",
                             "caption": "Woodwind instrument; predecessor of modern clarinet"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa (Barok)",
+                        "region_en": "Europe (Baroque)"
                       }
                     ],
                     "name_de": "Zylindrisch-Einfachrohrblatt",
@@ -2876,7 +3140,9 @@
                             "image": null,
                             "name_de": "Sopransaxophon",
                             "description_de": "Das Sopransaxophon (HS 422.212) ist das höchste Mitglied der Saxophonfamilie; transponierendes Instrument in B. Gerade oder leicht gebogen. John Coltranes Aufnahme 'My Favorite Things' gab ihm ikonischen Status. Heller, hoher, nasaler Klang, der der Oboe ähnelt. Intonationskontrolle gilt als schwierig.",
-                            "video_id": "7C5RqNfyPlU"
+                            "video_id": "7C5RqNfyPlU",
+                            "region_tr": "Belçika / Avrupa",
+                            "region_en": "Belgium / Europe"
                           },
                           {
                             "id": "alto-saksofon",
@@ -2895,7 +3161,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Yamaha_Saxophone_YAS-62.png/330px-Yamaha_Saxophone_YAS-62.png",
                                 "caption": "Type of saxophone"
                               }
-                            ]
+                            ],
+                            "region_tr": "Belçika / Avrupa",
+                            "region_en": "Belgium / Europe"
                           },
                           {
                             "id": "tenor-saksofon",
@@ -2914,7 +3182,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TenorSopranoSax_%281%29.jpg/330px-TenorSopranoSax_%281%29.jpg",
                                 "caption": "Type of saxophone"
                               }
-                            ]
+                            ],
+                            "region_tr": "Belçika / Avrupa",
+                            "region_en": "Belgium / Europe"
                           },
                           {
                             "id": "bariton-saksofon",
@@ -2933,7 +3203,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Baritone_Saxophone_Amati.png/330px-Baritone_Saxophone_Amati.png",
                                 "caption": "Lowest-pitched saxophone in common use"
                               }
-                            ]
+                            ],
+                            "region_tr": "Belçika / Avrupa",
+                            "region_en": "Belgium / Europe"
                           },
                           {
                             "id": "bas-saksofon",
@@ -2952,7 +3224,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/WANZ_Instrument_2024-09_IMG_7848_bass_saxophone_%28edit%29.png/330px-WANZ_Instrument_2024-09_IMG_7848_bass_saxophone_%28edit%29.png",
                                 "caption": "Wind instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Belçika / Avrupa",
+                            "region_en": "Belgium / Europe"
                           }
                         ],
                         "name_de": "Saxophon-Familie",
@@ -2975,7 +3249,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Musikinstrumenten-Museum_Berlin_-_T%C3%A1rogat%C3%B3_in_B_-_1108167.jpg/330px-Musikinstrumenten-Museum_Berlin_-_T%C3%A1rogat%C3%B3_in_B_-_1108167.jpg",
                             "caption": "Woodwind instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Macaristan",
+                        "region_en": "Hungary"
                       }
                     ],
                     "name_de": "Konisch-Einfachrohrblatt",
@@ -3033,7 +3309,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Carved_Conch.jpg/330px-Carved_Conch.jpg",
                             "caption": "End-blown conch trumpet of Indian origin"
                           }
-                        ]
+                        ],
+                        "region_tr": "Hindistan",
+                        "region_en": "India"
                       },
                       {
                         "id": "putatara",
@@ -3052,7 +3330,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Putatara_11.jpg/330px-Putatara_11.jpg",
                             "caption": "Māori musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Yeni Zelanda (Maori)",
+                        "region_en": "New Zealand (Māori)"
                       }
                     ],
                     "name_de": "Meeresschneckentrompeten",
@@ -3084,7 +3364,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Australiandidgeridoos.jpg/330px-Australiandidgeridoos.jpg",
                             "caption": "Traditional Australian musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avustralya",
+                        "region_en": "Australia"
                       },
                       {
                         "id": "alp-hornu",
@@ -3103,7 +3385,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Musikinstrumenten-Museum_Berlin_-_Alphorn_in_Fis_-_1108187.jpg/330px-Musikinstrumenten-Museum_Berlin_-_Alphorn_in_Fis_-_1108187.jpg",
                             "caption": "Long wooden musical horn"
                           }
-                        ]
+                        ],
+                        "region_tr": "İsviçre / Avusturya",
+                        "region_en": "Switzerland / Austria"
                       },
                       {
                         "id": "shofar",
@@ -3122,7 +3406,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Shofar-16-Zachi-Evenor.jpg/330px-Shofar-16-Zachi-Evenor.jpg",
                             "caption": "Wind instrument made from an animal horn"
                           }
-                        ]
+                        ],
+                        "region_tr": "İsrail / Orta Doğu",
+                        "region_en": "Israel / Middle East"
                       },
                       {
                         "id": "lur",
@@ -3141,7 +3427,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/-1300_Lure_Brudevaelte_anagoria.JPG/330px--1300_Lure_Brudevaelte_anagoria.JPG",
                             "caption": "Long natural horn"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "bugle",
@@ -3160,7 +3448,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bugle_in_C_MET_DP-12679-123.jpg/330px-Bugle_in_C_MET_DP-12679-123.jpg",
                             "caption": "Brass musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "vuvuzela",
@@ -3173,7 +3463,9 @@
                         "image": null,
                         "name_de": "Vuvuzela",
                         "description_de": "Die Vuvuzela (HS 423.122) ist eine lange Kunststoff-Rohrtröte südafrikanischer Herkunft; bei der FIFA Weltmeisterschaft 2010 weltbekannt geworden. Erzeugt einen einzelnen Ton (ca. B3); sehr laut (ca. 127 dB). Symbol der 'Stadionmusik' in der südafrikanischen Fußballkultur. Nach 2010 in verschiedenen Stadien wegen Gehörschadenrisikos verboten.",
-                        "video_id": "OBs8B4ioXPk"
+                        "video_id": "OBs8B4ioXPk",
+                        "region_tr": "Güney Afrika",
+                        "region_en": "South Africa"
                       }
                     ],
                     "name_de": "Rohrförmige Naturtrompeten",
@@ -3218,7 +3510,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Three_cornetts.jpg/330px-Three_cornetts.jpg",
                             "caption": "Early wind instrument with a cup mouthpiece"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa (Rönesans)",
+                        "region_en": "Europe (Renaissance)"
                       },
                       {
                         "id": "serpent",
@@ -3231,7 +3525,9 @@
                         "image": null,
                         "name_de": "Serpent",
                         "description_de": "Der Serpent (HS 423.221.12) ist die schlangenförmige tiefe Kornett-Verwandte, 1590 in Frankreich erfunden. Lederbedeckter Holzkörper in S- oder U-Form, 6 Löcher, kleines Trompetenähnliches Mundstück. Breiter, resonanter Bassklang. In Frankreich in der Kirchenmusik zur Unterstützung des Gregorianischen Chorals. In Berlioz' Requiem und vieler Französischer Revolutionsmusik vorhanden.",
-                        "video_id": "sc4pWAIRY58"
+                        "video_id": "sc4pWAIRY58",
+                        "region_tr": "Fransa / Avrupa",
+                        "region_en": "France / Europe"
                       }
                     ],
                     "name_de": "Zink und Serpent (Grifflöcher)",
@@ -3263,7 +3559,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Yamaha_Tenor_trombone_YSL-891Z_%28re-crop%29.jpg/330px-Yamaha_Tenor_trombone_YSL-891Z_%28re-crop%29.jpg",
                             "caption": "Brass instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "sackbut",
@@ -3282,7 +3580,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sacabutxs%2C_conjunt_al_Museu_de_la_M%C3%BAsica.jpg/330px-Sacabutxs%2C_conjunt_al_Museu_de_la_M%C3%BAsica.jpg",
                             "caption": "Early form of trombone from the Renaissance and Baroque periods"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       }
                     ],
                     "name_de": "Zug-Instrumente",
@@ -3314,7 +3614,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Yamaha_Trumpet_YTR-8335LA_crop.jpg/330px-Yamaha_Trumpet_YTR-8335LA_crop.jpg",
                             "caption": "Brass instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "kornet",
@@ -3333,7 +3635,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Yamaha_Cornet_YCR-6330II_crop.png/330px-Yamaha_Cornet_YCR-6330II_crop.png",
                             "caption": "Brass instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Amerika",
+                        "region_en": "Americas"
                       },
                       {
                         "id": "flugelhorn",
@@ -3352,7 +3656,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Yamaha_Flugelhorn_YFH-8310Z.jpg/330px-Yamaha_Flugelhorn_YFH-8310Z.jpg",
                             "caption": "Brass musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "İspanya",
+                        "region_en": "Spain"
                       },
                       {
                         "id": "korno",
@@ -3371,7 +3677,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Yamaha_Horn_YHR-667V.tif/lossy-page1-330px-Yamaha_Horn_YHR-667V.tif.jpg",
                             "caption": "Brass instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "tuba",
@@ -3390,7 +3698,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Yamaha_Bass_tuba_YFB-822.tif/lossy-page1-330px-Yamaha_Bass_tuba_YFB-822.tif.jpg",
                             "caption": "Brass instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Almanya / Avrupa",
+                        "region_en": "Germany / Europe"
                       },
                       {
                         "id": "sousaphone",
@@ -3409,7 +3719,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Yamaha_Sousaphone_YSH-411.jpg/330px-Yamaha_Sousaphone_YSH-411.jpg",
                             "caption": "Brass musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Amerika",
+                        "region_en": "Americas"
                       },
                       {
                         "id": "euphonium",
@@ -3428,7 +3740,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BC_Euphonium_ed1.jpg/330px-BC_Euphonium_ed1.jpg",
                             "caption": "Brass instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Yunanistan",
+                        "region_en": "Greece"
                       },
                       {
                         "id": "wagner-tuba",
@@ -3447,7 +3761,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/MIMEd_5973._Wagner_Tuba_in_Bb-F_Alexander.jpg/330px-MIMEd_5973._Wagner_Tuba_in_Bb-F_Alexander.jpg",
                             "caption": "Brass instrument related to tubas and French horns"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa (Romantik)",
+                        "region_en": "Europe (Romantic)"
                       },
                       {
                         "id": "mellophone",
@@ -3466,7 +3782,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Yamaha_Mellophone_YMP-204MS.tiff/lossy-page1-330px-Yamaha_Mellophone_YMP-204MS.tiff.jpg",
                             "caption": "Brass instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Amerika",
+                        "region_en": "USA"
                       }
                     ],
                     "name_de": "Ventil-/Pistonblechblasinstrumente",
@@ -3550,7 +3868,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Claves.jpg/330px-Claves.jpg",
                             "caption": "Musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Küba",
+                        "region_en": "Cuba"
                       }
                     ],
                     "name_de": "Zusammenprall-Stäbe",
@@ -3576,7 +3896,9 @@
                         "image": null,
                         "name_de": "Plattenklapper",
                         "description_de": "Plaka-Çalpara ist die allgemeine Bezeichnung für Schlag-Idiophone aus Metall- oder Steinplatten. In Anatolien als Doppelhand-Schlagplatte aus Kupfer, Messing oder Bronze verwendet. Im alten Ägypten hatten 'Meneats' (Bronzeringe und -platten) ähnliche Funktion. In buddhistischen und hinduistischen Tempeln als Zeremoniell-Schlagorgan verwendet.",
-                        "video_id": "H_JjyFLJI5E"
+                        "video_id": "H_JjyFLJI5E",
+                        "region_tr": "Mısır",
+                        "region_en": "Egypt"
                       }
                     ],
                     "name_de": "Zusammenprall-Platten",
@@ -3608,7 +3930,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Castagnetten%2C_BK-NM-11430-78.jpg/330px-Castagnetten%2C_BK-NM-11430-78.jpg",
                             "caption": "Handheld percussion instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "İspanya",
+                        "region_en": "Spain"
                       },
                       {
                         "id": "parmak-zilleri",
@@ -3627,7 +3951,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Finger_cymbals.jpg/330px-Finger_cymbals.jpg",
                             "caption": "Small metallic cymbals"
                           }
-                        ]
+                        ],
+                        "region_tr": "Mısır",
+                        "region_en": "Egypt"
                       },
                       {
                         "id": "agogo",
@@ -3640,7 +3966,9 @@
                         "image": null,
                         "name_de": "Agogo-Glocken",
                         "description_de": "Die Agogo (HS 111.211) ist ein doppeltes oder dreifaches Metallgefäß-Idiophon aus der westafrikanischen Yoruba-Tradition, in der brasilianischen Musik verbreitet. Zwei (oder drei) verbundene konische Metallgefäße; jedes mit verschiedener Tonhöhe. Mit Stock geschlagen: Metallischer 'Tang' oder 'Ting'. In Candomblé, Afoxé und Samba Treffpunkt von Rhythmus und Melodie. Im Yoruba bedeutet 'Agogo' Glocke/Zimbel.",
-                        "video_id": "uSeUq_x3ITo"
+                        "video_id": "uSeUq_x3ITo",
+                        "region_tr": "Brezilya",
+                        "region_en": "Brazil"
                       }
                     ],
                     "name_de": "Zusammenprall-Gefäße",
@@ -3685,7 +4013,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Triangle_illustration.svg/330px-Triangle_illustration.svg.png",
                             "caption": "Shape with three sides"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "ksilofon-grubu",
@@ -3713,7 +4043,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Xylophone_%28PSF%29.svg/330px-Xylophone_%28PSF%29.svg.png",
                                 "caption": "Wooden keyboard percussion instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Amerika",
+                            "region_en": "Americas"
                           },
                           {
                             "id": "marimba",
@@ -3732,7 +4064,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Marimba_One_4000_Series.jpg/330px-Marimba_One_4000_Series.jpg",
                                 "caption": "Wooden keyboard percussion instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Orta Afrika",
+                            "region_en": "Central Africa"
                           },
                           {
                             "id": "balafon",
@@ -3751,7 +4085,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/African_Balafon_in_Museu_Oscar_Niemeyer.jpg/330px-African_Balafon_in_Museu_Oscar_Niemeyer.jpg",
                                 "caption": "Type of wooden xylophone originating in Mali"
                               }
-                            ]
+                            ],
+                            "region_tr": "Batı Afrika (Mali)",
+                            "region_en": "West Africa (Mali)"
                           },
                           {
                             "id": "pong-lang",
@@ -3770,7 +4106,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pong_lang_%28Thai_xylophone%29.jpg/330px-Pong_lang_%28Thai_xylophone%29.jpg",
                                 "caption": "Wooden xylophone from the Isan region of Thailand"
                               }
-                            ]
+                            ],
+                            "region_tr": "Tayland",
+                            "region_en": "Thailand"
                           },
                           {
                             "id": "kulintang-a-kayo",
@@ -3789,7 +4127,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Mindanao_Bangsamoro_Islamic_Musical_Instruments.jpg/330px-Mindanao_Bangsamoro_Islamic_Musical_Instruments.jpg",
                                 "caption": "Southeast Asian traditional instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Endonezya",
+                            "region_en": "Indonesia"
                           },
                           {
                             "id": "ksilorimba",
@@ -3808,7 +4148,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Xylorimba_%28from_Emil_Richards_Collection%29.jpg/330px-Xylorimba_%28from_Emil_Richards_Collection%29.jpg",
                                 "caption": "Pitched percussion instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Avrupa / Afrika",
+                            "region_en": "Europe / Africa"
                           }
                         ],
                         "name_de": "Xylophon-Gruppe (Stabspiele)",
@@ -3853,7 +4195,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Glockenspiel-malletech.jpg/330px-Glockenspiel-malletech.jpg",
                                 "caption": "Mallet percussion instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Almanya / Avrupa",
+                            "region_en": "Germany / Europe"
                           },
                           {
                             "id": "vibrafon",
@@ -3872,7 +4216,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vibes_joelocke_koeln2007.jpg/330px-Vibes_joelocke_koeln2007.jpg",
                                 "caption": "Mallet percussion instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Amerika",
+                            "region_en": "USA"
                           },
                           {
                             "id": "celesta",
@@ -3891,7 +4237,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Celesta_Schiedmayer_Studio.jpg/330px-Celesta_Schiedmayer_Studio.jpg",
                                 "caption": "Struck idiophone operated by a keyboard"
                               }
-                            ]
+                            ],
+                            "region_tr": "Fransa / Avrupa",
+                            "region_en": "France / Europe"
                           },
                           {
                             "id": "crotales",
@@ -3910,7 +4258,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Crotales_-_Paiste_brand.jpg/330px-Crotales_-_Paiste_brand.jpg",
                                 "caption": "Percussion instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Yunanistan",
+                            "region_en": "Greece"
                           },
                           {
                             "id": "kempul",
@@ -3929,7 +4279,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Traditional_indonesian_instruments04.jpg/330px-Traditional_indonesian_instruments04.jpg",
                                 "caption": "Indonesian musical instrument used in Gamelan"
                               }
-                            ]
+                            ],
+                            "region_tr": "Endonezya",
+                            "region_en": "Indonesia"
                           }
                         ],
                         "name_de": "Metallophon-Gruppe (Stabspiele aus Metall)",
@@ -3965,7 +4317,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/TamTam.jpg/330px-TamTam.jpg",
                             "caption": "Hollow percussion idiophone instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Meksika",
+                        "region_en": "Mexico"
                       },
                       {
                         "id": "tubular-bells",
@@ -3984,7 +4338,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/en/0/0d/Mike_oldfield_tubular_bells_album_cover.jpg",
                             "caption": "1973 album by Mike Oldfield"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "mark-tree",
@@ -4003,7 +4359,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Meinl_CH-12_Chimes.jpg/330px-Meinl_CH-12_Chimes.jpg",
                             "caption": "Musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Amerika",
+                        "region_en": "USA"
                       }
                     ],
                     "name_de": "Anschlag-Rohre",
@@ -4044,7 +4402,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/COLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg/330px-COLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg",
                                 "caption": "Percussion instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Çin",
+                            "region_en": "China"
                           },
                           {
                             "id": "bonang",
@@ -4063,7 +4423,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Indonesian_or_Javanese_gong_chimes%2C_Musical_Instrument_Museum%2C_Phoenix%2C_Arizona.jpg/330px-Indonesian_or_Javanese_gong_chimes%2C_Musical_Instrument_Museum%2C_Phoenix%2C_Arizona.jpg",
                                 "caption": "Indonesian musical instrument used in Gamelan"
                               }
-                            ]
+                            ],
+                            "region_tr": "Endonezya",
+                            "region_en": "Indonesia"
                           }
                         ],
                         "name_de": "Gongs",
@@ -4095,7 +4457,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Rin_gong_at_Kiyomizu-dera%2C_Kyoto.JPG/330px-Rin_gong_at_Kiyomizu-dera%2C_Kyoto.JPG",
                                 "caption": "Bowl-shaped bell, e.g. a singing bowl"
                               }
-                            ]
+                            ],
+                            "region_tr": "Tibet / Himalaya",
+                            "region_en": "Tibet / Himalayas"
                           },
                           {
                             "id": "kilise-cani",
@@ -4114,7 +4478,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Parts_of_a_Bell.svg/330px-Parts_of_a_Bell.svg.png",
                                 "caption": "Percussion instrument"
                               }
-                            ]
+                            ],
+                            "region_tr": "Rusya",
+                            "region_en": "Russia"
                           },
                           {
                             "id": "carillon",
@@ -4133,7 +4499,9 @@
                                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/MayoClinicCarillonneur.jpg/330px-MayoClinicCarillonneur.jpg",
                                 "caption": "Musical instrument of bells"
                               }
-                            ]
+                            ],
+                            "region_tr": "Belçika / Avrupa",
+                            "region_en": "Belgium / Europe"
                           }
                         ],
                         "name_de": "Glocken",
@@ -4156,7 +4524,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Homemade_caj%C3%B3n.jpg/330px-Homemade_caj%C3%B3n.jpg",
                             "caption": "Box-shaped percussion instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "And Dağları (Güney Amerika)",
+                        "region_en": "Andes (South America)"
                       },
                       {
                         "id": "handpan",
@@ -4175,7 +4545,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Handpans_2020_by_Glenn_Francis.jpg/330px-Handpans_2020_by_Glenn_Francis.jpg",
                             "caption": "Pitched percussion instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "İsviçre",
+                        "region_en": "Switzerland"
                       },
                       {
                         "id": "tahta-blok",
@@ -4188,7 +4560,9 @@
                         "image": null,
                         "name_de": "Wood Block und Tempelblock",
                         "description_de": "Der Holzblock (HS 112.31) ist ein ausgehöhltes oder schichtweise konstruiertes hartes Holzkasten-Idiophon. Mit Schlägel geschlagen erzeugt es ein trockenes, hochfrequentes 'Klopf'- oder 'Klick'-Geräusch. Als rhythmischer Betonungseffekt im Sinfonieorchester. Ähnliche Formen (chinesische Holzblöcke) in der chinesischen Oper verbreitet.",
-                        "video_id": "RuMqXP9f24A"
+                        "video_id": "RuMqXP9f24A",
+                        "region_tr": "Çin",
+                        "region_en": "China"
                       }
                     ],
                     "name_de": "Anschlag-Gefäße",
@@ -4220,7 +4594,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Organ_and_Chimes_-_Caverns_of_Luray_Va_1906_postcard.png/330px-Organ_and_Chimes_-_Caverns_of_Luray_Va_1906_postcard.png",
                             "caption": "Musical percussion instrument made from rock"
                           }
-                        ]
+                        ],
+                        "region_tr": "Vietnam",
+                        "region_en": "Vietnam"
                       }
                     ],
                     "name_de": "Anschlag-Steine / Lithophone",
@@ -4269,7 +4645,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mostra_Olearie_-_sistro_1010384.JPG/330px-Mostra_Olearie_-_sistro_1010384.JPG",
                         "caption": "Musical instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Mısır",
+                    "region_en": "Egypt"
                   },
                   {
                     "id": "shekere",
@@ -4288,7 +4666,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Shekere.jpg/330px-Shekere.jpg",
                         "caption": "Percussion instrument from West Africa"
                       }
-                    ]
+                    ],
+                    "region_tr": "Brezilya",
+                    "region_en": "Brazil"
                   },
                   {
                     "id": "marakas",
@@ -4307,7 +4687,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Maracas.jpg/330px-Maracas.jpg",
                         "caption": "Percussion instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Küba",
+                    "region_en": "Cuba"
                   },
                   {
                     "id": "shaker",
@@ -4320,7 +4702,9 @@
                     "image": null,
                     "name_de": "Shaker und Eierschüttler",
                     "description_de": "Die breite Familie der geschlossenen Gefäßrasseln mit kleinen losen Gegenständen im Inneren. In Ei-, Zylinder-, Kugel- und Sonderformen erhältlich. Ein grundlegendes Klangfarbwerkzeug in moderner Studio- und Live-Musik; verbreitet in Latin Pop, Jazz, Folk und elektronischer Musik. Die Klangfarbe variiert je nach Material und Füllung – Stahlkugeln, Plastikperlen, Salz, Sand. Mini-Versionen wie der Egg Shaker werden häufig im Orff-Musikunterricht für Kinder verwendet.",
-                    "video_id": "3RmzrFHE_1Y"
+                    "video_id": "3RmzrFHE_1Y",
+                    "region_tr": "Evrensel",
+                    "region_en": "Universal"
                   },
                   {
                     "id": "cabasa",
@@ -4339,7 +4723,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Cabasa.jpg/330px-Cabasa.jpg",
                         "caption": "Percussion instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Brezilya",
+                    "region_en": "Brazil"
                   },
                   {
                     "id": "rainstick",
@@ -4358,7 +4744,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Cactus_rain_sticks.jpg/330px-Cactus_rain_sticks.jpg",
                         "caption": "South American percussion instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Avrupa",
+                    "region_en": "Europe"
                   },
                   {
                     "id": "hosho",
@@ -4371,7 +4759,9 @@
                     "image": null,
                     "name_de": "Hosho",
                     "description_de": "Eine gepaarte Gefäßrassel aus Simbabwe, hergestellt aus der getrockneten Fruchtschale des Hösho-Baumes (Marula oder eine lokale Kaktusart), die kleine Steine oder Samen enthält. Obligatorische Begleitung zur Mbira-dzavadzimu-Aufführung, ergänzt den Mbira-Klang und bildet den rhythmischen Boden. Traditionell paarweise hergestellt und je eines in jeder Hand gehalten. Integraler Bestandteil der Shona-Bira-Geisterbesessenheitszeremonien.",
-                    "video_id": "n7AmsXPiy4s"
+                    "video_id": "n7AmsXPiy4s",
+                    "region_tr": "Zimbabve",
+                    "region_en": "Zimbabwe"
                   },
                   {
                     "id": "flexatone",
@@ -4390,7 +4780,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flexatone_2005.jpg/330px-Flexatone_2005.jpg",
                         "caption": "Modern percussion instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "İngiltere / Amerika",
+                    "region_en": "England / USA"
                   }
                 ],
                 "name_de": "Schüttelinstrumente (Rasseln)",
@@ -4422,7 +4814,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Phoenix-Musical_Instrument_Museum-Puerto_Rican_G%C3%BCiro.jpg/330px-Phoenix-Musical_Instrument_Museum-Puerto_Rican_G%C3%BCiro.jpg",
                         "caption": "Latin American percussion instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Küba",
+                    "region_en": "Cuba"
                   },
                   {
                     "id": "reco-reco",
@@ -4435,7 +4829,9 @@
                     "image": null,
                     "name_de": "Reco-Reco",
                     "description_de": "Ein brasilianisches Kratzeridiophon aus Bambus oder Metall. Die Bambusversion – ein zylindrischer Körper mit parallelen Kerben – ist ein rhythmisches Füllmittel in Samba-Baterias; die Metallspiralenversion ist eine moderne Variante mit eigenem Klang. Verbreitet in brasilianischen Popularmusikgenres wie Samba, Axé und Forró sowie in Kammermusik brasilianischer Kunstmusikkomponisten. Die Klangfarbe lässt sich durch Druck und Geschwindigkeit des Kratzstabs variieren.",
-                    "video_id": "q8RncuTxLWU"
+                    "video_id": "q8RncuTxLWU",
+                    "region_tr": "Brezilya",
+                    "region_en": "Brazil"
                   },
                   {
                     "id": "matraca",
@@ -4454,7 +4850,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Troccole.jpg/330px-Troccole.jpg",
                         "caption": "Idiophone"
                       }
-                    ]
+                    ],
+                    "region_tr": "Meksika",
+                    "region_en": "Mexico"
                   }
                 ],
                 "name_de": "Kratz-Idiophone",
@@ -4486,7 +4884,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/5_Leaf_Kouxian.jpg/330px-5_Leaf_Kouxian.jpg",
                         "caption": "General Chinese term for any variety of jaw harp"
                       }
-                    ]
+                    ],
+                    "region_tr": "Çin",
+                    "region_en": "China"
                   }
                 ],
                 "name_de": "Gespaltene Idiophone",
@@ -4535,7 +4935,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jew%27s_harp.jpg/330px-Jew%27s_harp.jpg",
                     "caption": "Lamellophone instrument"
                   }
-                ]
+                ],
+                "region_tr": "Hindistan",
+                "region_en": "India"
               },
               {
                 "id": "kubing",
@@ -4554,7 +4956,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jew%27s_harp.jpg/330px-Jew%27s_harp.jpg",
                     "caption": "Lamellophone instrument"
                   }
-                ]
+                ],
+                "region_tr": "Filipinler",
+                "region_en": "Philippines"
               }
             ],
             "name_de": "Maultrommeln",
@@ -4586,7 +4990,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mbira_dzavadzimu_1.jpg/330px-Mbira_dzavadzimu_1.jpg",
                     "caption": "African musical instrument of the lamellophone family"
                   }
-                ]
+                ],
+                "region_tr": "Zimbabve",
+                "region_en": "Zimbabwe"
               },
               {
                 "id": "kalimba",
@@ -4605,7 +5011,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mbira_dzavadzimu_1.jpg/330px-Mbira_dzavadzimu_1.jpg",
                     "caption": "African musical instrument of the lamellophone family"
                   }
-                ]
+                ],
+                "region_tr": "Zimbabve / Afrika",
+                "region_en": "Zimbabwe / Africa"
               },
               {
                 "id": "likembe",
@@ -4624,7 +5032,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mbira_dzavadzimu_1.jpg/330px-Mbira_dzavadzimu_1.jpg",
                     "caption": "African musical instrument of the lamellophone family"
                   }
-                ]
+                ],
+                "region_tr": "Orta Afrika",
+                "region_en": "Central Africa"
               },
               {
                 "id": "muzik-kutusu",
@@ -4643,7 +5053,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Polyphon_Spieldose_%281%29.jpg/330px-Polyphon_Spieldose_%281%29.jpg",
                     "caption": "Automatic musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa",
+                "region_en": "Europe"
               }
             ],
             "name_de": "Kammlamellen (Daumenklavier)",
@@ -4679,7 +5091,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Nail_violin%2CBohemia.jpg/330px-Nail_violin%2CBohemia.jpg",
                 "caption": "Musical instrument"
               }
-            ]
+            ],
+            "region_tr": "İran",
+            "region_en": "Iran"
           },
           {
             "id": "cam-armonika",
@@ -4698,7 +5112,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Page_674_%28A_Dictionary_of_Music_and_Musicians-Volume_1%29.jpg/330px-Page_674_%28A_Dictionary_of_Music_and_Musicians-Volume_1%29.jpg",
                 "caption": "Type of musical instrument"
               }
-            ]
+            ],
+            "region_tr": "Avrupa",
+            "region_en": "Europe"
           },
           {
             "id": "kase-seti",
@@ -4717,7 +5133,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Robert_tiso_glass_harp.jpg/330px-Robert_tiso_glass_harp.jpg",
                 "caption": "Musical instrument using glasses"
               }
-            ]
+            ],
+            "region_tr": "Orta Doğu",
+            "region_en": "Middle East"
           }
         ],
         "name_de": "Reibungs-Idiophone",
@@ -4749,7 +5167,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Steinway_Vienna_002.JPG/330px-Steinway_Vienna_002.JPG",
                 "caption": "Keyboard instrument"
               }
-            ]
+            ],
+            "region_tr": "Avrupa",
+            "region_en": "Europe"
           }
         ],
         "name_de": "Geblasene Idiophone",
@@ -4781,7 +5201,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pascal-Ayerbe-scie-musicale.jpg/330px-Pascal-Ayerbe-scie-musicale.jpg",
                 "caption": "Hand saw used as a musical instrument"
               }
-            ]
+            ],
+            "region_tr": "Avrupa / Amerika",
+            "region_en": "Europe / Americas"
           },
           {
             "id": "thunder-sheet",
@@ -4794,7 +5216,9 @@
             "image": null,
             "name_de": "Donnerblech",
             "description_de": "Ein großes, dünnes, flexibles Metallblech, das beim Schütteln, leichten Schlagen oder Vibrieren eine überzeugende Imitation von rollendem Donner erzeugt – ein Theatereffekt- und Orchesterinstrument, das seit dem 18. Jahrhundert auf Opernbühnen und in Konzertsälen verwendet wird. In Richard Strauss' 'Alpensinfonie' und verschiedenen modernen Orchesterpartituren vorgeschrieben. Verschiedene Schüttelgeschwindigkeiten und -intensitäten simulieren ein herannahendes Gewitter, fernes Grollen oder einen explosiven Knall.",
-            "video_id": "kFdXhWmDkIg"
+            "video_id": "kFdXhWmDkIg",
+            "region_tr": "Avrupa",
+            "region_en": "Europe"
           },
           {
             "id": "wobble-board",
@@ -4807,7 +5231,9 @@
             "image": null,
             "name_de": "Wobble Board",
             "description_de": "Eine große Hartfaserplatte oder Glasfaserscheibe, die rhythmisch gebogen und losgelassen wird, um einen resonanten 'Wob-Wob'-Ton zu erzeugen; vom australischen Künstler Rolf Harris in den 1950er Jahren entdeckt und populär gemacht. In Harris' 1960er Hit 'Tie Me Kangaroo Down, Sport' vorgestellt, wurde das Wobble Board zu einem Symbol der australischen Popmusik. Nach Hornbostel-Sachs als elastisches Plattenidiophon eingestuft, obwohl seine Klangerzeugung Reibungsidiophonen ähnelt.",
-            "video_id": "5_5IXhPdIwk"
+            "video_id": "5_5IXhPdIwk",
+            "region_tr": "Avustralya",
+            "region_en": "Australia"
           }
         ],
         "name_de": "Flexible Platten-Idiophone",
@@ -4833,7 +5259,9 @@
             "image": null,
             "name_de": "Stimmverändernde Idiophone",
             "description_de": "Ein klangmodifizierendes Idiophon, bei dem die Stimme des Spielers vor, durch oder über den Instrumentenkörper geführt wird und dabei Timbre und Färbung verändert. Kann als idiophonische Version eines Kazoos betrachtet werden, verwendet jedoch eine feste oder halbfeste Oberfläche statt einer Membran. Verschiedene Volks- und Traditionskulturen verwenden Stimmveränderungsgeräte für rituelle Verkleidung oder Parodie. Das einzige Beispiel der Sarkı-Idiofonları in der MIMO Addenda-Klassifikation 2021.",
-            "video_id": "r8UUYG5BSMA"
+            "video_id": "r8UUYG5BSMA",
+            "region_tr": "Evrensel",
+            "region_en": "Universal"
           }
         ],
         "name_de": "Gesang-Idiophone / Stimmveränderungsgeräte",
@@ -4896,7 +5324,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/USAFE_Band_timpanist.jpg",
                         "caption": "Pitched percussion instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Orta Doğu",
+                    "region_en": "Middle East"
                   },
                   {
                     "id": "nakkare",
@@ -4915,7 +5345,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Iraqi_Naqqarat.jpg/330px-Iraqi_Naqqarat.jpg",
                         "caption": "Middle Eastern drum with a rounded back and a hide head"
                       }
-                    ]
+                    ],
+                    "region_tr": "Türkiye",
+                    "region_en": "Turkey"
                   },
                   {
                     "id": "tabla-bayan",
@@ -4934,7 +5366,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Prop._Tabla.jpg/330px-Prop._Tabla.jpg",
                         "caption": "Indian pair of hand drums"
                       }
-                    ]
+                    ],
+                    "region_tr": "Hindistan",
+                    "region_en": "India"
                   }
                 ],
                 "name_de": "Kesseltrommeln",
@@ -4975,7 +5409,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Tom-tom_12x8.jpg/330px-Tom-tom_12x8.jpg",
                             "caption": "Cylindrical drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Çin",
+                        "region_en": "China"
                       },
                       {
                         "id": "bas-davul",
@@ -4994,7 +5430,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Gran_cassa.jpg/330px-Gran_cassa.jpg",
                             "caption": "Drum that produces a low or indefinite pitch"
                           }
-                        ]
+                        ],
+                        "region_tr": "Türkiye",
+                        "region_en": "Turkey"
                       },
                       {
                         "id": "davul",
@@ -5013,7 +5451,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mehter_davul.jpg/330px-Mehter_davul.jpg",
                             "caption": "Musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Türkiye",
+                        "region_en": "Turkey"
                       },
                       {
                         "id": "snare",
@@ -5032,7 +5472,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Caisse_claire.jpg",
                             "caption": "Type of percussion instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Avrupa",
+                        "region_en": "Europe"
                       },
                       {
                         "id": "taiko",
@@ -5051,7 +5493,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Miya_Daiko_drum_-_Taiko_drums.jpg/330px-Miya_Daiko_drum_-_Taiko_drums.jpg",
                             "caption": "Japanese percussion instruments"
                           }
-                        ]
+                        ],
+                        "region_tr": "Japonya",
+                        "region_en": "Japan"
                       },
                       {
                         "id": "dhol",
@@ -5070,7 +5514,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bhangra_at_Vasakhi.jpg/330px-Bhangra_at_Vasakhi.jpg",
                             "caption": "Double-headed Indian drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Afganistan",
+                        "region_en": "Afghanistan"
                       },
                       {
                         "id": "surdo",
@@ -5089,7 +5535,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Olodum-drummers.jpg/330px-Olodum-drummers.jpg",
                             "caption": "Brazilian bass drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Brezilya",
+                        "region_en": "Brazil"
                       },
                       {
                         "id": "repinique",
@@ -5108,7 +5556,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Repique.JPG/330px-Repique.JPG",
                             "caption": "Two-headed German drum used in samba baterias"
                           }
-                        ]
+                        ],
+                        "region_tr": "Brezilya",
+                        "region_en": "Brazil"
                       },
                       {
                         "id": "drum-kit",
@@ -5127,7 +5577,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Drum_kit_parts.png/330px-Drum_kit_parts.png",
                             "caption": "Musical instrument consisting of a collection of percussion instruments"
                           }
-                        ]
+                        ],
+                        "region_tr": "Amerika",
+                        "region_en": "Americas"
                       }
                     ],
                     "name_de": "Zylindertrommeln",
@@ -5159,7 +5611,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Dholak_dhol_drum%2C_one_of_many_percussion_instruments_of_South_Asia.jpg/330px-Dholak_dhol_drum%2C_one_of_many_percussion_instruments_of_South_Asia.jpg",
                             "caption": "South Asian drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Hindistan",
+                        "region_en": "India"
                       },
                       {
                         "id": "mridangam",
@@ -5178,7 +5632,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Wiki-mridangam.jpg/330px-Wiki-mridangam.jpg",
                             "caption": "Percussion instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Hindistan",
+                        "region_en": "India"
                       },
                       {
                         "id": "pakhavaj",
@@ -5197,7 +5653,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pakhavaj_Mrudang_Rathaava_Community_Gujrat.jpg/330px-Pakhavaj_Mrudang_Rathaava_Community_Gujrat.jpg",
                             "caption": "Two-headed drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Hindistan",
+                        "region_en": "India"
                       },
                       {
                         "id": "madal",
@@ -5216,7 +5674,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Madal.png/330px-Madal.png",
                             "caption": "Nepali folk instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Nepal",
+                        "region_en": "Nepal"
                       }
                     ],
                     "name_de": "Fassförmige Trommeln",
@@ -5248,7 +5708,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Traditional_indonesian_drums.jpg/330px-Traditional_indonesian_drums.jpg",
                             "caption": "Indonesian traditional drum musical instruments"
                           }
-                        ]
+                        ],
+                        "region_tr": "Endonezya",
+                        "region_en": "Indonesia"
                       }
                     ],
                     "name_de": "Doppelkonische Trommeln",
@@ -5280,7 +5742,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/TalkingDrum.jpg/330px-TalkingDrum.jpg",
                             "caption": "Hourglass-shaped West African drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Nijerya",
+                        "region_en": "Nigeria"
                       },
                       {
                         "id": "changgo",
@@ -5299,7 +5763,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Janggu.jpg/330px-Janggu.jpg",
                             "caption": "Korean traditional drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Güney Kore",
+                        "region_en": "South Korea"
                       },
                       {
                         "id": "damaru",
@@ -5318,7 +5784,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Damaru.jpg/330px-Damaru.jpg",
                             "caption": "Indian two-headed drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Hindistan / Tibet",
+                        "region_en": "India / Tibet"
                       },
                       {
                         "id": "tsuzumi",
@@ -5337,7 +5805,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Japanese_Drum.jpg/330px-Japanese_Drum.jpg",
                             "caption": "Musical instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Japonya",
+                        "region_en": "Japan"
                       },
                       {
                         "id": "bata",
@@ -5356,7 +5826,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bata_drums.jpg/330px-Bata_drums.jpg",
                             "caption": "Yoruba percussion instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "Küba",
+                        "region_en": "Cuba"
                       }
                     ],
                     "name_de": "Sanduhrtrommelm",
@@ -5388,7 +5860,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Lenke_djembe_from_Mali.jpeg/330px-Lenke_djembe_from_Mali.jpeg",
                             "caption": "Type of African goblet drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Batı Afrika",
+                        "region_en": "West Africa"
                       },
                       {
                         "id": "conga",
@@ -5407,7 +5881,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Collectie_Nationaal_Museum_van_Wereldculturen_TM-6335-1a_Enkelvellige_tonvormige_buistrom%2C_onderdeel_van_een_set_Cuba.jpg/330px-Collectie_Nationaal_Museum_van_Wereldculturen_TM-6335-1a_Enkelvellige_tonvormige_buistrom%2C_onderdeel_van_een_set_Cuba.jpg",
                             "caption": "Cuban drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Küba",
+                        "region_en": "Cuba"
                       },
                       {
                         "id": "atabaque",
@@ -5426,7 +5902,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Atabaque_%28confeccionado_por_Pancho_Pi%C3%B1ones%29.JPG/330px-Atabaque_%28confeccionado_por_Pancho_Pi%C3%B1ones%29.JPG",
                             "caption": "Hand drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Brezilya",
+                        "region_en": "Brazil"
                       },
                       {
                         "id": "sabar",
@@ -5445,7 +5923,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mbeng_mbeng.jpg/330px-Mbeng_mbeng.jpg",
                             "caption": "Traditional drum from Senegal"
                           }
-                        ]
+                        ],
+                        "region_tr": "Batı Afrika (Mali)",
+                        "region_en": "West Africa (Mali)"
                       }
                     ],
                     "name_de": "Konische Trommeln",
@@ -5477,7 +5957,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Goblet_drum_01.jpg/330px-Goblet_drum_01.jpg",
                             "caption": "Middle Eastern drum"
                           }
-                        ]
+                        ],
+                        "region_tr": "Mısır",
+                        "region_en": "Egypt"
                       },
                       {
                         "id": "tombak",
@@ -5496,7 +5978,9 @@
                             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/TOM.BAK.jpg/330px-TOM.BAK.jpg",
                             "caption": "Iranian percussion instrument"
                           }
-                        ]
+                        ],
+                        "region_tr": "İran",
+                        "region_en": "Iran"
                       }
                     ],
                     "name_de": "Kelchtrommeln",
@@ -5532,7 +6016,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tambourin01.png/330px-Tambourin01.png",
                         "caption": "Italian court game"
                       }
-                    ]
+                    ],
+                    "region_tr": "İran",
+                    "region_en": "Iran"
                   },
                   {
                     "id": "bendir",
@@ -5551,7 +6037,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bendir.jpg/330px-Bendir.jpg",
                         "caption": "Musical instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Fas",
+                    "region_en": "Morocco"
                   },
                   {
                     "id": "bodhran",
@@ -5570,7 +6058,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Bodhran.jpg",
                         "caption": "Celtic frame drum"
                       }
-                    ]
+                    ],
+                    "region_tr": "İrlanda / İskoçya",
+                    "region_en": "Ireland / Scotland"
                   },
                   {
                     "id": "pandeiro",
@@ -5589,7 +6079,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pandeiro.jpg/330px-Pandeiro.jpg",
                         "caption": "Musical instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Brezilya",
+                    "region_en": "Brazil"
                   },
                   {
                     "id": "riq",
@@ -5608,7 +6100,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Pair_of_dafs.jpg/330px-Pair_of_dafs.jpg",
                         "caption": "Frame drum originating in Central Asia and the Middle East"
                       }
-                    ]
+                    ],
+                    "region_tr": "Mısır",
+                    "region_en": "Egypt"
                   },
                   {
                     "id": "daf",
@@ -5627,7 +6121,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Pair_of_dafs.jpg/330px-Pair_of_dafs.jpg",
                         "caption": "Frame drum originating in Central Asia and the Middle East"
                       }
-                    ]
+                    ],
+                    "region_tr": "İran",
+                    "region_en": "Iran"
                   },
                   {
                     "id": "kanjira",
@@ -5646,7 +6142,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Kanjira.jpg/330px-Kanjira.jpg",
                         "caption": "South Indian frame drum"
                       }
-                    ]
+                    ],
+                    "region_tr": "Hindistan",
+                    "region_en": "India"
                   },
                   {
                     "id": "tamburello",
@@ -5665,7 +6163,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tambourin01.png/330px-Tambourin01.png",
                         "caption": "Italian court game"
                       }
-                    ]
+                    ],
+                    "region_tr": "İtalya",
+                    "region_en": "Italy"
                   },
                   {
                     "id": "bongo",
@@ -5678,7 +6178,9 @@
                     "image": null,
                     "name_de": "Bongo",
                     "description_de": "Zwei kleine einseitig bespannte Trommeln miteinander verbunden. Ein unverzichtbares Rhythmusinstrument der afro-kubanischen Musik; die größere Trommel heißt Macho, die kleinere Hembra. Zwischen den Knien gehalten und mit Fingerspitzen und Handflächenkanten gespielt. Standard-Rhythmusinstrument in Son Cubano, Salsa, Cha-Cha-Cha und Latin Jazz.",
-                    "video_id": "xhcp-8vfKyg"
+                    "video_id": "xhcp-8vfKyg",
+                    "region_tr": "Küba",
+                    "region_en": "Cuba"
                   },
                   {
                     "id": "tabla",
@@ -5697,7 +6199,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Prop._Tabla.jpg/330px-Prop._Tabla.jpg",
                         "caption": "Indian pair of hand drums"
                       }
-                    ]
+                    ],
+                    "region_tr": "Hindistan",
+                    "region_en": "India"
                   },
                   {
                     "id": "ocean-drum",
@@ -5710,7 +6214,9 @@
                     "image": null,
                     "name_de": "Meerestrommel (Ocean Drum)",
                     "description_de": "Eine Rahmentrommel mit Metallkugeln oder Stahlschrot zwischen zwei transparenten Fellen; beim Kippen imitiert sie Wellen- und Meeresgeräusche. In den 1970er Jahren von West Music entwickelt, fand sie weite Verbreitung in der Musiktherapie und im Unterricht. Verschiedene Kippgeschwindigkeiten und -winkel ergeben eine breite atmosphärische Effektpalette von tiefen Meeresschlägen bis zu leichtem Regen.",
-                    "video_id": "Ds_3kyh0Zfg"
+                    "video_id": "Ds_3kyh0Zfg",
+                    "region_tr": "Amerika",
+                    "region_en": "USA"
                   }
                 ],
                 "name_de": "Rahmentrommeln",
@@ -5742,7 +6248,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ghatam.jpg/330px-Ghatam.jpg",
                         "caption": "Indian percussion instrument"
                       }
-                    ]
+                    ],
+                    "region_tr": "Hindistan",
+                    "region_en": "India"
                   },
                   {
                     "id": "udu",
@@ -5761,7 +6269,9 @@
                         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Udu.jpg/330px-Udu.jpg",
                         "caption": "Musical instrument of the Igbo of Nigeria"
                       }
-                    ]
+                    ],
+                    "region_tr": "Nijerya",
+                    "region_en": "Nigeria"
                   }
                 ],
                 "name_de": "Gefäßtrommeln / Topftrommeln",
@@ -5797,7 +6307,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Damaru.jpg/330px-Damaru.jpg",
                     "caption": "Indian two-headed drum"
                   }
-                ]
+                ],
+                "region_tr": "Çin",
+                "region_en": "China"
               }
             ],
             "name_de": "Indirekt Geschlagene Trommeln (Geschüttelt)",
@@ -5833,7 +6345,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ektara_2.jpg/330px-Ektara_2.jpg",
                 "caption": "Stringed musical instrument"
               }
-            ]
+            ],
+            "region_tr": "Hindistan",
+            "region_en": "India"
           },
           {
             "id": "ananda-lahari",
@@ -5846,7 +6360,9 @@
             "image": null,
             "name_de": "Ananda Lahari",
             "description_de": "Eine indische Zupftrommel, bei der eine an einem hautbedeckten Gefäß befestigte Schnur gezogen wird, um Klang zu erzeugen. 'Ananda Lahari' bedeutet auf Sanskrit 'Welle der Seligkeit'. Strukturell mit dem Gopi-Yantra verwandt; in einigen Quellen werden die beiden Instrumente unter demselben Namen behandelt.",
-            "video_id": "dFtf-8IpGRU"
+            "video_id": "dFtf-8IpGRU",
+            "region_tr": "Hindistan",
+            "region_en": "India"
           }
         ],
         "name_de": "Gezupfte Membranophone",
@@ -5878,7 +6394,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Cuica.jpg/330px-Cuica.jpg",
                 "caption": "Brazilian friction drum"
               }
-            ]
+            ],
+            "region_tr": "Brezilya",
+            "region_en": "Brazil"
           },
           {
             "id": "zambomba",
@@ -5897,7 +6415,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Zambomba-Pe%C3%B1aAmigosCa%C3%B1izo-Jerez-P1010344.JPG/330px-Zambomba-Pe%C3%B1aAmigosCa%C3%B1izo-Jerez-P1010344.JPG",
                 "caption": "Class of musical instruments"
               }
-            ]
+            ],
+            "region_tr": "İtalya",
+            "region_en": "Italy"
           },
           {
             "id": "rommelpot",
@@ -5916,7 +6436,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Zambomba-Pe%C3%B1aAmigosCa%C3%B1izo-Jerez-P1010344.JPG/330px-Zambomba-Pe%C3%B1aAmigosCa%C3%B1izo-Jerez-P1010344.JPG",
                 "caption": "Class of musical instruments"
               }
-            ]
+            ],
+            "region_tr": "Portekiz",
+            "region_en": "Portugal"
           },
           {
             "id": "lions-roar",
@@ -5929,7 +6451,9 @@
             "image": null,
             "name_de": "Löwengebrüll (Lion's Roar)",
             "description_de": "Eine Orchesterreibungstrommel. Ein durch die Membran geführtes Seil wird mit einem harzbeschichteten Tuch oder Handschuh gerieben, um ein Tieffrequenz-Rumpeln zu erzeugen, das einem Löwenbrüllen ähnelt. Eine vorgeschriebene Schlagzeugfarbe in Werken von Varèse, Cowell und verschiedenen Komponisten des 20. Jahrhunderts.",
-            "video_id": "e5hcq4T8hI0"
+            "video_id": "e5hcq4T8hI0",
+            "region_tr": "Avrupa / Amerika",
+            "region_en": "Europe / Americas"
           }
         ],
         "name_de": "Reibungstrommeln",
@@ -5961,7 +6485,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/2023_Kazoo_%281%29.jpg/330px-2023_Kazoo_%281%29.jpg",
                 "caption": "Toy musical instrument"
               }
-            ]
+            ],
+            "region_tr": "Amerika",
+            "region_en": "Americas"
           },
           {
             "id": "tarak-kagit",
@@ -5974,7 +6500,9 @@
             "image": null,
             "name_de": "Kamm und Papier",
             "description_de": "Ein einfaches hausgemachtes Instrument, bei dem ein dünnes Papier gegen einen Kamm gehalten und hineingesummt einen Mirliton-Effekt durch Membranschwingung erzeugt. Jedes Papier (Toilettenpapier, Zeitung) und jeder Kunststoff- oder Metallkamm genügt. Ein klassisches Beispiel für Kindermusikspiele und Volksunterhaltung; in vielen Kulturen unabhängig vorhanden.",
-            "video_id": "r8UUYG5BSMA"
+            "video_id": "r8UUYG5BSMA",
+            "region_tr": "Evrensel",
+            "region_en": "Universal"
           },
           {
             "id": "eunuch-flute",
@@ -5987,7 +6515,9 @@
             "image": null,
             "name_de": "Onion Flute (Mirliton-Flöte)",
             "description_de": "Ein Rohr mit einer dünnen Membran oder einem Papier über dem Blasloch; der Klang erhält durch Membranschwingung eine mirlitonartige Klangfarbe. Als 'Flûte Eunuque' im Europa des 17.–18. Jahrhunderts bekannt, ist dieses Instrument technisch keine Flöte, sondern ein Mirliton. Ähnliches Prinzip wie das Kazoo, aber unterschiedliche Rohrform und -größe.",
-            "video_id": "sc4pWAIRY58"
+            "video_id": "sc4pWAIRY58",
+            "region_tr": "Avrupa",
+            "region_en": "Europe"
           }
         ],
         "name_de": "Singmembranen (Mirlitons)",
@@ -6041,7 +6571,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Range_guitar.svg/330px-Range_guitar.svg.png",
                     "caption": "Electrical string musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Amerika",
+                "region_en": "USA"
               },
               {
                 "id": "elektro-bas",
@@ -6060,7 +6592,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Fender_Precision_Bass.jpg/330px-Fender_Precision_Bass.jpg",
                     "caption": "Electric plucked string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Amerika",
+                "region_en": "USA"
               },
               {
                 "id": "elektro-keman",
@@ -6079,7 +6613,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Electric_Violin_and_Electromagnetic_Pick_by_Leo_Fender_%281957%29.jpg/330px-Electric_Violin_and_Electromagnetic_Pick_by_Leo_Fender_%281957%29.jpg",
                     "caption": "Amplified violin, string instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa / Amerika",
+                "region_en": "Europe / Americas"
               },
               {
                 "id": "elektro-viyolonsel",
@@ -6092,7 +6628,9 @@
                 "image": null,
                 "name_de": "E-Cello",
                 "description_de": "Ein E-Cello mit piezoelektrischen Tonabnehmern anstelle eines akustischen Korpus. Der Klang wird durch ein Verstärkersystem projiziert. Auf der Bühne wegen seiner Tragbarkeit und der Möglichkeit zur stillen Übung (Kopfhörer) bevorzugt. Von Künstlern wie Zoë Keating in Kombination mit Loop-Stationen verwendet, was einem einzelnen Spieler ermöglicht, orchestral geschichtete Texturen zu erzeugen.",
-                "video_id": "TG73oddZqfw"
+                "video_id": "TG73oddZqfw",
+                "region_tr": "Avrupa / Amerika",
+                "region_en": "Europe / Americas"
               },
               {
                 "id": "steel-guitar",
@@ -6105,7 +6643,9 @@
                 "image": null,
                 "name_de": "Steel-Gitarre / Pedal-Steel",
                 "description_de": "Ein horizontal positioniertes elektrifiziertes Saiteninstrument, mit einem Metallstab (Slide) gespielt und durch magnetische Tonabnehmer verstärkt. Zwei Hauptformen: Knee Steel (auf den Knien gehalten) und Pedal Steel (auf einem Ständer mit Pedalmechanismen). Das Symbol der hawaiianischen Musik; erzeugt den charakteristischen 'weinenden' Glissando-Klang von Country, Western Swing und Bluegrass.",
-                "video_id": "1_ZbD6X-jUI"
+                "video_id": "1_ZbD6X-jUI",
+                "region_tr": "Hawaii (ABD)",
+                "region_en": "Hawaii (USA)"
               }
             ],
             "name_de": "Elektroakustische Chordophone",
@@ -6137,7 +6677,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vibes_joelocke_koeln2007.jpg/330px-Vibes_joelocke_koeln2007.jpg",
                     "caption": "Mallet percussion instrument"
                   }
-                ]
+                ],
+                "region_tr": "Amerika",
+                "region_en": "USA"
               }
             ],
             "name_de": "Elektroakustische Idiophone",
@@ -6173,7 +6715,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Hammond_c3_Emilio_Mu%C3%B1oz.jpg/330px-Hammond_c3_Emilio_Mu%C3%B1oz.jpg",
                 "caption": "Electric organ"
               }
-            ]
+            ],
+            "region_tr": "Amerika",
+            "region_en": "USA"
           },
           {
             "id": "telharmonium",
@@ -6192,7 +6736,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Teleharmonium1897.jpg/330px-Teleharmonium1897.jpg",
                 "caption": "Type of electrical organ"
               }
-            ]
+            ],
+            "region_tr": "Amerika",
+            "region_en": "USA"
           },
           {
             "id": "elektrik-piyano",
@@ -6211,7 +6757,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wurlitzer_model_112_electric_piano_1956.JPG/330px-Wurlitzer_model_112_electric_piano_1956.JPG",
                 "caption": "Electro-mechanical keyboard musical instrument"
               }
-            ]
+            ],
+            "region_tr": "Amerika",
+            "region_en": "USA"
           },
           {
             "id": "mellotron",
@@ -6230,7 +6778,9 @@
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Mellotron.jpg/330px-Mellotron.jpg",
                 "caption": "Musical instrument"
               }
-            ]
+            ],
+            "region_tr": "İngiltere",
+            "region_en": "England"
           }
         ],
         "name_de": "Elektromechanische Instrumente",
@@ -6271,7 +6821,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Etherwave_Theremin_Kit.jpg/330px-Etherwave_Theremin_Kit.jpg",
                     "caption": "Electronic musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Rusya / Amerika",
+                "region_en": "Russia / USA"
               },
               {
                 "id": "ondes-martenot",
@@ -6290,7 +6842,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Ondes_martenot.jpg/330px-Ondes_martenot.jpg",
                     "caption": "Early electronic musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Fransa",
+                "region_en": "France"
               },
               {
                 "id": "trautonium",
@@ -6309,7 +6863,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Volkstrautonium_MIM.jpg/330px-Volkstrautonium_MIM.jpg",
                     "caption": "Electronic musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Avrupa",
+                "region_en": "Europe"
               }
             ],
             "name_de": "Elektrische Oszillatorinstrumente",
@@ -6341,7 +6897,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/R.A.Moog_minimoog_2.jpg/330px-R.A.Moog_minimoog_2.jpg",
                     "caption": "Electronic musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Amerika / Avrupa",
+                "region_en": "USA / Europe"
               },
               {
                 "id": "sampler",
@@ -6354,7 +6912,9 @@
                 "image": null,
                 "name_de": "Sampler",
                 "description_de": "Ein elektronisches Instrument, das echte Klangaufnahmen (Samples) im digitalen Speicher ablegt und wiedergibt, wenn es durch Tastatur, MIDI oder Touchscreen ausgelöst wird. Fairlight CMI (1979) und Akai MPC (1988) sind historische Meilensteine. Ermöglichte die 'Crate Digging'-Kultur von Hip-Hop, Electronic Dance Music (EDM) und zeitgenössischem Pop.",
-                "video_id": "Kr31ULpfui8"
+                "video_id": "Kr31ULpfui8",
+                "region_tr": "Amerika / Avrupa",
+                "region_en": "USA / Europe"
               },
               {
                 "id": "drum-machine",
@@ -6373,7 +6933,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Elektron_Analog_RYTM_-_2014_NAMM_Show.jpg/330px-Elektron_Analog_RYTM_-_2014_NAMM_Show.jpg",
                     "caption": "Electronic musical instrument that creates percussion sounds"
                   }
-                ]
+                ],
+                "region_tr": "Amerika / Japonya",
+                "region_en": "USA / Japan"
               },
               {
                 "id": "midi-kontrolcusu",
@@ -6392,7 +6954,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Roland_AX-1_keytar_midi_controller.JPG/330px-Roland_AX-1_keytar_midi_controller.JPG",
                     "caption": "Input device that produces MIDI data"
                   }
-                ]
+                ],
+                "region_tr": "Amerika / Japonya",
+                "region_en": "USA / Japan"
               },
               {
                 "id": "elektronik-davul",
@@ -6411,7 +6975,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%BA%B7%E5%9F%8E_LOHAS_Park_shopping_mall_shop_%E6%9F%8F%E6%96%AF%E7%90%B4%E8%A1%8C_Parsons_Music_November_2021_SS2_17.jpg/330px-HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%BA%B7%E5%9F%8E_LOHAS_Park_shopping_mall_shop_%E6%9F%8F%E6%96%AF%E7%90%B4%E8%A1%8C_Parsons_Music_November_2021_SS2_17.jpg",
                     "caption": "Musical instrument"
                   }
-                ]
+                ],
+                "region_tr": "Amerika / Japonya",
+                "region_en": "USA / Japan"
               },
               {
                 "id": "vocoder",
@@ -6430,7 +6996,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Kraftwerk_Vocoder_custom_made_in_early1970s.JPG/330px-Kraftwerk_Vocoder_custom_made_in_early1970s.JPG",
                     "caption": "Voice encryption, transformation, and synthesis device"
                   }
-                ]
+                ],
+                "region_tr": "Amerika / Almanya",
+                "region_en": "USA / Germany"
               },
               {
                 "id": "seaboard",
@@ -6443,7 +7011,9 @@
                 "image": null,
                 "name_de": "Seaboard / Roli",
                 "description_de": "Eine MIDI-Tastatur mit einer kontinuierlichen Berührungsoberfläche anstelle traditioneller Tasten, die Druck- und Gleitbewegungen in Dynamik, Vibrato und Klangfarbe übersetzt. 2013 von ROLI entwickelt. Unterstützt den MPE-Standard (MIDI Polyphonic Expression); jede Taste bietet unabhängige expressive Kontrolle. Slide-, Press- und Glide-Gesten erzeugen geigenähnlichen kontinuierlichen Ausdruck.",
-                "video_id": "73iZItCRrxk"
+                "video_id": "73iZItCRrxk",
+                "region_tr": "İngiltere",
+                "region_en": "England"
               },
               {
                 "id": "eigenharp",
@@ -6456,7 +7026,9 @@
                 "image": null,
                 "name_de": "Eigenharp",
                 "description_de": "Ein fortschrittliches elektronisches Instrument mit Hunderten von Druck- und Bewegungssensortasten. Ein Atemsensor, Streifenregler und verschiedene Schlagpads bieten eine äußerst umfassende Performanceoberfläche. 2009 von Eigenlabs entwickelt, ermöglicht dieses Instrument einem einzelnen Musiker, gleichzeitig Melodie, Harmonie und Rhythmus zu erzeugen. Drei Modelle existieren (Alpha, Tau, Pico).",
-                "video_id": "f9qPf31xYnY"
+                "video_id": "f9qPf31xYnY",
+                "region_tr": "İngiltere",
+                "region_en": "England"
               }
             ],
             "name_de": "Digitale / Computerbasierte Instrumente",
@@ -6488,7 +7060,9 @@
                     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/US2563477A_Electronic_Musical_Instrument_%281948-05-01_filed%2C_1951-08-07_published%29_by_Constant_Martin_-_Clavioline_Fig.1.jpg/330px-US2563477A_Electronic_Musical_Instrument_%281948-05-01_filed%2C_1951-08-07_published%29_by_Constant_Martin_-_Clavioline_Fig.1.jpg",
                     "caption": "Electronic musical keyboard instrument"
                   }
-                ]
+                ],
+                "region_tr": "Fransa",
+                "region_en": "France"
               }
             ],
             "name_de": "Elektromechanisch gesteuerte Elektronik",
