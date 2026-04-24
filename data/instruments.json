@@ -321,6 +321,27 @@
                 ],
                 "region_tr": "İzlanda",
                 "region_en": "Iceland"
+              },
+              {
+                "id": "gusli",
+                "name_tr": "Gusli",
+                "name_en": "Gusli",
+                "hs_code": "314.122",
+                "description_tr": "Gusli (HS 314.122), Doğu Slav çalgı geleneğinin en kadim çok telli koparmalı çalgısıdır; tellerin rezonans tahtasına paralel uzanmasıyla ziter ailesine dahil edilir. Veliky Novgorod'da 1170 yılından itibaren belgelenmiş olmakla birlikte Bizanslı tarihçi Theophylaktos Simokattes'in 591 tarihli kayıtlarında da adından söz edilmektedir. Kanat biçimli (krylovidnye) ve miğfer biçimli (shlemovidnye) olmak üzere iki temel folk formu bulunur; 19. yüzyılda piyano klavyeli bir orkestral versiyonu da üretilmiştir. Dört ila altmış bağırsak ya da metal tele sahip olan bu çalgı, diyatonik düzende akort edilir. Gezgin skomoroh'ların ve bogatır destanlarının (bylina) vazgeçilmez çalgısı olan gusli, Finlandiya kantele'si, Letonya kokle'si ve Litvanya kanklės'iyle doğrudan akrabadır.",
+                "description_en": "The gusli (HS 314.122) is the oldest and most archaic plucked chordophone of the East Slavic tradition, classified as a board-zither by virtue of its strings running parallel to the resonance board. Documented in Veliky Novgorod from 1170 CE, it also appears in records by Byzantine historian Theophylact Simocatta (591 CE). Two principal folk forms exist: the wing-shaped (krylovidnye) and the helmet-shaped (shlemovidnye); a keyboard orchestral version was developed in the 19th century. It has four to sixty gut or metal strings tuned diatonically. The inseparable instrument of wandering skomorokhs and the oral epic bylina tradition, the gusli is closely related to Baltic psalteries: the Finnish kantele, Latvian kokle, and Lithuanian kanklės.",
+                "icon": "🎵",
+                "image": null,
+                "name_de": "Gusli",
+                "description_de": "Die Gusli (HS 314.122) ist das älteste mehrsaitige Zupfinstrument der ostslawischen Tradition und wird als Kastenzither klassifiziert. Ab 1170 n. Chr. in Nowgorod urkundlich belegt, erscheint sie auch in Aufzeichnungen des byzantinischen Historikers Theophylakt Simokatta (591 n. Chr.). Zwei Folk-Hauptformen existieren: die flügelförmige (Krylovidnye) und die helmförmige (Shlemovidnye); im 19. Jahrhundert entstand eine Klaviaturversion. Als untrennbarer Begleiter der Skomorokhen und der Bylina-Epenüberlieferung ist sie verwandt mit baltischen Psalterformen wie Kantele, Kokle und Kanklės.",
+                "video_id": "GcjB5d90050",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Russ_instr_gusli_kryl.GIF/100px-Russ_instr_gusli_kryl.GIF",
+                    "caption": "Krylovidnye gusli — wing-shaped ancient Russian psaltery"
+                  }
+                ],
+                "region_tr": "Rusya",
+                "region_en": "Russia"
               }
             ],
             "name_de": "Brettzithern",
@@ -418,6 +439,27 @@
                 ],
                 "region_tr": "Çin",
                 "region_en": "China"
+              },
+              {
+                "id": "inanga",
+                "name_tr": "İnanga",
+                "name_en": "Inanga",
+                "hs_code": "312.12",
+                "description_tr": "İnanga (HS 312.12), Ruanda ve Burundi'nin geleneksel oluk ziteridir; Büyük Göller bölgesinin en karakteristik çalgısı olarak kabul edilir. Yedi ila sekiz tel, yarı oval biçiminde oyulmuş sığ bir tahta oluğun üzerine gerilir; rezonatör aynı zamanda tel taşıyıcı işlevi görür. Çalgı, icracının kucağına ya da iki bacak arasına yatırılarak konumlandırılır; teller her iki elin parmakları ile koparılır. İnanga, Ruanda saray şiir geleneğinin (ibyivugo) ve tutsi ozanlığının (umushayiri) temel aracıdır; destanlar, aşk şiirleri ve tarihi anlatılar eşliğinde seslendirilir.",
+                "description_en": "Inanga (HS 312.12) is the traditional trough zither of Rwanda and Burundi, considered the most iconic instrument of the Great Lakes region of Central Africa. Seven to eight strings are stretched across a shallow, semi-oval wooden trough that simultaneously serves as both string bearer and resonator. The instrument is placed across the player's lap or between the legs; strings are plucked with the fingers of both hands. The inanga is the primary vehicle of Rwandan court poetry (ibyivugo) and Tutsi bardic tradition (umushayiri), accompanying epics, love poetry and historical narratives.",
+                "icon": "🎵",
+                "image": null,
+                "name_de": "Inanga",
+                "description_de": "Die Inanga (HS 312.12) ist die traditionelle Trogzither aus Ruanda und Burundi und gilt als das charakteristischste Instrument der Großen-Seen-Region Zentralafrikas. Sieben bis acht Saiten werden über einen flachen, halbovalen Holztrog gespannt, der gleichzeitig als Saitenträger und Resonator fungiert. Das Instrument liegt auf dem Schoß des Spielers; die Saiten werden mit den Fingern beider Hände gezupft. Die Inanga ist das zentrale Medium der ruandischen Hofpoesie (Ibyivugo) und der Tutsi-Bardentraditionen.",
+                "video_id": "r5b-sMhRH9M",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Inanga.jpg/320px-Inanga.jpg",
+                    "caption": "Inanga trough zither from Rwanda / Burundi"
+                  }
+                ],
+                "region_tr": "Ruanda / Burundi",
+                "region_en": "Rwanda / Burundi"
               }
             ],
             "name_de": "Trommenzithern (Geschlagene Saiten)",
@@ -709,6 +751,48 @@
                 ],
                 "region_tr": "Sri Lanka / Hindistan",
                 "region_en": "Sri Lanka / India"
+              },
+              {
+                "id": "anzad",
+                "name_tr": "Anzad (İmzad)",
+                "name_en": "Anzad (Imzad)",
+                "hs_code": "321.312.12",
+                "description_tr": "Anzad (Temaşek: imzad, HS 321.312.12), Tuareg topluluklarının tek telli yaylı sivri-lavtasıdır; Sahra Çölü'nde Cezayir, Mali, Nijer ve Libya'da yaşayan Tuareg kadınları tarafından çalınır. Yarım kabak gövdesi hayvan derisiyle kaplanır; at kuyruğu kılından yapılan tek tel, yine at kuyruğundan oluşan bir yay ile seslendirilir. Anzad, yalnızca kadınlara ait bir çalgıdır: Tuareg geleneğinde kadınlar savaşa giden erkekleri anzad melodileriyle cesaret için uğurlar. 2013'te UNESCO Maddi Olmayan Kültürel Miras listesine alınmıştır.",
+                "description_en": "The anzad (Tamasheq: imzad, HS 321.312.12) is the single-string bowed spike lute of Tuareg communities, played by Tuareg women across Algeria, Mali, Niger and Libya in the Sahara Desert. A half-gourd body is covered with animal skin; a single string made from horsehair is bowed with a horsehair bow. The anzad is exclusively a women's instrument: in Tuareg tradition women send warriors off to battle with anzad melodies for courage. It was inscribed on the UNESCO Intangible Cultural Heritage list in 2013.",
+                "icon": "🎻",
+                "image": null,
+                "name_de": "Anzad (Imzad)",
+                "description_de": "Das Anzad (Tamasheq: Imzad, HS 321.312.12) ist die einsaitige Bogen-Stachellaute der Tuareg-Gemeinschaften und wird von Tuareg-Frauen in Algerien, Mali, Niger und Libyen gespielt. Ein Halbkürbis-Korpus ist mit Tierhaut bespannt; eine Rosshaarsaite wird mit einem Rosshaarbögen gestrichen. Das Instrument ist ausschließlich Frauen vorbehalten und wurde 2013 von der UNESCO als Immaterielles Kulturerbe anerkannt.",
+                "video_id": "P-dqaVPWFok",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Imzad_player.jpg/320px-Imzad_player.jpg",
+                    "caption": "Tuareg woman playing the imzad / anzad"
+                  }
+                ],
+                "region_tr": "Tuareg halkı, Sahra Çölü (Cezayir, Mali, Nijer)",
+                "region_en": "Tuareg people, Sahara Desert (Algeria, Mali, Niger)"
+              },
+              {
+                "id": "gudok",
+                "name_tr": "Gudok",
+                "name_en": "Gudok",
+                "hs_code": "321.321-71",
+                "description_tr": "Gudok (HS 321.321-71), eski Rusya'nın birincil yaylı çalgısıdır; 11.-17. yüzyıllar arasında Rus halk sanatçıları (skomorokhlar) tarafından yaygın biçimde kullanılmıştır. Armut veya keman biçiminde oyma tahtadan oluşan gövdesi, ahşap veya deri kapak taşır; ön taraftaki üç tel yay ile seslendirilir, arka taraftaki ek teller ise sympathetic (rezonans) tel işlevi görür. Büyük Novgorod kazı çalışmalarında ortaya çıkan tahta parçalar (11.-15. yüzyıl), gudoğun arkeolojik kanıtlarını oluşturur. 17. yüzyılda patrikhanenin skomorokhları yasaklamasıyla birlikte gudok da sahneden çekilmiş; yeniden canlandırma çalışmaları 20. yüzyılda başlamıştır.",
+                "description_en": "The gudok (HS 321.321-71) is the primary bowed instrument of ancient Russia, widely used by Russian folk entertainers (skomorokhi) between the 11th and 17th centuries. Its body of carved pear or fiddle shape carries a wooden or leather soundboard; three strings on the front are bowed, while additional strings on the back function as sympathetic resonating strings. Wooden fragments uncovered at excavations in Novgorod (11th–15th centuries) form the archaeological evidence of the gudok. It disappeared from the stage in the 17th century when the patriarchate banned the skomorokhi; revival efforts began in the 20th century.",
+                "icon": "🎻",
+                "image": null,
+                "name_de": "Gudok",
+                "description_de": "Das Gudok (HS 321.321-71) ist das wichtigste Streichinstrument des alten Russlands, von Skomorokhen (russischen Volksunterhaltungskünstlern) im 11.–17. Jh. weit verbreitet. Der birnen- oder geigenförmige Schnitzkorpus trägt eine Holz- oder Lederdecke; drei Vordersaiten werden gestrichen, Rücksaiten fungieren als Sympathiesaiten. Bei Ausgrabungen in Nowgorod (11.–15. Jh.) gefundene Holzfragmente belegen die Existenz des Gudok archäologisch.",
+                "video_id": "CQmWTbYuaXM",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Gudok_instrument.jpg/320px-Gudok_instrument.jpg",
+                    "caption": "Gudok — ancient Russian bowed folk instrument"
+                  }
+                ],
+                "region_tr": "Rusya",
+                "region_en": "Russia"
               }
             ],
             "name_de": "Spiesslauten",
@@ -1052,6 +1136,48 @@
                 ],
                 "region_tr": "Yunanistan",
                 "region_en": "Greece"
+              },
+              {
+                "id": "domra",
+                "name_tr": "Domra",
+                "name_en": "Domra",
+                "hs_code": "321.321-6",
+                "description_tr": "Domra (HS 321.321-6), Rus halk müziğinin en eski koparmalı çalgılarından biridir; 16.-17. yüzyıl belgelerinde skomoorkh (seyyar halk müzisyeni) geleneğiyle ilişkilendirilir. Yuvarlak, yarım küre gövdesi ve uzun boynu olan domra, mızrapla çalınır. 19. yüzyıl sonunda Vasily Andreyev önderliğinde standart üç telli formu yeniden inşa edilmiş; balalaika ile birlikte Rus balalaika-domra orkestralarının temel çalgısı haline gelmiştir. Üç telli (a-e'-a') ve dört telli (g-d'-a'-e'') olmak üzere iki ana varyantı mevcuttur; virtuozik solistik repertuarı Osipov Akademik Halk Çalgıları Orkestrası tarafından yaygınlaştırılmıştır.",
+                "description_en": "The domra (HS 321.321-6) is one of the oldest plucked instruments of Russian folk music, associated in 16th–17th century documents with the skomorokh (itinerant folk musician) tradition. With a rounded hemispherical body and long neck, it is played with a plectrum. At the end of the 19th century Vasily Andreyev reconstructed its standard three-string form; together with the balalaika it became a cornerstone of Russian balalaika-domra orchestras. Two main variants exist: three-string (a-e'-a') and four-string (g-d'-a'-e''); its virtuosic solo repertoire was popularised by the Osipov Academic Folk Instrument Orchestra.",
+                "icon": "🪕",
+                "image": null,
+                "name_de": "Domra",
+                "description_de": "Die Domra (HS 321.321-6) ist eines der ältesten Zupfinstrumente der russischen Volksmusik und wird in Dokumenten des 16.–17. Jh. mit der Skomorokhen-Tradition in Verbindung gebracht. Mit halbkugelförmigem Korpus und langem Hals wird sie mit einem Plektrum gespielt. Ende des 19. Jh. rekonstruierte Vasily Andreyev die dreisträngige Standardform; zusammen mit der Balalaika bildet sie das Fundament russischer Volksorchester.",
+                "video_id": "CsVqJpSFl0k",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Domra_2.jpg/320px-Domra_2.jpg",
+                    "caption": "Russian folk plucked string instrument — domra"
+                  }
+                ],
+                "region_tr": "Rusya",
+                "region_en": "Russia"
+              },
+              {
+                "id": "sintir",
+                "name_tr": "Sintir (Gimbri)",
+                "name_en": "Sintir (Gimbri)",
+                "hs_code": "321.33",
+                "description_tr": "Sintir (HS 321.33), Fas'ın Gnawa müzik geleneğine özgü üç telli bas lavtadır; aynı zamanda gimbri veya hajhouj olarak da adlandırılır. Deve ya da sığır derisinin gerildiği oymalı ahşap gövde, uzun bir boyunla birleşir; teller hayvan bağırsağından ya da naylon iplikten yapılır. Derin, vızıltılı tınısını sağlayan metalik bir buzz bridge (kosmad) karakteristik özelliğidir. Sintir, lila ve derdeba adlı ritüel seremonyalarda merkezi rol oynar; sub-Sahrawi ruhlarını (mluk) çağırmak için kullanılır. Gnawa müziği 2019'da UNESCO Maddi Olmayan Kültürel Miras listesine alınmıştır.",
+                "description_en": "The sintir (HS 321.33) is a three-string bass lute exclusive to the Gnawa musical tradition of Morocco; it is also known as gimbri or hajhouj. A carved wooden body covered with camel or cattle hide is joined to a long neck; strings are made from gut or nylon thread. A metallic buzz bridge (kosmad) is characteristic, producing its deep, buzzing timbre. The sintir plays a central role in the ritual ceremonies known as lila and derdeba, used to invoke sub-Saharan spirits (mluk). Gnawa music was inscribed on the UNESCO Intangible Cultural Heritage list in 2019.",
+                "icon": "🎵",
+                "image": null,
+                "name_de": "Sintir (Gimbri)",
+                "description_de": "Das Sintir (HS 321.33) ist eine dreisaitige Basslaute der Gnawa-Musiktradition Marokkos, auch Gimbri oder Hajhouj genannt. Ein geschnitzter Holzkorpus mit Kamel- oder Rindsleder wird durch einen langen Hals ergänzt; Saiten aus Darm oder Nylon. Ein metallischer Buzzing-Steg (Kosmad) erzeugt den charakteristischen tiefen, brummenden Klang. Das Sintir ist zentrales Instrument in den Lila- und Derdeba-Ritualen der Gnawa. Gnawa-Musik wurde 2019 von der UNESCO als Immaterielles Kulturerbe anerkannt.",
+                "video_id": "a6Qb20KLwPk",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Hajhuj.jpg/320px-Hajhuj.jpg",
+                    "caption": "Sintir / Gimbri — Gnawa bass lute from Morocco"
+                  }
+                ],
+                "region_tr": "Fas (Gnawa geleneği, Kuzey Afrika)",
+                "region_en": "Morocco (Gnawa tradition, North Africa)"
               }
             ],
             "name_de": "Halslauten mit Schalenkörper",
@@ -1712,6 +1838,27 @@
                 ],
                 "region_tr": "Orta Afrika",
                 "region_en": "Central Africa"
+              },
+              {
+                "id": "ngoni",
+                "name_tr": "Ngoni",
+                "name_en": "Ngoni",
+                "hs_code": "321.33",
+                "description_tr": "Ngoni (HS 321.33), Batı Afrika'nın Mande halklarına (Mandinka, Bamana, Malinke, Dyula) özgü yakalı lavtadır ve griot (jeli) geleneğinin temel çalgısıdır. Ovma ya da oyma ahşap gövdesi hayvan derisiyle kaplanır; dört ila yedi tel, boyun boyunca çalıştırılan bir 'floatable bridge' adlı köprü üzerinden geçer. Teller fildişi, deri ya da naylon iplikten yapılır. Ngoni, Mali İmparatorluğu'nun kuruluş destanı olan Sundiata Keita'nın söylenmesinde ve pek çok Mandé ritüelinde kullanılmıştır. 20. yüzyılda Oumou Sangaré, Toumani Diabaté ve Bassekou Kouyaté gibi sanatçılar ngoniyi uluslararası müzik sahnelerine taşımıştır.",
+                "description_en": "The ngoni (HS 321.33) is the necked lute of the Mande peoples of West Africa (Mandinka, Bamana, Malinke, Dyula) and the primary instrument of the griot (jeli) tradition. A scraped or carved wooden body is covered with animal skin; four to seven strings pass over a bridge that floats across the neck. Strings are made from ivory, leather or nylon thread. The ngoni has been used in reciting the founding epic of the Mali Empire, Sundiata Keita, and in many Mandé rituals. In the 20th century artists such as Oumou Sangaré, Toumani Diabaté and Bassekou Kouyaté brought the ngoni to international music stages.",
+                "icon": "🎵",
+                "image": null,
+                "name_de": "Ngoni",
+                "description_de": "Die Ngoni (HS 321.33) ist die Halslaute der Mande-Völker Westafrikas (Mandinka, Bamana, Malinke, Dyula) und das Hauptinstrument der Griot-Tradition (Jeli). Ein ausgeschabter Holzkorpus ist mit Tierhaut bespannt; vier bis sieben Saiten führen über einen schwimmenden Steg. Die Ngoni wurde beim Vortrag des Gründungsepos Sundiata Keita des Mali-Reichs eingesetzt. Künstler wie Toumani Diabaté und Bassekou Kouyaté haben sie auf internationale Bühnen gebracht.",
+                "video_id": "bpIvwQdvHFQ",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ngoni_West_Africa.jpg/320px-Ngoni_West_Africa.jpg",
+                    "caption": "Ngoni — West African Mande lute of the griot tradition"
+                  }
+                ],
+                "region_tr": "Batı Afrika (Mande halkları)",
+                "region_en": "West Africa (Mande peoples)"
               }
             ],
             "name_de": "Harfenlauten",
@@ -2030,6 +2177,27 @@
                 ],
                 "region_tr": "Çin",
                 "region_en": "China"
+              },
+              {
+                "id": "garmon",
+                "name_tr": "Garmon",
+                "name_en": "Garmon",
+                "hs_code": "412.132",
+                "description_tr": "Garmon (Rusça: гармонь; HS 412.132), Rusya ve eski Sovyet coğrafyasına özgü küçük boyutlu, diyatonik ya da kromatik düğmeli körüklü serbest kamışlı çalgıdır; Avrupa akordeonunun Rus halk müziğine uyarlanmış biçimidir. 19. yüzyılın başlarında Tula ve Saratov kentlerinde üretilmeye başlanmış; her bölgede farklı akort ve düğme düzeni ortaya çıkmıştır (Saratov garmon, Khromka, Cherepashka). Garmon, Rus köy eğlenceleri (gulyanya), düğünler ve toplantılarında (posidelki) merkezi çalgıdır. Sovyet döneminde kitlesel üretimiyle her hane yaygın hale gelmiştir; Vasily Zolotaryov ve Yuri Shubin garmona konser repertuarı kazandırmıştır.",
+                "description_en": "The garmon (Russian: гармонь; HS 412.132) is a small diatonic or chromatic button bellows-driven free-reed instrument associated with Russia and the former Soviet territory; it is the Russified adaptation of the European accordion for folk music. Production began in the early 19th century in Tula and Saratov, with each region developing different tunings and button layouts (Saratov garmon, Khromka, Cherepashka). The garmon is the central instrument at Russian village celebrations (gulyanya), weddings and gatherings (posidelki). During the Soviet era it became ubiquitous in every household through mass production; Vasily Zolotaryov and Yuri Shubin gave the garmon a concert repertoire.",
+                "icon": "🪗",
+                "image": null,
+                "name_de": "Garmon",
+                "description_de": "Die Garmon (russisch: гармонь; HS 412.132) ist ein kleines diatonisches oder chromatisches Knopfbalg-Freizungeninstrument, das mit Russland und dem ehemaligen Sowjetgebiet verbunden ist — eine russifizierte Adaptation des europäischen Akkordeons für die Volksmusik. Im frühen 19. Jh. in Tula und Saratov entwickelt; verschiedene Regionen brachten verschiedene Stimmungen hervor (Saratov-Garmon, Khromka). Zentralinstrument russischer Dorffeste und Hochzeiten. Durch Massenproduktion in der Sowjetzeit in jedem Haushalt verbreitet.",
+                "video_id": "A29AMXR_HuY",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Garmon_tula.jpg/320px-Garmon_tula.jpg",
+                    "caption": "Garmon — Russian folk button accordion"
+                  }
+                ],
+                "region_tr": "Rusya",
+                "region_en": "Russia"
               }
             ],
             "name_de": "Freie Zungeninstrumente",
@@ -3106,6 +3274,27 @@
                         ],
                         "region_tr": "Avrupa (Barok)",
                         "region_en": "Europe (Baroque)"
+                      },
+                      {
+                        "id": "zhaleika",
+                        "name_tr": "Zhaleika",
+                        "name_en": "Zhaleika",
+                        "hs_code": "422.211.2",
+                        "description_tr": "Zhaleika (Rusça: жалейка; HS 422.211.2), Rus ve Belarusya halk müziğine özgü silindirik borulu, tek ya da çift borulu kamışlı çalgıdır; ayrıca zhalika veya zhilka olarak da adlandırılır. Kamışlı ağızlığa bağlanan boynuz ya da kabuk pavyon, sesi yükseltir ve karakteristik tiz, keskin tınısını oluşturur. Tek borulu (HS 422.211.2) ve çift borulu (HS 422.211.22) olmak üzere iki ana varyantı mevcuttur. Çobanlık geleneği ve bahar ritüelleriyle ilişkilidir; 'sorrow' ya da 'lament' anlamına gelen 'zhalit' fiilinden türediği düşünülmektedir. Rus müzik bilimci Nikolai Privalov 19. yüzyıl sonunda bu çalgıyı sistematik biçimde belgelemiştir.",
+                        "description_en": "The zhaleika (Russian: жалейка; HS 422.211.2) is a cylindrical-bore single or double-pipe reed instrument of Russian and Belarusian folk music, also known as zhalika or zhilka. A horn or bark pavilion attached to the reed mouthpiece amplifies the sound and gives it its characteristic shrill, piercing timbre. Two main variants exist: single-pipe (HS 422.211.2) and double-pipe (HS 422.211.22). It is associated with pastoral tradition and spring rituals; it is thought to derive from the verb 'zhalit' meaning 'to lament' or 'to sting'. Russian musicologist Nikolai Privalov systematically documented this instrument at the end of the 19th century.",
+                        "icon": "🎵",
+                        "image": null,
+                        "name_de": "Zhaleika",
+                        "description_de": "Die Zhaleika (russisch: жалейка; HS 422.211.2) ist ein zylindrisches Einfachrohrblattinstrument der russischen und belarussischen Volksmusik, auch Zhalika oder Zhilka genannt. Ein Horn- oder Rindenpavilion am Rohrblattmundstück verstärkt den Klang und verleiht ihr den charakteristischen schrillen Klang. Zwei Hauptvarianten: einrohr (HS 422.211.2) und doppelrohr (HS 422.211.22). Mit Hirtentraditionen und Frühlingsfesten verbunden; soll vom Verb 'zhalit' (klagen/stechen) abstammen.",
+                        "video_id": "bNzGbPi7O90",
+                        "images": [
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Zhaleika.jpg/320px-Zhaleika.jpg",
+                            "caption": "Zhaleika — Russian folk single-reed folk instrument"
+                          }
+                        ],
+                        "region_tr": "Rusya / Belarus",
+                        "region_en": "Russia / Belarus"
                       }
                     ],
                     "name_de": "Zylindrisch-Einfachrohrblatt",
@@ -4502,6 +4691,48 @@
                             ],
                             "region_tr": "Belçika / Avrupa",
                             "region_en": "Belgium / Europe"
+                          },
+                          {
+                            "id": "ogene",
+                            "name_tr": "Ogene",
+                            "name_en": "Ogene",
+                            "hs_code": "111.242.12",
+                            "description_tr": "Ogene (HS 111.242.12), Nijerya'nın Igbo topluluğuna özgü demir çandır; geleneksel olarak yüksek karbon içerikli dökme demirden ya da bronzdan dövülerek üretilir. Konik ya da piramidal formda, saplı tek bir çandır; tahta tokmakla vurulur. Ogene, Igbo müzik topluluğunda (ogene ensemble) diğer vurmalı çalgılarla birlikte icra edilir ve törensel toplantılarda, yaşlılar meclislerinde, boks karşılaşmalarında ve sosyal işlevlerde kullanılır. Ayrıca obi (kral evi) protokolünde hükümdar gelişini duyurmak için çalınır. Tonal dil niteliği taşıyan Igboca'nın tonlarını taklit etmesiyle iletişim işlevi de üstlenir.",
+                            "description_en": "Ogene (HS 111.242.12) is an iron bell associated with the Igbo community of Nigeria, traditionally forged from high-carbon cast iron or bronze. A single conical or pyramidal bell with a handle, struck with a wooden mallet. The ogene is performed alongside other percussion instruments in the ogene ensemble and used in ceremonial assemblies, elder councils, wrestling matches and social functions. It is also sounded in obi (king's house) protocol to announce the arrival of the ruler. By mimicking the tones of Igbo, a tonal language, it also serves a communicative function.",
+                            "icon": "🔔",
+                            "image": null,
+                            "name_de": "Ogene",
+                            "description_de": "Die Ogene (HS 111.242.12) ist eine Eisenglocke der Igbo-Gemeinschaft Nigerias, traditionell aus Gusseisen oder Bronze geschmiedet. Eine kegelförmige oder pyramidenförmige Glocke mit Griff, die mit einem Holzklöppel geschlagen wird. Das Ogene-Ensemble wird bei Zeremonien, Ältestenräten, Ringkämpfen und sozialen Funktionen gespielt. Im Obi-Protokoll verkündet sie die Ankunft des Herrschers. Durch die Nachahmung der Töne der Tonsprache Igbo übernimmt sie auch eine kommunikative Funktion.",
+                            "video_id": "GfW8JkuSr9c",
+                            "images": [
+                              {
+                                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ogene_bell_Nigeria.jpg/320px-Ogene_bell_Nigeria.jpg",
+                                "caption": "Ogene — Igbo iron bell from Nigeria"
+                              }
+                            ],
+                            "region_tr": "Nijerya (Igbo)",
+                            "region_en": "Nigeria (Igbo)"
+                          },
+                          {
+                            "id": "gankogui",
+                            "name_tr": "Gankogui",
+                            "name_en": "Gankogui",
+                            "hs_code": "111.242.221",
+                            "description_tr": "Gankogui (HS 111.242.221), Gana ve Togo'nun Ewe topluluğuna özgü çift demir çandır; iki farklı boyutta konik boru çan, saplı bir tutamağa bağlıdır. Büyük çan düşük tonu, küçük çan yüksek tonu üretir; ikisi el veya çomakla çalınır. Gankogui, Ewe davul topluluğunda (agbekor, atsiagbeko) temel ritim hattını (timeline pattern) tutar: eşit olmayan vuruşlardan oluşan asimetrik 12/8 ritim kalıbı hem icracılara hem dansçılara yol gösterir. Bu 'timeline' kavramı Batı Afrika müziği teorisinde analitik bir temel olarak incelenmiştir (Kofi Agawu, Simha Arom).",
+                            "description_en": "The gankogui (HS 111.242.221) is a double iron bell of the Ewe community of Ghana and Togo; two conical tube bells of different sizes are attached to a handled grip. The large bell produces a low tone and the small bell a high tone; both are struck with the hand or a stick. In the Ewe drum ensemble (agbekor, atsiagbeko) the gankogui holds the main rhythm line (timeline pattern): an asymmetric 12/8 rhythmic pattern of uneven beats that guides both performers and dancers. This 'timeline' concept has been studied as an analytical basis in West African music theory (Kofi Agawu, Simha Arom).",
+                            "icon": "🔔",
+                            "image": null,
+                            "name_de": "Gankogui",
+                            "description_de": "Das Gankogui (HS 111.242.221) ist eine doppelte Eisenglocke der Ewe-Gemeinschaft Ghanas und Togos; zwei konische Rohrchöre verschiedener Größe sind an einem Griff befestigt. Die große Glocke erzeugt einen tiefen Ton, die kleine einen hohen. Im Ewe-Trommelensemble (Agbekor, Atsiagbeko) hält das Gankogui das Haupt-Rhythmusmuster (Timeline): ein asymmetrisches 12/8-Muster ungleichmäßiger Schläge, das Musiker und Tänzer führt.",
+                            "video_id": "pZuC9qrJ4k4",
+                            "images": [
+                              {
+                                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Gankogui.jpg/320px-Gankogui.jpg",
+                                "caption": "Gankogui — Ewe double iron bell from Ghana / Togo"
+                              }
+                            ],
+                            "region_tr": "Gana / Togo (Ewe halkı)",
+                            "region_en": "Ghana / Togo (Ewe people)"
                           }
                         ],
                         "name_de": "Glocken",
@@ -5369,6 +5600,27 @@
                     ],
                     "region_tr": "Hindistan",
                     "region_en": "India"
+                  },
+                  {
+                    "id": "nakry",
+                    "name_tr": "Nakry (Litvra)",
+                    "name_en": "Nakry (Litvra)",
+                    "hs_code": "211.11",
+                    "description_tr": "Nakry (Rusça: накры; aynı zamanda litvra veya bata olarak bilinir; HS 211.11), eski Rus'un en önemli kazan davullarındandır. Orta Doğu ve Orta Asya'daki naqqara geleneğinden Türk-Moğol geçişiyle 13.-14. yüzyılda Rusya'ya ulaşmıştır. Çift olarak kullanılan küçük metalik ya da ahşap kazan gövdeli davullar; çubuk (tokmak) ile çalınırdı. Rus askeri orkestralarında ve büyük meydanlarda savaş çağrısı amacıyla kullanılmış, saray törenlerinde de yer almıştır. Tarihi kaynaklarda streltsy birlikleri ile donanmasında nakry kullanıldığı belgelenmektedir. Bugün Rus halk müziği toplulukları nakry'yi yeniden canlandırmıştır.",
+                    "description_en": "Nakry (Russian: накры; also known as litvra or bata; HS 211.11) are the most important kettledrums of ancient Russia, reaching Russia in the 13th–14th centuries via Turco-Mongol transmission from the naqqara tradition of the Middle East and Central Asia. Paired small metallic or wooden bowl-bodied drums struck with sticks (mallets). Used in Russian military orchestras and large squares as a battle call, as well as in court ceremonies. Historical sources document their use in streltsy units and the navy. Today Russian folk music ensembles have revived the nakry.",
+                    "icon": "🥁",
+                    "image": null,
+                    "name_de": "Nakry (Litvra)",
+                    "description_de": "Nakry (russisch: накры; auch Litvra oder Bata; HS 211.11) sind die wichtigsten Kesseltrommeln des alten Russlands und gelangten im 13.–14. Jh. über türkisch-mongolische Vermittlung aus der Naqqara-Tradition des Nahen Ostens und Zentralasiens nach Russland. Paarweise verwendete kleine Metall- oder Holzkessel-Trommeln, mit Schlägeln gespielt. In russischen Militärkapellen als Schlachtruf und bei Hofzeremonien eingesetzt. Heute von russischen Volksmusikensembles wiederbelebt.",
+                    "video_id": "4w3q0SWyAqo",
+                    "images": [
+                      {
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Nakry_Russian_drums.jpg/320px-Nakry_Russian_drums.jpg",
+                        "caption": "Nakry — ancient Russian paired kettledrums"
+                      }
+                    ],
+                    "region_tr": "Rusya",
+                    "region_en": "Russia"
                   }
                 ],
                 "name_de": "Kesseltrommeln",
@@ -5829,6 +6081,48 @@
                         ],
                         "region_tr": "Küba",
                         "region_en": "Cuba"
+                      },
+                      {
+                        "id": "tama",
+                        "name_tr": "Tama",
+                        "name_en": "Tama",
+                        "hs_code": "211.242.11",
+                        "description_tr": "Tama (HS 211.242.11), Senegal ve Gambiya'ya özgü küçük kum saati davuludur; Wolof ve Serer topluluklarının ritüel ve sosyal müziğinde merkezi bir rol üstlenir. Koltuk altına sıkıştırılan davulun gergi ipleri kola veya bileğe baskı uygulanarak sıkıştırılır; böylece vuruş sırasında perde anlık olarak değiştirilerek konuşma tonlarını taklit eden melodik ritimler elde edilir. Tama, Senegal'de sabar davul topluluklarında diğer büyük davullar (mbenga, lamb) ile birlikte icra edilir. Sadece erkeklerin çaldığı bu çalgı aynı zamanda sosyal statünün ve griot kimliğinin simgesidir.",
+                        "description_en": "The tama (HS 211.242.11) is a small hourglass drum associated with Senegal and Gambia, playing a central role in the ritual and social music of the Wolof and Serer communities. The drum is tucked under the arm; squeezing the lacing strings with the elbow or wrist changes pitch instantly while striking, producing melodic rhythms that imitate speech tones. The tama is performed in Senegalese sabar drum ensembles alongside larger drums (mbenga, lamb). Played exclusively by men, it is also a symbol of social status and griot identity.",
+                        "icon": "🥁",
+                        "image": null,
+                        "name_de": "Tama",
+                        "description_de": "Die Tama (HS 211.242.11) ist eine kleine Sanduhrtrommel aus dem Senegal und Gambia, zentral in der Ritual- und Sozialmusik der Wolof- und Serer-Gemeinschaften. Die Trommel wird unter die Achsel geklemmt; durch Druck auf die Schnüre mit Ellbogen oder Handgelenk wird die Tonhöhe während des Schlagens verändert, um Sprechmelodien zu imitieren. Ausschließlich von Männern gespielt, ist sie auch ein Symbol von sozialem Status und Griot-Identität.",
+                        "video_id": "t_Blr7QDWBA",
+                        "images": [
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Tama_drum.jpg/320px-Tama_drum.jpg",
+                            "caption": "Tama — Senegalese hourglass talking drum"
+                          }
+                        ],
+                        "region_tr": "Senegal / Gambiya (Batı Afrika)",
+                        "region_en": "Senegal / Gambia (West Africa)"
+                      },
+                      {
+                        "id": "dundun",
+                        "name_tr": "Dundun (Konuşan Davul, Yoruba)",
+                        "name_en": "Dundun (Yoruba Talking Drum)",
+                        "hs_code": "211.242.11",
+                        "description_tr": "Dundun (HS 211.242.11), Nijerya'daki Yoruba topluluğuna özgü kum saati biçimli konuşan davuldur. Kalangu ve iya-ilu olarak da bilinir; beş ila yedi davuldan oluşan dundun orkestrası (dundun ensemble), Yoruba kutlamalarında ve dini törenlerde ayrılmaz bir yere sahiptir. Gergi ipleri kola sıkıştırılarak zar gerilimi değiştirilir; bu teknik, ton dili olan Yorubaca'nın yükselen-alçalan tonlarını birebir taklit eder. Usta davulcu (alagbede) sosyal törenler, saray protokolleri ve haber iletimi için standartlaştırılmış ritim kalıpları (oriki) kullanır. Dundun geleneği UNESCO tarafından belgelenmiştir.",
+                        "description_en": "The dundun (HS 211.242.11) is the hourglass-shaped talking drum of the Yoruba community of Nigeria, also known as kalangu or iya-ilu. A dundun ensemble of five to seven drums occupies an indispensable place in Yoruba celebrations and religious ceremonies. Squeezing the lacing cords changes membrane tension; this technique precisely imitates the rising-falling tones of Yoruba, a tonal language. The master drummer (alagbede) uses standardised rhythmic patterns (oriki) for social ceremonies, court protocols and message transmission. The dundun tradition has been documented by UNESCO.",
+                        "icon": "🥁",
+                        "image": null,
+                        "name_de": "Dundun (Yoruba-Sprechende Trommel)",
+                        "description_de": "Das Dundun (HS 211.242.11) ist die sanduhrförmige Sprechende Trommel der Yoruba-Gemeinschaft Nigerias, auch Kalangu oder Iya-ilu genannt. Ein Dundun-Ensemble aus fünf bis sieben Trommeln ist untrennbar mit Yoruba-Zeremonien verbunden. Durch Drücken der Schnüre wird die Membranspannung verändert und die steigend-fallenden Töne der Yoruba-Tonsprache imitiert. Der Meistertrommler (Alagbede) nutzt standardisierte Rhythmusmuster (Oriki) für Zeremonien und Nachrichtenübermittlung.",
+                        "video_id": "1MXJ-LlfIMY",
+                        "images": [
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Dundun_drums.jpg/320px-Dundun_drums.jpg",
+                            "caption": "Dundun — Yoruba hourglass talking drum ensemble from Nigeria"
+                          }
+                        ],
+                        "region_tr": "Nijerya (Yoruba)",
+                        "region_en": "Nigeria (Yoruba)"
                       }
                     ],
                     "name_de": "Sanduhrtrommelm",

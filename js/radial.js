@@ -41,17 +41,13 @@ App.Radial = {
       .attr('width',  '100%')
       .attr('height', '100%');
 
-    this._initTimers = [];   // ilk yüklemede _zoomToFit zamanlayıcıları
-    this._panning    = false; // sürükleme aktifken init timer'ların müdahalesini engeller
+    this._panning    = false; // sürükleme aktifken kullanılır
 
     this._zoom = d3.zoom()
       .scaleExtent([0.12, 10])                      // min: ağaç kaybolmasın
       .on('start', ev => {
         if (ev.sourceEvent) {
           this._panning = true;
-          // Henüz bekleyen init zamanlayıcılarını iptal et
-          this._initTimers.forEach(id => clearTimeout(id));
-          this._initTimers = [];
         }
       })
       .on('zoom', ev => {
@@ -98,11 +94,8 @@ App.Radial = {
 
     this._initCenterBtn();
     this._update(this._root);
-    // Artan gecikmelerle birkaç kez dene — tarayıcı render throttle toleransı
-    // Kullanıcı etkileşime girerse bu zamanlayıcılar iptal edilir (glitch önleme)
-    this._initTimers = [100, 400, 800, 1400].map(t =>
-      setTimeout(() => { if (!this._panning) this._zoomToFit(null, true); }, t)
-    );
+    // İlk açılışta ağacı ortala
+    setTimeout(() => this._zoomToFit(null, true), 120);
 
     window.addEventListener('resize', () => {
       this._w = window.innerWidth;
@@ -346,7 +339,6 @@ App.Radial = {
     }
 
     this._update(d);
-    setTimeout(() => this._zoomToFit(d), this.DUR + 60);
   },
 
   /* Alt ağacı tamamen kapat (özyinelemeli) */

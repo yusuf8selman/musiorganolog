@@ -445,7 +445,15 @@ window.App = {
   /* ─── ARAMA NAVIGASYON ───────────────────────────────── */
 
   navigateToInstrument(pathArray) {
-    App.Radial.expandPath(pathArray);
+    const mapView = document.getElementById('map-view');
+    const isMapActive = mapView && !mapView.hidden;
+    if (isMapActive && App.MapView) {
+      // Map görünümü aktif — haritada o bölgeye zoom yap
+      const inst = pathArray[pathArray.length - 1];
+      App.MapView.navigateTo(inst);
+    } else {
+      App.Radial.expandPath(pathArray);
+    }
   },
 
   /* ─── DÜZLEŞTIRILMIŞ ARAMA İNDEKSİ ──────────────────── */

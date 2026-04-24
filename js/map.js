@@ -103,6 +103,9 @@ App.MapView = (function () {
     'Egypt':                        [ 26.8,  30.8],
     'Morocco':                      [ 31.8,  -7.1],
     'Nigeria':                      [  9.1,   8.7],
+    'Rwanda / Burundi':             [ -2.0,  30.0],
+    'Senegal / Gambia (West Africa)':[ 14.5, -14.5],
+    'Tuareg people, Sahara Desert (Algeria, Mali, Niger)': [ 20.0,   5.0],
     'Zimbabwe':                     [-20.0,  29.2],
     'Zimbabwe / Africa':            [-18.5,  27.0],
     'Nepal':                        [ 28.4,  84.1],
@@ -208,6 +211,7 @@ App.MapView = (function () {
       const color = CAT_COLOR[inst._cat] || '#d4af37';
       const li = document.createElement('li');
       li.className = 'mp-item';
+      li.dataset.id = inst.id;
       li.innerHTML = `<span class="mp-dot" style="background:${color}"></span><span class="mp-item-name">${name}</span>`;
       li.addEventListener('click', () => {
         S.map.closePopup();
@@ -481,6 +485,49 @@ App.MapView = (function () {
       if (!S.initialized) return;
       buildFilterBar();
       plotMarkers();
+    },
+
+    /**
+     * Arama sonucundan haritada o bölgeye git, popup'ı aç,
+     * ilgili enstrümanı vurgula ve modalı aç.
+     */
+    navigateTo(inst) {
+      if (!S.map || !S.initialized) return;
+      const regionEn = inst.region_en;
+      if (!regionEn) return;
+
+      // Find the marker definition for this region
+      const def = S.markerDefs.find(d => d.region === regionEn);
+      if (!def) return;
+
+      const targetZoom = Math.max(S.map.getZoom(), 5);
+
+      // Fly to the original geographic position of the marker
+      S.map.flyTo([def.origLat, def.origLng], targetZoom, {
+        animate: true,
+        duration: 0.9,
+      });
+
+      // After flight lands: open popup, highlight instrument, open modal
+      setTimeout(() => {
+        def.marker.openPopup();
+
+        // Highlight the specific instrument row in the popup list
+        setTimeout(() => {
+          const popup = def.marker.getPopup();
+          if (!popup) return;
+          const popupEl = popup.getElement();
+          if (!popupEl) return;
+          const item = popupEl.querySelector(`.mp-item[data-id="${inst.id}"]`);
+          if (item) {
+            item.classList.add('mp-item-highlight');
+            item.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+            setTimeout(() => item.classList.remove('mp-item-highlight'), 2500);
+          }
+          // Open modal for this instrument (same as radial tree behaviour)
+          App.openModal(inst);
+        }, 200);
+      }, 1000);
     },
   };
 

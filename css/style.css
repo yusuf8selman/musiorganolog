@@ -1661,6 +1661,15 @@ path.r-link {
   background: rgba(212, 175, 55, 0.07);
 }
 .mp-item:hover .mp-item-name { color: var(--text-primary); }
+.mp-item-highlight {
+  background: rgba(212, 175, 55, 0.18) !important;
+  animation: mp-highlight-pulse 2.5s ease-out forwards;
+}
+@keyframes mp-highlight-pulse {
+  0%   { background: rgba(212, 175, 55, 0.35); }
+  40%  { background: rgba(212, 175, 55, 0.18); }
+  100% { background: transparent; }
+}
 .mp-item-name {
   font-size: 0.79rem;
   color: var(--text-secondary);
