@@ -1,5 +1,5 @@
 /**
- * map.js — App.MapView  v=1
+ * map.js — App.MapView  v=2
  * Leaflet world map of 287 instruments grouped by region/country
  *
  * Depends on:
@@ -131,9 +131,17 @@ App.MapView = (function () {
     // 'Universal' intentionally omitted — no geographic home
   };
 
+  /* ── Zoom control i18n strings ───────────────────────────── */
+  const ZOOM_I18N = {
+    tr: { zoomIn: 'Yakınlaştır', zoomOut: 'Uzaklaştır' },
+    en: { zoomIn: 'Zoom in',     zoomOut: 'Zoom out'    },
+    de: { zoomIn: 'Vergrößern',  zoomOut: 'Verkleinern' },
+  };
+
   /* ── Internal state ──────────────────────────────────────── */
   const S = {
     map:         null,
+    zoomCtrl:    null,   // L.control.zoom reference (for i18n update)
     layerGroup:  null,
     instruments: [],   // flat [{...node, _cat: 'kordofonlar'}]
     categories:  [],   // [{id, name_tr, name_en, name_de}]
@@ -187,8 +195,9 @@ App.MapView = (function () {
   function buildPopup(region, instruments) {
     const lang = App.state.language;
 
-    const regionLabel = lang === 'tr'
-      ? (instruments[0]?.region_tr || region)
+    const regionLabel =
+      lang === 'tr' ? (instruments[0]?.region_tr || region)
+      : lang === 'de' ? (instruments[0]?.region_de || instruments[0]?.region_en || region)
       : region;
 
     const instrWord = { tr: 'enstrüman', en: 'instruments', de: 'Instrumente' }[lang] || 'instruments';
@@ -444,8 +453,14 @@ App.MapView = (function () {
         maxZoom:    19,
       }).addTo(S.map);
 
-      // Zoom control — styled in CSS
-      L.control.zoom({ position: 'bottomright' }).addTo(S.map);
+      // Zoom control — styled in CSS, i18n titles
+      const lang0 = App.state.language;
+      const zi0   = ZOOM_I18N[lang0] || ZOOM_I18N.en;
+      S.zoomCtrl  = L.control.zoom({
+        position:    'bottomright',
+        zoomInTitle:  zi0.zoomIn,
+        zoomOutTitle: zi0.zoomOut,
+      }).addTo(S.map);
 
       // Marker layer
       S.layerGroup = L.layerGroup().addTo(S.map);
@@ -491,6 +506,19 @@ App.MapView = (function () {
     /** Called when UI language changes */
     setLanguage() {
       if (!S.initialized) return;
+
+      // Zoom control tooltip'lerini güncelle
+      if (S.zoomCtrl) {
+        const zi = ZOOM_I18N[App.state.language] || ZOOM_I18N.en;
+        const container = S.zoomCtrl.getContainer();
+        if (container) {
+          const btnIn  = container.querySelector('.leaflet-control-zoom-in');
+          const btnOut = container.querySelector('.leaflet-control-zoom-out');
+          if (btnIn)  { btnIn.title  = zi.zoomIn;  btnIn.setAttribute('aria-label',  zi.zoomIn);  }
+          if (btnOut) { btnOut.title = zi.zoomOut; btnOut.setAttribute('aria-label', zi.zoomOut); }
+        }
+      }
+
       buildFilterBar();
       plotMarkers();
     },

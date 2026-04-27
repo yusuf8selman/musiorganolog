@@ -17,6 +17,18 @@ window.App = {
     data: null,
   },
 
+  /* ─── TOAST ──────────────────────────────────────────── */
+  _toastTimer: null,
+
+  showToast(msg, type = 'info') {
+    const t = document.getElementById('app-toast');
+    if (!t) return;
+    t.textContent = msg;
+    t.className   = 'show' + (type === 'error' ? ' error' : '');
+    clearTimeout(this._toastTimer);
+    this._toastTimer = setTimeout(() => t.classList.remove('show'), 4500);
+  },
+
   /* ─── CAROUSEL STATE ────────────────────────────────── */
   _carousel: {
     idx: 0,
@@ -105,6 +117,11 @@ window.App = {
     backdrop.setAttribute('aria-hidden', 'false');
     modal.hidden = false;
     modal.setAttribute('aria-hidden', 'false');
+
+    // ── Permalink: URL hash'i güncelle (geçmişe eklemeden) ────
+    if (node.id) {
+      history.replaceState({ nodeId: node.id }, '', '#' + node.id);
+    }
 
     requestAnimationFrame(() => {
       document.getElementById('modal-close').focus();
@@ -347,6 +364,9 @@ window.App = {
     backdrop.setAttribute('aria-hidden', 'true');
     modal.hidden = true;
     modal.setAttribute('aria-hidden', 'true');
+
+    // ── Permalink: hash temizle ────────────────────────────────
+    history.replaceState(null, '', location.pathname + location.search);
   },
 
   /* ─── DİL ────────────────────────────────────────────── */
@@ -500,18 +520,37 @@ window.App = {
   /* ─── INIT ────────────────────────────────────────────── */
 
   async init() {
+    // ── Yükleme ekranı göster ────────────────────────────────
+    const loader = document.getElementById('app-loader');
+    if (loader) loader.hidden = false;
+
     try {
       const res = await fetch('./data/instruments.json?v=6');
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       this.state.data = await res.json();
     } catch (err) {
+      // Yükleme ekranını kaldır, hata toast'u göster
+      if (loader) loader.hidden = true;
+      const lang = this.state.language;
+      this.showToast(
+        lang === 'de' ? 'Daten konnten nicht geladen werden. Bitte python3 serve.py ausführen.' :
+        lang === 'en' ? 'Data failed to load. Please run via python3 serve.py.' :
+        'Veri yüklenemedi. Lütfen python3 serve.py ile çalıştırın.',
+        'error'
+      );
       document.getElementById('tree-stage').innerHTML = `
         <p style="color:var(--gold);text-align:center;padding:3rem 1rem;font-family:var(--font-serif);font-style:italic;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
           Veri yüklenemedi. Lütfen sayfayı yerel bir sunucu üzerinden açın.<br>
-          <span style="font-size:0.8rem;color:var(--text-muted);font-style:normal;">(örn: <code>python -m http.server</code>)</span>
+          <span style="font-size:0.8rem;color:var(--text-muted);font-style:normal;">(örn: <code>python3 serve.py</code>)</span>
         </p>`;
       console.error('instruments.json yükleme hatası:', err);
       return;
+    }
+
+    // ── Yükleme ekranını gizle (fade-out) ───────────────────
+    if (loader) {
+      loader.classList.add('fading');
+      setTimeout(() => { loader.hidden = true; loader.classList.remove('fading'); }, 420);
     }
 
     // Header yüksekliğini CSS değişkenine yaz (map-view için gerekli)
@@ -528,6 +567,16 @@ window.App = {
     // Arama indexi oluştur ve Search modülünü başlat
     const flatIndex = this.buildFlatIndex(this.state.data);
     App.Search.init(flatIndex);
+
+    // ── Permalink: sayfa açılışında URL hash ile enstrümana git ─
+    const hashId = decodeURIComponent(location.hash.slice(1));
+    if (hashId) {
+      const entry = flatIndex.find(e => e.node.id === hashId);
+      if (entry) {
+        // Ağaç ilk render + zoomToFit bitmesini bekle
+        setTimeout(() => App.navigateToInstrument(entry.path), 600);
+      }
+    }
 
     // Dil toggle
     document.getElementById('lang-tr').addEventListener('click', () => this.setLanguage('tr'));

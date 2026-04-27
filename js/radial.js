@@ -66,6 +66,21 @@ App.Radial = {
     this._svg.call(this._zoom)
       .on('dblclick.zoom', null);
 
+    // ── Double-tap zoom (mobil — dblclick.zoom iptal edildiği için) ───
+    let _lastTap = 0;
+    this._svg.on('touchend.dbtap', (ev) => {
+      const now = Date.now();
+      if (now - _lastTap < 300 && ev.changedTouches.length === 1) {
+        ev.preventDefault();
+        const touch = ev.changedTouches[0];
+        const rect  = this._svg.node().getBoundingClientRect();
+        const pt    = [touch.clientX - rect.left, touch.clientY - rect.top];
+        this._svg.transition().duration(280)
+          .call(this._zoom.scaleBy, 1.8, pt);
+      }
+      _lastTap = now;
+    });
+
     // Kontrol butonlarını bağla
     const self = this;
     document.getElementById('r-ctrl-in')?.addEventListener('click',     () => self.zoomIn());
@@ -288,6 +303,7 @@ App.Radial = {
     // label — coloured by group
     nodeUpdate.select('.r-label')
       .style('fill', d => this._labelColor(d))
+      .style('opacity', null)          // önceki zoom gizlemesini temizle
       .transition().duration(dur)
       .attr('opacity', 1)
       .attr('dy', '0.32em')
@@ -404,20 +420,10 @@ App.Radial = {
   },
 
   /* ─── zoom ───────────────────────────────────────────────── */
-  /* ─── zoom-based deep label visibility ──────────────────────
-     depth 3+ etiketleri (radyal stildekiler):
-     k < 0.50 → gizli   |  k 0.50→0.65 → fade-in  |  k ≥ 0.65 → tam görünür
-     depth 1-2 etiketleri zoom'dan bağımsız, her zaman görünür.    */
-  _updateDeepLabelOpacity(k) {
-    const lo = 0.50;
-    const hi = 0.65;
-    const op = k <= lo ? 0 : k >= hi ? 1 : (k - lo) / (hi - lo);
-    this._gNodes.selectAll('.r-node').each((d, i, elems) => {
-      if (d.depth >= 3) {
-        d3.select(elems[i]).select('.r-label').style('opacity', op);
-      }
-    });
-  },
+  /* depth 3+ etiketler zoom'dan bağımsız her zaman görünür —
+     _updateDeepLabelOpacity artık kullanılmıyor ama çağrılar
+     güvenli olsun diye boş bırakıldı.                         */
+  _updateDeepLabelOpacity(_k) { /* no-op */ },
 
   /* ─── label truncation ───────────────────────────────────────
      Yaprak etiketleri max 26 karakter; aşarsa '…' ile kesilir.  */
