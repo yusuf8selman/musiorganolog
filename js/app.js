@@ -170,6 +170,8 @@ window.App = {
       el.decoding = 'async';
       // Yükleme hatası → bu slide'ı DOM'dan çıkar
       el.onerror  = () => this._carouselRemoveSlide(slide);
+      // Tıklayınca lightbox aç
+      el.addEventListener('click', () => this._openLightbox(imgData.src, imgData.caption));
       slide.appendChild(el);
       track.appendChild(slide);
 
@@ -241,6 +243,30 @@ window.App = {
     const pi = (node.id || '').length % palettes.length;
     const [c1, c2] = palettes[pi];
     imageArea.style.background = `linear-gradient(135deg, ${c1} 0%, ${c2} 100%)`;
+  },
+
+  /* ─── Lightbox ─────────────────────────────────────────── */
+  _openLightbox(src, caption) {
+    const lb = document.createElement('div');
+    lb.className = 'r-lightbox';
+
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = caption || '';
+
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'r-lightbox-close';
+    closeBtn.setAttribute('aria-label', 'Kapat');
+    closeBtn.textContent = '✕';
+
+    lb.appendChild(img);
+    lb.appendChild(closeBtn);
+    document.body.appendChild(lb);
+
+    const close = () => { lb.remove(); document.removeEventListener('keydown', onKey); };
+    const onKey = (e) => { if (e.key === 'Escape') close(); };
+    lb.addEventListener('click', (e) => { if (e.target === lb || e.target === closeBtn) close(); });
+    document.addEventListener('keydown', onKey);
   },
 
   _carouselGo(n) {
@@ -475,7 +501,7 @@ window.App = {
 
   async init() {
     try {
-      const res = await fetch('./data/instruments.json?v=2');
+      const res = await fetch('./data/instruments.json?v=6');
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       this.state.data = await res.json();
     } catch (err) {

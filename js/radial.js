@@ -54,6 +54,7 @@ App.Radial = {
         this._gMain.attr('transform', ev.transform);
         const k = ev.transform.k;
         if (ev.sourceEvent && k <= 0.125) this._showBoundFeedback();
+        this._updateDeepLabelOpacity(k);
       })
       .on('end', ev => {
         if (ev.sourceEvent) {
@@ -291,19 +292,45 @@ App.Radial = {
       .attr('opacity', 1)
       .attr('dy', '0.32em')
       .each((d, i, elems) => {
-        const el  = d3.select(elems[i]);
-        const r   = this._r(d) + 9;
-        const sin = Math.sin(d.x);
-        const cos = Math.cos(d.x);
-        let lx = 0, ly = 0, anchor = 'middle';
-        if (Math.abs(sin) > 0.15) {
-          lx     = sin > 0 ? r : -r;
-          anchor = sin > 0 ? 'start' : 'end';
+        const el     = d3.select(elems[i]);
+        const r      = this._r(d) + 9;
+
+        if (d.depth >= 3) {
+          /* ── radyal güneş ışını stili: depth 3+ tüm nodelar ──
+             Ana dal (depth 1) ve 2. dal (depth 2) hariç hepsi.
+             Layout d.x aralığı: [-π, +π]  (0 = tepe, clockwise)
+             Sağ yarı (d.x ≥ 0):  deg ∈ [-90°, 90°] → okunabilir
+             Sol yarı (d.x < 0):  aynalı açı deg+180 kullan.     */
+          const deg = d.x * 180 / Math.PI - 90;
+          const gap = this._r(d) + 5;
+          if (d.x >= 0) {
+            el.attr('transform', `rotate(${deg}) translate(${gap},0)`)
+              .attr('text-anchor', 'start')
+              .attr('x', null).attr('y', null);
+          } else {
+            const mirDeg = deg + 180;
+            const ox = gap * Math.sin(d.x);
+            const oy = -gap * Math.cos(d.x);
+            el.attr('transform', `translate(${ox},${oy}) rotate(${mirDeg})`)
+              .attr('text-anchor', 'end')
+              .attr('x', null).attr('y', null);
+          }
+          el.text(this._truncate(this._name(d.data)));
         } else {
-          ly     = -cos * r;
+          /* ── depth 1-2: yatay etiket (büyük kategoriler) ── */
+          const sin = Math.sin(d.x);
+          const cos = Math.cos(d.x);
+          let lx = 0, ly = 0, anchor = 'middle';
+          if (Math.abs(sin) > 0.15) {
+            lx     = sin > 0 ? r : -r;
+            anchor = sin > 0 ? 'start' : 'end';
+          } else {
+            ly     = -cos * r;
+          }
+          el.attr('transform', null)
+            .attr('x', lx).attr('y', ly).attr('text-anchor', anchor)
+            .text(this._name(d.data));
         }
-        el.attr('x', lx).attr('y', ly).attr('text-anchor', anchor)
-          .text(this._name(d.data));
       });
 
     /* ── exit ── */
@@ -317,6 +344,10 @@ App.Radial = {
       .remove();
 
     this._root.each(d => { d.x0 = d.x; d.y0 = d.y; });
+
+    // Mevcut zoom'a göre depth 3+ etiket görünürlüğünü güncelle
+    const curK = this._svg.node().__zoom?.k ?? 1;
+    this._updateDeepLabelOpacity(curK);
   },
 
   /* ─── click ──────────────────────────────────────────────── */
@@ -373,6 +404,28 @@ App.Radial = {
   },
 
   /* ─── zoom ───────────────────────────────────────────────── */
+  /* ─── zoom-based deep label visibility ──────────────────────
+     depth 3+ etiketleri (radyal stildekiler):
+     k < 0.50 → gizli   |  k 0.50→0.65 → fade-in  |  k ≥ 0.65 → tam görünür
+     depth 1-2 etiketleri zoom'dan bağımsız, her zaman görünür.    */
+  _updateDeepLabelOpacity(k) {
+    const lo = 0.50;
+    const hi = 0.65;
+    const op = k <= lo ? 0 : k >= hi ? 1 : (k - lo) / (hi - lo);
+    this._gNodes.selectAll('.r-node').each((d, i, elems) => {
+      if (d.depth >= 3) {
+        d3.select(elems[i]).select('.r-label').style('opacity', op);
+      }
+    });
+  },
+
+  /* ─── label truncation ───────────────────────────────────────
+     Yaprak etiketleri max 26 karakter; aşarsa '…' ile kesilir.  */
+  _truncate(str, max = 26) {
+    if (!str) return '';
+    return str.length > max ? str.slice(0, max - 1) + '…' : str;
+  },
+
   _visiblePoints(d) {
     const pts = [];
     const walk = node => {
@@ -408,6 +461,7 @@ App.Radial = {
       // (throttled iframe gibi ortamlarda event dispatch atlanabilir)
       this._svg.node().__zoom = target;
       this._gMain.attr('transform', target.toString());
+      this._updateDeepLabelOpacity(scale);
     } else {
       this._svg.transition()
         .duration(750)
@@ -543,24 +597,8 @@ App.Radial = {
     return '#d4af37';
   },
 
-  /* ─── pan spring-back ───────────────────────────────────── */
-
-  /** Ağaç merkezi (hub) viewport dışına çıkınca smooth olarak ortaya döner */
-  _springBack(t) {
-    // t.x / t.y = ağaç merkezinin ekrandaki piksel konumu
-    // Ekranın tamamen dışına çıkınca tetikle
-    const offScreen = t.x < 0 || t.x > this._w || t.y < 0 || t.y > this._h;
-    if (offScreen) {
-      this._showBoundFeedback();
-      const target = d3.zoomIdentity
-        .translate(this._w / 2, this._h / 2)
-        .scale(t.k);
-      this._zoom.transform(
-        this._svg.transition('sb').duration(600).ease(d3.easeCubicOut),
-        target
-      );
-    }
-  },
+  /* ─── pan spring-back (devre dışı — kullanıcı serbestçe gezinebilir) */
+  _springBack(_t) {},
 
   /** Görünür ağacın yaklaşık max yarıçapını döndürür */
   _treeRadius() {

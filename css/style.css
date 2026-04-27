@@ -548,12 +548,20 @@ body {
   z-index: 410;
   width: min(560px, 93vw);
   max-height: min(92vh, 860px);
-  overflow-y: auto;
+  overflow: hidden;          /* modal kendisi kaymaz */
+  display: flex;
+  flex-direction: column;
   background: var(--bg-card);
   border: 1px solid rgba(212, 175, 55, 0.65);
   border-radius: var(--radius);
   box-shadow: var(--shadow-card), var(--shadow-gold);
   animation: modal-enter 0.38s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+/* İçerik kaydırılabilir alan — close butonu bunun dışında */
+.modal-body {
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
 }
 .modal[hidden] { display: none; }
 
@@ -566,7 +574,7 @@ body {
   position: absolute;
   top: 12px;
   right: 12px;
-  z-index: 1;
+  z-index: 20;   /* carousel (z-index:2) ve her şeyin üzerinde */
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -584,15 +592,17 @@ body {
 .modal-close:hover { background: rgba(212,175,55,0.22); color: var(--gold-light); }
 .modal-close:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
-/* Modal görsel alanı */
+/* Modal görsel alanı — yükseklik görselden gelir, genişlik sabit */
 .modal-image-area {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  min-height: 160px;   /* sadece fallback gradient için */
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   position: relative;
   overflow: hidden;
+  background: #0a0e20;
+  pointer-events: none;   /* close butonunu bloke etmez; çocuklar kendi pointer-events'ini açar */
 }
 /* Gradient desen — carousel aktifken z-index ile gizlenir */
 .modal-image-area::after {
@@ -612,42 +622,86 @@ body {
 
 /* ── Modal Image Carousel ─────────────────────────────────── */
 .m-carousel {
-  position: absolute;
-  inset: 0;
-  z-index: 2;          /* ::after desen katmanının üzerinde */
-  background: #000;
+  position: relative;    /* yüksekliği görsel belirler */
+  width: 100%;
+  z-index: 2;
+  background: #0a0e20;
+  pointer-events: auto;  /* modal-image-area'nın none'ını geçersiz kıl */
 }
 .m-carousel[hidden] { display: none; }
 
 .m-carousel-viewport {
   width: 100%;
-  height: 100%;
   overflow: hidden;
 }
 
 .m-carousel-track {
   display: flex;
-  height: 100%;
   transition: transform 0.38s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   will-change: transform;
 }
 
 .m-carousel-slide {
   min-width: 100%;
-  height: 100%;
   flex-shrink: 0;
   position: relative;
-  overflow: hidden;
 }
 
 .m-carousel-slide img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
+  max-height: 58vh;
+  object-fit: contain;
   display: block;
-  /* Yüklenmeden önce siyah, sonra smooth */
   background: #0a0e20;
+  cursor: zoom-in;
+}
+
+/* ── Lightbox ─────────────────────────────────────────────── */
+.r-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.93);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+  animation: lb-fadein 0.18s ease;
+}
+@keyframes lb-fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.r-lightbox img {
+  max-width: 92vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 3px;
+  box-shadow: 0 12px 60px rgba(0, 0, 0, 0.7);
+  cursor: default;
+  pointer-events: none;
+}
+.r-lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.55);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, border-color 0.15s;
+}
+.r-lightbox-close:hover {
+  background: rgba(212, 175, 55, 0.2);
+  border-color: rgba(212, 175, 55, 0.7);
 }
 
 /* Navigasyon oklarıı */

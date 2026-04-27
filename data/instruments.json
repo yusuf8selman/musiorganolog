@@ -336,8 +336,12 @@
                 "video_id": "GcjB5d90050",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Russ_instr_gusli_kryl.GIF/100px-Russ_instr_gusli_kryl.GIF",
-                    "caption": "Krylovidnye gusli — wing-shaped ancient Russian psaltery"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Gusli_tradition.png/330px-Gusli_tradition.png",
+                    "caption": "Krylovidnye gusli — kanat biçimli Rus psalteri"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Man_playing_a_gusli_or_rotte_%28lyre%29_from_Simonovskaya_Psalter%2C_State_Historical_Museum%2C_Moscow%2C_Russia.jpg/330px-Man_playing_a_gusli_or_rotte_%28lyre%29_from_Simonovskaya_Psalter%2C_State_Historical_Museum%2C_Moscow%2C_Russia.jpg",
+                    "caption": "Simonovskaya Psalter'dan gusli çalan adam — Devlet Tarih Müzesi, Moskova"
                   }
                 ],
                 "region_tr": "Rusya",
@@ -454,8 +458,12 @@
                 "video_id": "r5b-sMhRH9M",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Inanga.jpg/320px-Inanga.jpg",
-                    "caption": "Inanga trough zither from Rwanda / Burundi"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Inanga%2Ctraditional_Rwandan_instrument_during_the_introduction_wedding_in_Kigali%2C_Rwanda.jpg/330px-Inanga%2Ctraditional_Rwandan_instrument_during_the_introduction_wedding_in_Kigali%2C_Rwanda.jpg",
+                    "caption": "Kigali'de geleneksel nişan töreninde inanga icracısı, Ruanda"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Busongora_trough_zither.jpg/330px-Busongora_trough_zither.jpg",
+                    "caption": "Busongora oluk zitherı — inanga ile akraba form, Uganda"
                   }
                 ],
                 "region_tr": "Ruanda / Burundi",
@@ -766,8 +774,12 @@
                 "video_id": "P-dqaVPWFok",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Imzad_player.jpg/320px-Imzad_player.jpg",
-                    "caption": "Tuareg woman playing the imzad / anzad"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Imzad_%28bowd_spike_lute%2C_20th_century%2C_Tuareg_people%2C_Ahaggar_Region%2C_Algeria%29_-_MIM_PHX_%282022-04-06_02.20.56_by_Terry_Ballard%29.jpg/330px-Imzad_%28bowd_spike_lute%2C_20th_century%2C_Tuareg_people%2C_Ahaggar_Region%2C_Algeria%29_-_MIM_PHX_%282022-04-06_02.20.56_by_Terry_Ballard%29.jpg",
+                    "caption": "İmzad — Cezayir Ahaggar bölgesi Tuareg halkı, 20. yy (MIM Phoenix)"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/COLLECTIE_TROPENMUSEUM_Langhalsluit_met_1_snaar_TMnr_2760-74.jpg/330px-COLLECTIE_TROPENMUSEUM_Langhalsluit_met_1_snaar_TMnr_2760-74.jpg",
+                    "caption": "Tek telli sivri-uçlu lavta — Tropenmuseum Hollanda koleksiyonu"
                   }
                 ],
                 "region_tr": "Tuareg halkı, Sahra Çölü (Cezayir, Mali, Nijer)",
@@ -787,12 +799,41 @@
                 "video_id": "CQmWTbYuaXM",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Gudok_instrument.jpg/320px-Gudok_instrument.jpg",
-                    "caption": "Gudok — ancient Russian bowed folk instrument"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Russ_instr_gudok.gif/330px-Russ_instr_gudok.gif",
+                    "caption": "Gudok — antik Rus yaylı halk çalgısının çizimi"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Novgorod_lyra.jpg",
+                    "caption": "Novgorod lyra (gudok tipi yaylı çalgı) — arkeolojik buluntu"
                   }
                 ],
                 "region_tr": "Rusya",
                 "region_en": "Russia"
+              },
+              {
+                "id": "kabak-kemane",
+                "name_tr": "Kabak Kemane",
+                "name_en": "Kabak Kemane (Gourd Fiddle)",
+                "name_de": "Kabak-Kemane (Kürbisgeige)",
+                "hs_code": "321.31",
+                "description_tr": "Kabak kemane (HS 321.31), kuru bir kabak gövdesi ve sivri uçlu bir boyundan oluşan geleneksel Türk yaylı çalgısıdır. At kılından yapılmış yay ile çalınır. Özellikle Güney ve Orta Anadolu'nun halk müziğinde vazgeçilmez bir yere sahiptir.",
+                "description_en": "The kabak kemane (HS 321.31) is a traditional Turkish spike fiddle with a dried gourd body and a spike neck. Played with a horsehair bow, it is an essential instrument in the folk music of southern and central Anatolia.",
+                "description_de": "Die Kabak-Kemane (HS 321.31) ist eine traditionelle türkische Spike-Fiddle mit einem getrockneten Kürbiskorpus. Mit einem Rosshaarbogen gespielt, ist sie in der Volksmusik Südanatoliens unverzichtbar.",
+                "icon": "🎵",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Azerbaijani_musical_instrument_kamancha_in_Heydar_Aliyev_Center.jpg/330px-Azerbaijani_musical_instrument_kamancha_in_Heydar_Aliyev_Center.jpg",
+                "video_id": "",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Azerbaijani_musical_instrument_kamancha_in_Heydar_Aliyev_Center.jpg/330px-Azerbaijani_musical_instrument_kamancha_in_Heydar_Aliyev_Center.jpg",
+                    "caption": "Kamancha (kabak kemane ailesi) — Heydar Aliyev Merkezi"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Azerbaijani_musical_instrument_naghara_in_Heydar_Aliyev_Center.jpg/330px-Azerbaijani_musical_instrument_naghara_in_Heydar_Aliyev_Center.jpg",
+                    "caption": "Azerbaycan çalgıları sergisi"
+                  }
+                ],
+                "region_tr": "Türkiye / Anadolu",
+                "region_en": "Turkey / Anatolia"
               }
             ],
             "name_de": "Spiesslauten",
@@ -1151,8 +1192,12 @@
                 "video_id": "CsVqJpSFl0k",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Domra_2.jpg/320px-Domra_2.jpg",
-                    "caption": "Russian folk plucked string instrument — domra"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/%D0%94%D0%BE%D0%BC%D1%80%D0%B0_%D1%8D%D0%BA%D1%81%D0%BF._%D1%86%D0%B5%D1%85%D0%B0_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8_%D0%9B%D1%83%D0%BD%D0%B0%D1%87%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C_1970-%D0%B5.JPG/330px-%D0%94%D0%BE%D0%BC%D1%80%D0%B0_%D1%8D%D0%BA%D1%81%D0%BF._%D1%86%D0%B5%D1%85%D0%B0_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8_%D0%9B%D1%83%D0%BD%D0%B0%D1%87%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C_1970-%D0%B5.JPG",
+                    "caption": "Lunacharsky fabrikası domrası, 1970'ler — Leningrad"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Soviet_domra.jpg/330px-Soviet_domra.jpg",
+                    "caption": "Sovyet dönemi 4 telli domra"
                   }
                 ],
                 "region_tr": "Rusya",
@@ -1172,12 +1217,66 @@
                 "video_id": "a6Qb20KLwPk",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Hajhuj.jpg/320px-Hajhuj.jpg",
-                    "caption": "Sintir / Gimbri — Gnawa bass lute from Morocco"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Sintir_player_in_Rabat%2C_Morocco.JPG/330px-Sintir_player_in_Rabat%2C_Morocco.JPG",
+                    "caption": "Sintir icracısı, Rabat, Fas"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Moroccan_Sintir_Front.png/330px-Moroccan_Sintir_Front.png",
+                    "caption": "Fas sintiri (guembri) — ön görünüm"
                   }
                 ],
                 "region_tr": "Fas (Gnawa geleneği, Kuzey Afrika)",
                 "region_en": "Morocco (Gnawa tradition, North Africa)"
+              },
+              {
+                "id": "kopuz",
+                "name_tr": "Kopuz",
+                "name_en": "Kopuz",
+                "name_de": "Kopuz",
+                "hs_code": "321.321.5",
+                "description_tr": "Kopuz (HS 321.321.5), Türk müziğinin en eski atası kabul edilen boyunlu telli çalgıdır. Orta Asya kökenli bu enstrüman, bağlama başta olmak üzere birçok Türk ve Orta Doğu çalgısının öncüsüdür. Parmak uçlarıyla veya mızrapla çalınır.",
+                "description_en": "The kopuz (HS 321.321.5) is considered the oldest ancestor of Turkish music's plucked lutes. Originating in Central Asia, it is the precursor to the baglama and many other Turkic and Middle Eastern instruments.",
+                "description_de": "Die Kopuz (HS 321.321.5) gilt als ältester Vorfahre der türkischen Zupfinstrumente. Mit zentralasiatischen Ursprüngen ist sie der Vorläufer der Baglama und vieler anderer turkischer Instrumente.",
+                "icon": "🎵",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Kopuz.jpg/330px-Kopuz.jpg",
+                "video_id": "",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Kopuz.jpg/330px-Kopuz.jpg",
+                    "caption": "Kopuz — Orta Asya kökenli Türk komuzu"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Girl_komuz.JPG/330px-Girl_komuz.JPG",
+                    "caption": "Kız komuz çalarken — Kırgızistan geleneksel sahnesi"
+                  }
+                ],
+                "region_tr": "Orta Asya / Türkiye",
+                "region_en": "Central Asia / Turkey"
+              },
+              {
+                "id": "divan-sazi",
+                "name_tr": "Divan Sazı",
+                "name_en": "Divan Saz",
+                "name_de": "Divan-Saz",
+                "hs_code": "321.322.5",
+                "description_tr": "Divan sazı (HS 321.322.5), bağlama ailesinin en büyük ve en derin sesli üyesidir. Uzun boynu ve büyük tekne gövdesiyle 'divan şiiri' geleneğine eşlik etmek üzere kullanılmıştır. Türkiye'nin Anadolu saz geleneğinin en ihtişamlı temsilcisidir.",
+                "description_en": "The divan saz (HS 321.322.5) is the largest and deepest-voiced member of the baglama family. Its long neck and large bowl body were traditionally used to accompany divan poetry. It is the most majestic representative of the Anatolian saz tradition.",
+                "description_de": "Die Divan-Saz (HS 321.322.5) ist das größte und tiefstimmigste Mitglied der Baglama-Familie. Mit langem Hals und großem Korpus begleitete sie traditionell die Divan-Dichtung.",
+                "icon": "🎵",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Cura_cogur_baglama_divan_saz.jpg/330px-Cura_cogur_baglama_divan_saz.jpg",
+                "video_id": "",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Cura_cogur_baglama_divan_saz.jpg/330px-Cura_cogur_baglama_divan_saz.jpg",
+                    "caption": "Cura, cogur, bağlama ve divan sazı — Türk saz ailesi"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/Divan_saz%C4%B1_2014-02-13_18-44.jpg",
+                    "caption": "Divan sazı — Türkiye, 2014"
+                  }
+                ],
+                "region_tr": "Türkiye / Anadolu",
+                "region_en": "Turkey / Anatolia"
               }
             ],
             "name_de": "Halslauten mit Schalenkörper",
@@ -1853,8 +1952,12 @@
                 "video_id": "bpIvwQdvHFQ",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ngoni_West_Africa.jpg/320px-Ngoni_West_Africa.jpg",
-                    "caption": "Ngoni — West African Mande lute of the griot tradition"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bassekou_Kouyate_photo.jpg/330px-Bassekou_Kouyate_photo.jpg",
+                    "caption": "Bassekou Kouyaté — jeli ngoni ustası"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ngoni_2011.JPG/330px-Ngoni_2011.JPG",
+                    "caption": "Ngoni — Batı Afrika Mande lavtası, 2011"
                   }
                 ],
                 "region_tr": "Batı Afrika (Mande halkları)",
@@ -2192,8 +2295,12 @@
                 "video_id": "A29AMXR_HuY",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Garmon_tula.jpg/320px-Garmon_tula.jpg",
-                    "caption": "Garmon — Russian folk button accordion"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Garmon_Khromka.jpg/330px-Garmon_Khromka.jpg",
+                    "caption": "Garmon (khromka) — geleneksel Rus düğme akordiyonu"
+                  },
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Russkaya_garmon.jpg/330px-Russkaya_garmon.jpg",
+                    "caption": "Russkaya garmon — Tula müzik fabrikası üretimi"
                   }
                 ],
                 "region_tr": "Rusya",
@@ -2869,6 +2976,31 @@
                         ],
                         "region_tr": "Yunanistan",
                         "region_en": "Greece"
+                      },
+                      {
+                        "id": "cifte",
+                        "name_tr": "Çifte",
+                        "name_en": "Çifte (Double Pipe)",
+                        "name_de": "Çifte (Doppelrohrflöte)",
+                        "hs_code": "422.12",
+                        "description_tr": "Çifte (HS 422.12), Türkiye'ye özgü çift borulu kamışlı bir çalgıdır. İki paralel silindirik boru aynı anda üflenerek çalınır; bir boru melodi, diğeri sürekli bordun sesi üretir. Ege ve Güney Anadolu'da yaygındır.",
+                        "description_en": "The çifte (HS 422.12) is a Turkish double-pipe instrument with two parallel cylindrical bores played simultaneously. One pipe carries the melody while the other produces a drone. Common in the Aegean and southern Anatolia.",
+                        "description_de": "Die Çifte (HS 422.12) ist ein türkisches Doppelrohrblattinstrument mit zwei parallelen zylindrischen Rohren. Eine Pfeife spielt die Melodie, die andere den Bordun. Verbreitet in der Ägäis und Südanatolien.",
+                        "icon": "🎵",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/3dozaleh.jpg/330px-3dozaleh.jpg",
+                        "video_id": "",
+                        "images": [
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/3dozaleh.jpg/330px-3dozaleh.jpg",
+                            "caption": "Dozaleh — Pers çifte borulu kamışlı çalgısı"
+                          },
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/COLLECTIE_TROPENMUSEUM_Dubbel_enkelriet_%28%27dubbel-klarinet%27%29_van_bamboe_TMnr_4296-5a.jpg/330px-COLLECTIE_TROPENMUSEUM_Dubbel_enkelriet_%28%27dubbel-klarinet%27%29_van_bamboe_TMnr_4296-5a.jpg",
+                            "caption": "Çift kamışlı bambu enstrüman — Tropenmuseum koleksiyonu"
+                          }
+                        ],
+                        "region_tr": "Türkiye / Ege ve Güney Anadolu",
+                        "region_en": "Turkey / Aegean and Southern Anatolia"
                       }
                     ],
                     "name_de": "Zylindrisch-Doppelrohrblatt",
@@ -3168,6 +3300,31 @@
                     ],
                     "region_tr": "İrlanda / İskoçya",
                     "region_en": "Ireland / Scotland"
+                  },
+                  {
+                    "id": "tulum",
+                    "name_tr": "Tulum",
+                    "name_en": "Tulum (Black Sea Bagpipe)",
+                    "name_de": "Tulum (Schwarzmeer-Dudelsack)",
+                    "hs_code": "422.12",
+                    "description_tr": "Tulum (HS 422.12), Karadeniz bölgesine özgü geleneksel Türk tulumu/gaydası. Keçi derisiyle yapılan hava deposu, iki borulu kamışlı çalgıdan oluşur: biri melodi, biri bordun. Karadeniz müziğinin vazgeçilmez sesidir; kemençe ile birlikte horon danslarına eşlik eder.",
+                    "description_en": "The tulum (HS 422.12) is the traditional bagpipe of Turkey's Black Sea region. A goat-skin air reservoir feeds two reed pipes — one melodic, one drone. It is the indispensable voice of Black Sea music, accompanying horon dances alongside the kemençe.",
+                    "description_de": "Die Tulum (HS 422.12) ist der traditionelle Dudelsack der türkischen Schwarzmeerregion. Ein Ziegenfellreservoir speist zwei Rohrblattföten — eine melodische, eine Bordun. Sie begleitet zusammen mit der Kemençe den Horon-Tanz.",
+                    "icon": "🎵",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Birol-topaloglu-tulum.jpg/330px-Birol-topaloglu-tulum.jpg",
+                    "video_id": "",
+                    "images": [
+                      {
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Birol-topaloglu-tulum.jpg/330px-Birol-topaloglu-tulum.jpg",
+                        "caption": "Birol Topaloglu tulum çalarken — Karadeniz tulumu"
+                      },
+                      {
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Tulumcu.jpg",
+                        "caption": "Tulumcu — geleneksel Karadeniz tulum icracısı"
+                      }
+                    ],
+                    "region_tr": "Türkiye / Karadeniz Bölgesi",
+                    "region_en": "Turkey / Black Sea Region"
                   }
                 ],
                 "name_de": "Doppelrohrblattinstrumente",
@@ -3289,12 +3446,41 @@
                         "video_id": "bNzGbPi7O90",
                         "images": [
                           {
-                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Zhaleika.jpg/320px-Zhaleika.jpg",
-                            "caption": "Zhaleika — Russian folk single-reed folk instrument"
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Zhaleika.svg/330px-Zhaleika.svg.png",
+                            "caption": "Zhaleika — tek kamışlı Rus halk üflemeli çalgısının illüstrasyonu"
+                          },
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Double_Zhaleika_or_Zhaleyka_reed_pipes%2C_Russia_and_Belorussia.jpg/330px-Double_Zhaleika_or_Zhaleyka_reed_pipes%2C_Russia_and_Belorussia.jpg",
+                            "caption": "Çift zhaleika kamış boruları — Rusya ve Belarus"
                           }
                         ],
                         "region_tr": "Rusya / Belarus",
                         "region_en": "Russia / Belarus"
+                      },
+                      {
+                        "id": "sipsi",
+                        "name_tr": "Sipsi",
+                        "name_en": "Sipsi",
+                        "name_de": "Sipsi",
+                        "hs_code": "422.1",
+                        "description_tr": "Sipsi (HS 422.1), Ege Türkiye'sine özgü küçük bir tek kamışlı çalgıdır. Küçük tahta ya da kamıştan yapılan bu enstrüman yüksek, parlak bir ses üretir. Genellikle düğün ve köy eğlencelerinde çalınır.",
+                        "description_en": "The sipsi (HS 422.1) is a small single-reed instrument native to the Aegean region of Turkey. Made of wood or reed, it produces a high, bright sound and is typically played at weddings and village festivities.",
+                        "description_de": "Die Sipsi (HS 422.1) ist ein kleines Einrohrblattinstrument aus der ägäischen Region der Türkei. Aus Holz oder Schilf gefertigt, erzeugt sie einen hellen, hohen Klang.",
+                        "icon": "🎵",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Sipsi.jpg/330px-Sipsi.jpg",
+                        "video_id": "",
+                        "images": [
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Sipsi.jpg/330px-Sipsi.jpg",
+                            "caption": "Sipsi — Türk tek kamışlı ağaç çalgısı"
+                          },
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Sipsi_02.jpg",
+                            "caption": "Sipsi detay — Ege Türkiye'si halk çalgısı"
+                          }
+                        ],
+                        "region_tr": "Türkiye / Ege Bölgesi",
+                        "region_en": "Turkey / Aegean Region"
                       }
                     ],
                     "name_de": "Zylindrisch-Einfachrohrblatt",
@@ -4060,6 +4246,56 @@
                         ],
                         "region_tr": "Küba",
                         "region_en": "Cuba"
+                      },
+                      {
+                        "id": "calpara",
+                        "name_tr": "Çalpara",
+                        "name_en": "Çalpara (Turkish Clappers)",
+                        "name_de": "Çalpara (türkische Klapper)",
+                        "hs_code": "111.1",
+                        "description_tr": "Çalpara (HS 111.1), iki tahtanın ritimli çarpıştırılmasıyla ses üreten geleneksel Türk vurmalı çalgısıdır. Halk oyunlarında, özellikle zeybek ve kasap havalarında davulun ve zurnanın ritmine eşlik eder. Kastanyet ile aynı prensipte çalışır.",
+                        "description_en": "The çalpara (HS 111.1) is a traditional Turkish percussion instrument producing sound by rhythmically clapping two pieces of wood together. It accompanies drum and zurna rhythms in folk dances, especially zeybek and kasap dances.",
+                        "description_de": "Die Çalpara (HS 111.1) ist ein türkisches Perkussionsinstrument, das durch rhythmisches Zusammenschlagen zweier Holzstücke Klang erzeugt. Sie begleitet Trommeln und Zurna bei Volkstänzen.",
+                        "icon": "🎵",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/%C3%87alpara-%C3%87alpare_%28cropped%29.jpg/330px-%C3%87alpara-%C3%87alpare_%28cropped%29.jpg",
+                        "video_id": "",
+                        "images": [
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/%C3%87alpara-%C3%87alpare_%28cropped%29.jpg/330px-%C3%87alpara-%C3%87alpare_%28cropped%29.jpg",
+                            "caption": "Çalpara — Türk tahta çarpışma çalgısı"
+                          },
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Franz_Hermann%2C_Hans_Gemminger%2C_Valentin_Mueller_-_A_Scene_from_the_Turkish_Harem_-_Google_Art_Project.jpg/330px-Franz_Hermann%2C_Hans_Gemminger%2C_Valentin_Mueller_-_A_Scene_from_the_Turkish_Harem_-_Google_Art_Project.jpg",
+                            "caption": "Çalpara kullanan Türk saray müzisyeni — 18. yy Harem sahnesi"
+                          }
+                        ],
+                        "region_tr": "Türkiye / Ege ve Orta Anadolu",
+                        "region_en": "Turkey / Aegean and Central Anatolia"
+                      },
+                      {
+                        "id": "kasik",
+                        "name_tr": "Kaşık (Müzik Aleti)",
+                        "name_en": "Kaşık (Wooden Spoons)",
+                        "name_de": "Kaşık (Holzlöffel-Perkussion)",
+                        "hs_code": "111.1",
+                        "description_tr": "Kaşık (HS 111.1), iki ahşap kaşığın ritimli çarptırılmasıyla çalınan Türk halk perküsyonudur. Özellikle Konya yöresinde kaşık oyunu geleneğiyle iç içe geçmiştir. İki kaşık sağ elde tutulur, parmaklar arasına yerleştirilir ve ritimli vurularla flamenco kastanyetine benzer bir ses üretilir.",
+                        "description_en": "The kaşık (HS 111.1) is a Turkish folk percussion instrument played by rhythmically clapping two wooden spoons together. Especially associated with the kaşık oyunu (spoon dance) tradition of the Konya region.",
+                        "description_de": "Die Kaşık (HS 111.1) ist ein türkisches Volksperkussionsinstrument, das durch rhythmisches Zusammenschlagen zweier Holzlöffel gespielt wird. Besonders mit dem Kaşık-Oyunu-Tanztradition aus der Region Konya verbunden.",
+                        "icon": "🎵",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/20251129_Tongudakl%C4%B1_ka%C5%9F%C4%B1k.jpg/330px-20251129_Tongudakl%C4%B1_ka%C5%9F%C4%B1k.jpg",
+                        "video_id": "",
+                        "images": [
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/20251129_Tongudakl%C4%B1_ka%C5%9F%C4%B1k.jpg/330px-20251129_Tongudakl%C4%B1_ka%C5%9F%C4%B1k.jpg",
+                            "caption": "Tongudaklı kaşık — Türk tahta kaşık çalgısı"
+                          },
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Satz_Holzloeffeltanz-Kasiklar.jpg/330px-Satz_Holzloeffeltanz-Kasiklar.jpg",
+                            "caption": "Kaşıklar — Tahta kaşık dansı setleri"
+                          }
+                        ],
+                        "region_tr": "Türkiye / Konya ve Orta Anadolu",
+                        "region_en": "Turkey / Konya and Central Anatolia"
                       }
                     ],
                     "name_de": "Zusammenprall-Stäbe",
@@ -4706,8 +4942,12 @@
                             "video_id": "GfW8JkuSr9c",
                             "images": [
                               {
-                                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ogene_bell_Nigeria.jpg/320px-Ogene_bell_Nigeria.jpg",
-                                "caption": "Ogene — Igbo iron bell from Nigeria"
+                                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ogene_ndi_Igbo.jpg/330px-Ogene_ndi_Igbo.jpg",
+                                "caption": "Ogene ndi Igbo — Nijerya Igbo halkının geleneksel demir çanı"
+                              },
+                              {
+                                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ogene.jpg/330px-Ogene.jpg",
+                                "caption": "Ogene çan çalgısı — Nijerya"
                               }
                             ],
                             "region_tr": "Nijerya (Igbo)",
@@ -4727,8 +4967,12 @@
                             "video_id": "pZuC9qrJ4k4",
                             "images": [
                               {
-                                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Gankogui.jpg/320px-Gankogui.jpg",
-                                "caption": "Gankogui — Ewe double iron bell from Ghana / Togo"
+                                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Africanagogo.jpg/330px-Africanagogo.jpg",
+                                "caption": "Gankogui (Afrika agogo) — Ewe müziğinde çift demir çan, Gana"
+                              },
+                              {
+                                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Gankogui_standard_pattern.png/330px-Gankogui_standard_pattern.png",
+                                "caption": "Gankogui standart ritim kalıbı — Ewe müziğinde karakteristik çan ritmi"
                               }
                             ],
                             "region_tr": "Gana / Togo (Ewe halkı)",
@@ -5014,6 +5258,27 @@
                     ],
                     "region_tr": "İngiltere / Amerika",
                     "region_en": "England / USA"
+                  },
+                  {
+                    "id": "zilli-masa",
+                    "name_tr": "Zilli Maşa",
+                    "name_en": "Zilli Maşa (Cymbal Tongs)",
+                    "name_de": "Zilli Maşa (Becken-Zange)",
+                    "hs_code": "111.2",
+                    "description_tr": "Zilli maşa (HS 111.2), iki kollu metal maşa biçiminde yapılan, zil halkaları takılı geleneksel Türk idiofonudur. Kollar açılıp kapanarak ritim tutulur; zil halkaları her vuruşta titreşerek parlak, metalik bir ses verir. Osmanlı saray eğlencelerinde ve tarikat törenlerinde kullanılmıştır.",
+                    "description_en": "The zilli maşa (HS 111.2) is a traditional Turkish idiophone shaped like two-armed tongs fitted with cymbal rings. Opening and closing the arms creates a rhythm while the cymbals jingle with a bright metallic sound. Used in Ottoman court entertainments and dervish ceremonies.",
+                    "description_de": "Die Zilli Maşa (HS 111.2) ist ein türkisches Idiophon in Form einer zweiarmigen Zange mit Beckenringen. Das Öffnen und Schließen der Arme erzeugt einen Rhythmus, während die Becken einen hellen metallischen Klang erzeugen.",
+                    "icon": "🎵",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kaplan-Ba%C4%9F%C4%B1ran%2C_Nevbe-Rif%C3%A2i_Kud%C3%BCm%C3%BC_ve_Zilli_Ma%C5%9Fa.jpg/330px-Kaplan-Ba%C4%9F%C4%B1ran%2C_Nevbe-Rif%C3%A2i_Kud%C3%BCm%C3%BC_ve_Zilli_Ma%C5%9Fa.jpg",
+                    "video_id": "",
+                    "images": [
+                      {
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kaplan-Ba%C4%9F%C4%B1ran%2C_Nevbe-Rif%C3%A2i_Kud%C3%BCm%C3%BC_ve_Zilli_Ma%C5%9Fa.jpg/330px-Kaplan-Ba%C4%9F%C4%B1ran%2C_Nevbe-Rif%C3%A2i_Kud%C3%BCm%C3%BC_ve_Zilli_Ma%C5%9Fa.jpg",
+                        "caption": "Nevbe-Rifai kudümü ve zilli maşa — Osmanlı tarikat müziği"
+                      }
+                    ],
+                    "region_tr": "Türkiye / Osmanlı İmparatorluğu",
+                    "region_en": "Turkey / Ottoman Empire"
                   }
                 ],
                 "name_de": "Schüttelinstrumente (Rasseln)",
@@ -5184,8 +5449,8 @@
                 "video_id": "YSLFkzMOtBc",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jew%27s_harp.jpg/330px-Jew%27s_harp.jpg",
-                    "caption": "Lamellophone instrument"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Kubing.jpg/330px-Kubing.jpg",
+                    "caption": "Kubing — Filipinli ağız kopuzu"
                   }
                 ],
                 "region_tr": "Filipinler",
@@ -5239,8 +5504,8 @@
                 "video_id": "miEE3vA6wGM",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mbira_dzavadzimu_1.jpg/330px-Mbira_dzavadzimu_1.jpg",
-                    "caption": "African musical instrument of the lamellophone family"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kalimba_-_Kongo_-_Royal_Museum_for_Central_Africa_-_DSC05677.JPG/330px-Kalimba_-_Kongo_-_Royal_Museum_for_Central_Africa_-_DSC05677.JPG",
+                    "caption": "Kalimba — Kongo, Kraliyet Afrika Müzesi"
                   }
                 ],
                 "region_tr": "Zimbabve / Afrika",
@@ -5260,8 +5525,8 @@
                 "video_id": "8Q4ki62Ptb4",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mbira_dzavadzimu_1.jpg/330px-Mbira_dzavadzimu_1.jpg",
-                    "caption": "African musical instrument of the lamellophone family"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sanza_Boa-Za%C3%AFre-Mus%C3%A9e_royal_de_l%27Afrique_centrale.jpg/330px-Sanza_Boa-Za%C3%AFre-Mus%C3%A9e_royal_de_l%27Afrique_centrale.jpg",
+                    "caption": "Sanza / Likembe — Zaïre, Kraliyet Afrika Müzesi"
                   }
                 ],
                 "region_tr": "Orta Afrika",
@@ -5395,8 +5660,8 @@
             "video_id": "FfTtMEHdqdo",
             "images": [
               {
-                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Steinway_Vienna_002.JPG/330px-Steinway_Vienna_002.JPG",
-                "caption": "Keyboard instrument"
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Pianino.jpg/330px-Pianino.jpg",
+                "caption": "Upright piano (pianino)"
               }
             ],
             "region_tr": "Avrupa",
@@ -5573,8 +5838,8 @@
                     "video_id": "wMUVd8lNx_g",
                     "images": [
                       {
-                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Iraqi_Naqqarat.jpg/330px-Iraqi_Naqqarat.jpg",
-                        "caption": "Middle Eastern drum with a rounded back and a hide head"
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Azerbaijani_musical_instrument_naghara_in_Heydar_Aliyev_Center.jpg/330px-Azerbaijani_musical_instrument_naghara_in_Heydar_Aliyev_Center.jpg",
+                        "caption": "Naghara (nakkare) — Heydar Aliyev Merkezi, Azerbaycan"
                       }
                     ],
                     "region_tr": "Türkiye",
@@ -5594,8 +5859,8 @@
                     "video_id": "LAwgD_YxRgM",
                     "images": [
                       {
-                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Prop._Tabla.jpg/330px-Prop._Tabla.jpg",
-                        "caption": "Indian pair of hand drums"
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/2024-03-22_Tanpuras%2C_Tabala-dagga%2C_Pakhavaj%2C_and_Harmonium_in_Raja_Dinkar_Kelkar_Museum%2C_Pune.jpg/330px-2024-03-22_Tanpuras%2C_Tabala-dagga%2C_Pakhavaj%2C_and_Harmonium_in_Raja_Dinkar_Kelkar_Museum%2C_Pune.jpg",
+                        "caption": "Tabla-dagga (bayan) — Raja Dinkar Kelkar Müzesi, Pune"
                       }
                     ],
                     "region_tr": "Hindistan",
@@ -5615,12 +5880,41 @@
                     "video_id": "4w3q0SWyAqo",
                     "images": [
                       {
-                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Nakry_Russian_drums.jpg/320px-Nakry_Russian_drums.jpg",
-                        "caption": "Nakry — ancient Russian paired kettledrums"
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Iraqi_Naqqarat.jpg/330px-Iraqi_Naqqarat.jpg",
+                        "caption": "Irak naqqarat — nakry ile aynı aileye ait çift kazan davulu"
+                      },
+                      {
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nagara_%27Beat_of_Independence.jpg/330px-Nagara_%27Beat_of_Independence.jpg",
+                        "caption": "Nagara (nakry) — Bağımsızlık Vurumu töreni"
                       }
                     ],
                     "region_tr": "Rusya",
                     "region_en": "Russia"
+                  },
+                  {
+                    "id": "kos",
+                    "name_tr": "Kös",
+                    "name_en": "Kös (Ottoman Kettledrum)",
+                    "name_de": "Kös (osmanische Kesselpauke)",
+                    "hs_code": "211.1",
+                    "description_tr": "Kös (HS 211.1), Osmanlı mehter takımlarının en büyük ve en görkemli davuludur. Deve sırtına yüklenerek taşınan bu dev kazan davulu, Osmanlı ordusunun zafer yürüyüşlerinde çalınır, savaşta ruh ve güç verirdi. Çapı bazen 1 metreyi aşan bir kazan gövdesi üzerine gerili deri ile yapılır.",
+                    "description_en": "The kös (HS 211.1) is the largest and most majestic drum of the Ottoman mehter ensemble. Carried on the back of a camel, this giant kettledrum was played during Ottoman military marches and victory parades, inspiring spirit and power in battle.",
+                    "description_de": "Die Kös (HS 211.1) ist die größte Trommel des osmanischen Mehter-Ensembles. Auf einem Kamel getragen, wurde diese riesige Kesselpauke bei osmanischen Militärmärschen gespielt.",
+                    "icon": "🎵",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Mehter_kos_drum.jpg/330px-Mehter_kos_drum.jpg",
+                    "video_id": "",
+                    "images": [
+                      {
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Mehter_kos_drum.jpg/330px-Mehter_kos_drum.jpg",
+                        "caption": "Kös — Osmanlı mehter takımı büyük kazan davulu"
+                      },
+                      {
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Detail_of_Turkish_musicians_from_Surname_17b.jpg/330px-Detail_of_Turkish_musicians_from_Surname_17b.jpg",
+                        "caption": "Osmanlı müzisyenleri — Surnâme minyatürü (17. yy)"
+                      }
+                    ],
+                    "region_tr": "Türkiye / Osmanlı İmparatorluğu",
+                    "region_en": "Turkey / Ottoman Empire"
                   }
                 ],
                 "name_de": "Kesseltrommeln",
@@ -6096,8 +6390,8 @@
                         "video_id": "t_Blr7QDWBA",
                         "images": [
                           {
-                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Tama_drum.jpg/320px-Tama_drum.jpg",
-                            "caption": "Tama — Senegalese hourglass talking drum"
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Talking_drum_%28tama%29player.jpg/330px-Talking_drum_%28tama%29player.jpg",
+                            "caption": "Tama icracısı, Youssou N'Dour konseri, Varşova 2009"
                           }
                         ],
                         "region_tr": "Senegal / Gambiya (Batı Afrika)",
@@ -6117,8 +6411,12 @@
                         "video_id": "1MXJ-LlfIMY",
                         "images": [
                           {
-                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Dundun_drums.jpg/320px-Dundun_drums.jpg",
-                            "caption": "Dundun — Yoruba hourglass talking drum ensemble from Nigeria"
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Djun.jpg/330px-Djun.jpg",
+                            "caption": "Djun djun (dundun) — Gambiya'dan büyük boy bas davul"
+                          },
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Dundun.JPG/330px-Dundun.JPG",
+                            "caption": "Dundun davul takımı"
                           }
                         ],
                         "region_tr": "Nijerya (Yoruba)",
@@ -6307,8 +6605,8 @@
                     "video_id": "0Sc53dxLi5Q",
                     "images": [
                       {
-                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tambourin01.png/330px-Tambourin01.png",
-                        "caption": "Italian court game"
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Tambourine.jpg/330px-Tambourine.jpg",
+                        "caption": "Tambourine (tef)"
                       }
                     ],
                     "region_tr": "İran",
@@ -6391,8 +6689,8 @@
                     "video_id": "gYkJEtSJWls",
                     "images": [
                       {
-                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Pair_of_dafs.jpg/330px-Pair_of_dafs.jpg",
-                        "caption": "Frame drum originating in Central Asia and the Middle East"
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Req.JPG/330px-Req.JPG",
+                        "caption": "Riq (req) — Mısır zilli tef"
                       }
                     ],
                     "region_tr": "Mısır",
@@ -6454,8 +6752,8 @@
                     "video_id": "e4M0SycSpSE",
                     "images": [
                       {
-                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tambourin01.png/330px-Tambourin01.png",
-                        "caption": "Italian court game"
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tamburello.jpg/330px-Tamburello.jpg",
+                        "caption": "Tamburello — İtalyan çerçeve davulu"
                       }
                     ],
                     "region_tr": "İtalya",
@@ -6598,8 +6896,8 @@
                 "video_id": "mlNqq1RfFU8",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Damaru.jpg/330px-Damaru.jpg",
-                    "caption": "Indian two-headed drum"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Modern_Buddhist_Rattle_Drums_%2810096376766%29.jpg/330px-Modern_Buddhist_Rattle_Drums_%2810096376766%29.jpg",
+                    "caption": "Modern Budist pellet drum (davul topu)"
                   }
                 ],
                 "region_tr": "Çin",
@@ -6727,8 +7025,8 @@
             "video_id": "CsaBBHpLvmA",
             "images": [
               {
-                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Zambomba-Pe%C3%B1aAmigosCa%C3%B1izo-Jerez-P1010344.JPG/330px-Zambomba-Pe%C3%B1aAmigosCa%C3%B1izo-Jerez-P1010344.JPG",
-                "caption": "Class of musical instruments"
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Pieter_de_Mare_after_Frans_Hals_-_rommelpot_player.jpg/330px-Pieter_de_Mare_after_Frans_Hals_-_rommelpot_player.jpg",
+                "caption": "Rommelpot çalan çocuk — Pieter de Mare, Frans Hals'tan sonra"
               }
             ],
             "region_tr": "Portekiz",
@@ -6968,8 +7266,8 @@
                 "video_id": "0vf-gTakrp0",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vibes_joelocke_koeln2007.jpg/330px-Vibes_joelocke_koeln2007.jpg",
-                    "caption": "Mallet percussion instrument"
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/190118_Gy%C3%A9m%C3%A1nt_Jazzklub_%2821%29_Szaniszl%C3%B3_Rich%C3%A1rd.jpg/330px-190118_Gy%C3%A9m%C3%A1nt_Jazzklub_%2821%29_Szaniszl%C3%B3_Rich%C3%A1rd.jpg",
+                    "caption": "Vibraphone player in jazz club"
                   }
                 ],
                 "region_tr": "Amerika",
