@@ -43,6 +43,20 @@ App.Radial = {
 
     this._panning    = false; // sürükleme aktifken kullanılır
 
+    // ── Dokunuş / fare ayrımı ─────────────────────────────────
+    // Son pointer tipini izle: 'mouse' | 'touch' | 'pen'
+    // Dokunuşla gelmiş sahte mouseenter'da hover uygulanmaz.
+    this._lastPointerType = 'mouse';
+    window.addEventListener('pointerdown', e => {
+      this._lastPointerType = e.pointerType || 'mouse';
+    }, { passive: true });
+
+    // Dokunuşta açık kalmış tooltip + hover glowunu temizle
+    this._svg.node().addEventListener('touchstart', () => {
+      this._tooltip(null, null, false);
+      this._clearAllHover();
+    }, { passive: true });
+
     this._zoom = d3.zoom()
       .scaleExtent([0.12, 10])                      // min: ağaç kaybolmasın
       .on('start', ev => {
@@ -410,24 +424,48 @@ App.Radial = {
 
   /* ─── hover ──────────────────────────────────────────────── */
   _onHoverIn(ev, d) {
-    const col = this._groupColor(d);
-    d3.select(ev.currentTarget).select('.r-circle')
-      .style('stroke', col)
-      .style('stroke-width', d.depth === 1 ? '2.5' : '2')
-      .style('filter', `drop-shadow(0 0 16px ${col}99) brightness(1.25)`);
-    d3.select(ev.currentTarget).select('.r-label')
-      .style('fill', col);
+    // Dokunuştan gelen sahte mouseenter'ı yoksay
+    if (this._lastPointerType !== 'mouse') return;
+    this._applyHoverIn(ev.currentTarget, d);
   },
 
   _onHoverOut(ev, d) {
-    d3.select(ev.currentTarget).select('.r-circle')
+    this._applyHoverOut(ev.currentTarget, d);
+  },
+
+  // Gerçek hover uygula (element referansı ile — clearAllHover'dan da çağrılır)
+  _applyHoverIn(el, d) {
+    const col = this._groupColor(d);
+    d3.select(el).select('.r-circle')
+      .style('stroke', col)
+      .style('stroke-width', d.depth === 1 ? '2.5' : '2')
+      .style('filter', `drop-shadow(0 0 16px ${col}99) brightness(1.25)`);
+    d3.select(el).select('.r-label')
+      .style('fill', col);
+    this._hoveredEl = el;
+    this._hoveredD  = d;
+  },
+
+  _applyHoverOut(el, d) {
+    d3.select(el).select('.r-circle')
       .style('stroke', this._circleStroke(d))
       .style('stroke-width', null)
       .style('filter', d.depth === 1
         ? `drop-shadow(0 0 10px ${this._groupColor(d)}55)`
         : null);
-    d3.select(ev.currentTarget).select('.r-label')
+    d3.select(el).select('.r-label')
       .style('fill', this._labelColor(d));
+    this._hoveredEl = null;
+    this._hoveredD  = null;
+  },
+
+  // Tüm açık hover stillerini sıfırla (dokunuşta çağrılır)
+  _clearAllHover() {
+    if (this._hoveredEl && this._hoveredD) {
+      this._applyHoverOut(this._hoveredEl, this._hoveredD);
+    }
+    // Center hover
+    if (this._gCenter) this._gCenter.classed('r-center-hover', false);
   },
 
   /* ─── zoom ───────────────────────────────────────────────── */
@@ -495,7 +533,8 @@ App.Radial = {
       tip.id = 'r-tooltip';
       document.body.appendChild(tip);
     }
-    if (!show || !d) { tip.hidden = true; return; }
+    // Dokunuş cihazında tooltip gösterme
+    if (!show || !d || this._lastPointerType !== 'mouse') { tip.hidden = true; return; }
 
     const isLeaf = !d._children && !d.children;
     const name   = this._name(d.data);
@@ -709,7 +748,7 @@ App.Radial = {
       .attr('fill', 'transparent')
       .style('cursor', 'pointer')
       .on('click',      () => self._onCenterClick())
-      .on('mouseenter', () => self._gCenter.classed('r-center-hover', true))
+      .on('mouseenter', () => { if (self._lastPointerType === 'mouse') self._gCenter.classed('r-center-hover', true); })
       .on('mouseleave', () => self._gCenter.classed('r-center-hover', false));
 
     this._updateCenterBtn();

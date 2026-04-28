@@ -1917,3 +1917,53 @@ path.r-link {
   border-color: rgba(200, 80, 80, 0.65);
   color: #f08080;
 }
+
+/* ── Dokunuş cihazları: yapışık :hover'ı kapat ────────────────
+   @media (hover: none) → fare / trackpad olmayan cihazlara uygulanır.
+   Tüm dekoratif hover efektleri sıfırlanır; tıklama / :active korunur. */
+@media (hover: none) {
+  .lang-btn:hover          { color: inherit; }
+  .about-btn:hover         { color: var(--gold-dim); }
+
+  .node-card:hover {
+    border-color: var(--border-gold);
+    box-shadow: var(--shadow-card);
+    transform: none;
+  }
+  .node-card:hover::before { opacity: 0; }
+  .node-card:hover .card-chevron { color: transparent; transform: none; }
+
+  .modal-close:hover { background: transparent; color: var(--text-secondary); }
+
+  .r-ctrl-btn:hover {
+    background: transparent;
+    color: var(--gold-dim);
+    border-color: var(--border-gold);
+    box-shadow: none;
+  }
+
+  .view-btn:hover { background: transparent; color: var(--gold-dim); }
+
+  .mfb:hover { background: rgba(212,175,55,0.12); }
+  .mrm:hover { opacity: 0; }
+
+  .mp-item:hover { background: transparent; }
+  .mp-item:hover .mp-item-name { color: var(--text-secondary); }
+
+  .breadcrumb-item button:hover { color: var(--gold-dim); text-decoration: none; }
+
+  .about-tab:hover { color: var(--text-muted); }
+
+  .title-home-link:hover .site-title { letter-spacing: inherit; }
+
+  .m-carousel-nav:hover { background: rgba(0,0,0,0.35); }
+  .m-carousel-dot:hover:not(.active) { background: rgba(255,255,255,0.25); }
+
+  .r-lightbox-close:hover { background: rgba(0,0,0,0.6); color: var(--text-secondary); }
+
+  .modal-video-btn:hover,
+  .modal-video-btn[aria-expanded="true"]:hover {
+    background: rgba(212,175,55,0.08);
+    box-shadow: none;
+  }
+}
