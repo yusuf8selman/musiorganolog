@@ -4,7 +4,7 @@
     {
       "name": "organoloji",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8766"],
+      "runtimeArgs": ["-m", "http.server", "8766", "--directory", "/Users/YusufSelman_1/Desktop/Organology Museicologie/organoloji-family-tree"],
       "port": 8766
     }
   ]

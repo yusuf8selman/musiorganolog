@@ -12,6 +12,8 @@ App.Radial = {
   _gLinks:      null,
   _gNodes:      null,
   _gCenter:     null,
+  _centerLine1: null,   // <text> DOM referansı — doğrudan erişim için
+  _centerLine2: null,
   _zoom:        null,
   _root:        null,
   _w:           0,
@@ -554,9 +556,25 @@ App.Radial = {
   /* ─── language update ────────────────────────────────────── */
   setLanguage() {
     const self = this;
+    // Node etiketlerini güncelle
     this._gNodes.selectAll('.r-label').text(function(d) {
       return self._name(d.data);
     });
+    // Merkez butonunu güncelle
+    if (this._gCenter) this._updateCenterBtn();
+    // Zoom kontrol butonlarını güncelle
+    const l = App.state.language;
+    const ZT = {
+      tr: { zoomIn: 'Yakınlaş',  zoomOut: 'Uzaklaş',  center: 'Tüm ağacı göster' },
+      en: { zoomIn: 'Zoom in',   zoomOut: 'Zoom out',  center: 'Fit all'           },
+      de: { zoomIn: 'Vergrößern',zoomOut: 'Verkleinern',center: 'Alles zeigen'     },
+    }[l] || {};
+    const btnIn  = document.getElementById('r-ctrl-in');
+    const btnOut = document.getElementById('r-ctrl-out');
+    const btnCtr = document.getElementById('r-ctrl-center');
+    if (btnIn)  { btnIn.title  = ZT.zoomIn;  btnIn.setAttribute('aria-label',  ZT.zoomIn);  }
+    if (btnOut) { btnOut.title = ZT.zoomOut; btnOut.setAttribute('aria-label', ZT.zoomOut); }
+    if (btnCtr) { btnCtr.title = ZT.center;  btnCtr.setAttribute('aria-label', ZT.center);  }
   },
 
   /* ─── search: expand path ────────────────────────────────── */
@@ -727,19 +745,21 @@ App.Radial = {
       .attr('cx', 0).attr('cy', 0)
       .attr('fill', 'none');
 
-    // İlk satır metin
-    g.append('text')
+    // İlk satır metin — DOM referansını sakla
+    this._centerLine1 = g.append('text')
       .attr('class', 'r-center-line1')
       .attr('x', 0).attr('y', -4)
       .attr('text-anchor', 'middle')
-      .attr('dominant-baseline', 'middle');
+      .attr('dominant-baseline', 'middle')
+      .node();
 
-    // İkinci satır metin
-    g.append('text')
+    // İkinci satır metin — DOM referansını sakla
+    this._centerLine2 = g.append('text')
       .attr('class', 'r-center-line2')
       .attr('x', 0).attr('y', 4)
       .attr('text-anchor', 'middle')
-      .attr('dominant-baseline', 'middle');
+      .attr('dominant-baseline', 'middle')
+      .node();
 
     // Tıklanabilir şeffaf overlay (tam daire)
     g.append('circle')
@@ -755,16 +775,19 @@ App.Radial = {
   },
 
   _updateCenterBtn() {
-    const g = this._gCenter;
-    if (this._allExpanded) {
-      g.select('.r-center-line1').text('Tümünü');
-      g.select('.r-center-line2').text('Kapat');
-      g.classed('r-center-open', true);
-    } else {
-      g.select('.r-center-line1').text('Tümünü');
-      g.select('.r-center-line2').text('Göster');
-      g.classed('r-center-open', false);
-    }
+    if (!this._gCenter) return;
+    const l = App.state.language;
+    const T = {
+      tr: { line1: 'Tümünü', close: 'Kapat',   show: 'Göster'  },
+      en: { line1: 'All',    close: 'Close',    show: 'Expand'  },
+      de: { line1: 'Alle',   close: 'Schließen',show: 'Zeigen'  },
+    }[l] || { line1: 'Tümünü', close: 'Kapat', show: 'Göster' };
+
+    // Yaratılış anında saklanan DOM referansları — querySelector'dan daha güvenilir
+    if (this._centerLine1) this._centerLine1.textContent = T.line1;
+    if (this._centerLine2) this._centerLine2.textContent = this._allExpanded ? T.close : T.show;
+
+    this._gCenter.classed('r-center-open', this._allExpanded);
   },
 
   _onCenterClick() {

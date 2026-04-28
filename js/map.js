@@ -506,10 +506,11 @@ App.MapView = (function () {
     /** Called when UI language changes */
     setLanguage() {
       if (!S.initialized) return;
+      const lang = App.state.language;
 
       // Zoom control tooltip'lerini güncelle
       if (S.zoomCtrl) {
-        const zi = ZOOM_I18N[App.state.language] || ZOOM_I18N.en;
+        const zi = ZOOM_I18N[lang] || ZOOM_I18N.en;
         const container = S.zoomCtrl.getContainer();
         if (container) {
           const btnIn  = container.querySelector('.leaflet-control-zoom-in');
@@ -518,6 +519,17 @@ App.MapView = (function () {
           if (btnOut) { btnOut.title = zi.zoomOut; btnOut.setAttribute('aria-label', zi.zoomOut); }
         }
       }
+
+      // Harita alanı aria-label'larını güncelle
+      const MAP_ARIA = {
+        tr: { filterBar: 'Kategori filtresi',   canvas: 'Enstrüman dünya haritası' },
+        en: { filterBar: 'Category filter',     canvas: 'Instrument world map'     },
+        de: { filterBar: 'Kategoriefilter',     canvas: 'Instrument-Weltkarte'     },
+      }[lang] || {};
+      const fb = document.getElementById('map-filter-bar');
+      const mc = document.getElementById('map-canvas');
+      if (fb && MAP_ARIA.filterBar) fb.setAttribute('aria-label', MAP_ARIA.filterBar);
+      if (mc && MAP_ARIA.canvas)    mc.setAttribute('aria-label', MAP_ARIA.canvas);
 
       buildFilterBar();
       plotMarkers();

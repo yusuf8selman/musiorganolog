@@ -458,6 +458,135 @@ window.App = {
 
     // About modal içerikleri dil değişiminde güncellenir
     this._updateAboutLang(lang);
+
+    // ── Aria-label / title güncellemeleri ─────────────────────
+    this._updateAriaLabels(lang);
+  },
+
+  /* ─── ARIA-LABEL / TITLE GÜNCELLEMESİ ───────────────────── */
+  _updateAriaLabels(lang) {
+    const T = {
+      tr: {
+        homeLink:       'Ana sayfaya dön',
+        viewGroup:      'Görünüm seçimi',
+        viewRadial:     'Radyal Ağaç',
+        viewMap:        'Harita',
+        aboutBtn:       'Site hakkında',
+        loader:         'Yükleniyor',
+        loaderText:     'Yükleniyor…',
+        bcNav:          'Gezinme yolu',
+        treeStage:      'Enstrüman aile ağacı',
+        mapView:        'Harita görünümü',
+        mapFilterBar:   'Kategori filtresi',
+        mapCanvas:      'Enstrüman dünya haritası',
+        visitorBadge:   'Ziyaretçi sayısı',
+        rControls:      'Ağaç kontrolleri',
+        modalClose:     'Kapat',
+        aboutClose:     'Kapat',
+        carousel:       'Enstrüman görselleri',
+        carouselPrev:   'Önceki görsel',
+        carouselNext:   'Sonraki görsel',
+        carouselDots:   'Görsel seçimi',
+        videoIframe:    'Enstrüman performans videosu',
+        aboutTabs:      'Hakkında sekmeleri',
+      },
+      en: {
+        homeLink:       'Go to homepage',
+        viewGroup:      'View selection',
+        viewRadial:     'Radial Tree',
+        viewMap:        'Map',
+        aboutBtn:       'About this site',
+        loader:         'Loading',
+        loaderText:     'Loading…',
+        bcNav:          'Breadcrumb navigation',
+        treeStage:      'Instrument family tree',
+        mapView:        'Map view',
+        mapFilterBar:   'Category filter',
+        mapCanvas:      'Instrument world map',
+        visitorBadge:   'Visitor count',
+        rControls:      'Tree controls',
+        modalClose:     'Close',
+        aboutClose:     'Close',
+        carousel:       'Instrument images',
+        carouselPrev:   'Previous image',
+        carouselNext:   'Next image',
+        carouselDots:   'Image selection',
+        videoIframe:    'Instrument performance video',
+        aboutTabs:      'About tabs',
+      },
+      de: {
+        homeLink:       'Zur Startseite',
+        viewGroup:      'Ansichtsauswahl',
+        viewRadial:     'Radialer Baum',
+        viewMap:        'Karte',
+        aboutBtn:       'Über diese Seite',
+        loader:         'Wird geladen',
+        loaderText:     'Wird geladen…',
+        bcNav:          'Brotkrumen-Navigation',
+        treeStage:      'Instrument-Stammbaum',
+        mapView:        'Kartenansicht',
+        mapFilterBar:   'Kategoriefilter',
+        mapCanvas:      'Instrument-Weltkarte',
+        visitorBadge:   'Besucheranzahl',
+        rControls:      'Baum-Steuerung',
+        modalClose:     'Schließen',
+        aboutClose:     'Schließen',
+        carousel:       'Instrumentenbilder',
+        carouselPrev:   'Vorheriges Bild',
+        carouselNext:   'Nächstes Bild',
+        carouselDots:   'Bildauswahl',
+        videoIframe:    'Instrument-Aufführungsvideo',
+        aboutTabs:      'Über Registerkarten',
+      },
+    };
+    const t = T[lang] || T.tr;
+
+    const set = (id, attr, val) => {
+      const el = document.getElementById(id);
+      if (!el || !val) return;
+      if (attr === 'text') el.textContent = val;
+      else el.setAttribute(attr, val);
+    };
+    const setQ = (sel, attr, val) => {
+      const el = document.querySelector(sel);
+      if (!el || !val) return;
+      el.setAttribute(attr, val);
+    };
+
+    // Genel sayfa elementleri
+    setQ('.title-home-link',              'aria-label', t.homeLink);
+    setQ('.view-toggle',                  'aria-label', t.viewGroup);
+    set('view-radial',                    'title',      t.viewRadial);
+    set('view-map',                       'title',      t.viewMap);
+    set('about-btn',                      'aria-label', t.aboutBtn);
+    // Yükleme ekranı
+    set('app-loader',                     'aria-label', t.loader);
+    const loaderText = document.querySelector('#app-loader .loader-text');
+    if (loaderText) loaderText.textContent = t.loaderText;
+    // Breadcrumb
+    set('breadcrumb-nav',                 'aria-label', t.bcNav);
+    // Ağaç ve harita alan
+    set('tree-stage',                     'aria-label', t.treeStage);
+    set('map-view',                       'aria-label', t.mapView);
+    set('map-filter-bar',                 'aria-label', t.mapFilterBar);
+    set('map-canvas',                     'aria-label', t.mapCanvas);
+    // Ziyaretçi rozeti
+    set('visitor-badge',                  'aria-label', t.visitorBadge);
+    // Ağaç kontrol grubu
+    set('r-controls',                     'aria-label', t.rControls);
+    // Modal kapat
+    set('modal-close',                    'aria-label', t.modalClose);
+    set('about-close',                    'aria-label', t.aboutClose);
+    // Carousel
+    set('modal-carousel',                 'aria-label', t.carousel);
+    set('carousel-prev',                  'aria-label', t.carouselPrev);
+    set('carousel-next',                  'aria-label', t.carouselNext);
+    set('carousel-dots',                  'aria-label', t.carouselDots);
+    // Video iframe
+    const iframe = document.getElementById('modal-video-iframe');
+    if (iframe) iframe.title = t.videoIframe;
+    // About sekme bar
+    setQ('.about-tabs[role="tablist"]',   'aria-label', t.aboutTabs);
   },
 
   /* ─── ABOUT MODAL ───────────────────────────────────────── */
@@ -704,6 +833,8 @@ window.App = {
 
     // İlk dil için about metinleri hazırla
     this._updateAboutLang(this.state.language);
+    // İlk yüklemede aria-label'ları doğru dille ayarla
+    this._updateAriaLabels(this.state.language);
   }
 };
 
