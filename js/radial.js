@@ -113,9 +113,18 @@ App.Radial = {
     // İlk açılışta ağacı ortala
     setTimeout(() => this._zoomToFit(null, true), 120);
 
+    // Resize: debounce (250 ms) + zoomToFit
+    let _resizeTimer = null;
     window.addEventListener('resize', () => {
-      this._w = window.innerWidth;
-      this._h = window.innerHeight;
+      clearTimeout(_resizeTimer);
+      _resizeTimer = setTimeout(() => {
+        const newW = window.innerWidth;
+        const newH = window.innerHeight;
+        if (newW === this._w && newH === this._h) return; // boyut değişmedi
+        this._w = newW;
+        this._h = newH;
+        this._zoomToFit(null, false);
+      }, 250);
     });
   },
 
@@ -371,7 +380,9 @@ App.Radial = {
     ev.stopPropagation();
 
     if (!d._children && !d.children) {
-      App.openModal(d.data);
+      // Breadcrumb için kökten yaprağa giden yol (D3 ancestors() ters sırada döner)
+      const path = d.ancestors().reverse().map(a => a.data);
+      App.openModal(d.data, path);
       return;
     }
 
@@ -543,10 +554,18 @@ App.Radial = {
         }, 400);
 
         if (!leafD._children && !leafD.children) {
-          setTimeout(() => App.openModal(leafD.data), 900);
+          const path = leafD.ancestors().reverse().map(a => a.data);
+          setTimeout(() => App.openModal(leafD.data, path), 900);
         }
       }
     }, this.DUR + 80);
+  },
+
+  /* ─── breadcrumb: verilen id'li düğüme zoom yap ──────────── */
+  focusNodeById(id) {
+    let target = null;
+    this._root.each(d => { if (d.data.id === id) target = d; });
+    if (target) this._zoomToFit(target, false);
   },
 
   /* ─── helpers ────────────────────────────────────────────── */

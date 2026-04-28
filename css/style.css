@@ -324,6 +324,13 @@ body {
 .breadcrumb-item button:hover { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }
 .breadcrumb-item.active button { color: var(--text-secondary); cursor: default; }
 .breadcrumb-item.active button:hover { text-decoration: none; }
+.breadcrumb-item.active span {
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  padding: 0.2rem 0.25rem;
+}
 .breadcrumb-item button:focus-visible { outline: 1px solid var(--gold); outline-offset: 2px; border-radius: 2px; }
 
 .breadcrumb-sep {

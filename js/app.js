@@ -39,7 +39,7 @@ window.App = {
 
   /* ─── MODAL ──────────────────────────────────────────── */
 
-  openModal(node) {
+  openModal(node, path = []) {
     const lang     = this.state.language;
     const backdrop = document.getElementById('modal-backdrop');
     const modal    = document.getElementById('modal');
@@ -123,9 +123,65 @@ window.App = {
       history.replaceState({ nodeId: node.id }, '', '#' + node.id);
     }
 
+    // ── Breadcrumb oluştur ─────────────────────────────────────
+    this._buildBreadcrumb(path, lang);
+
     requestAnimationFrame(() => {
       document.getElementById('modal-close').focus();
     });
+  },
+
+  /* ─── BREADCRUMB ─────────────────────────────────────────── */
+
+  _buildBreadcrumb(path, lang) {
+    const nav = document.getElementById('breadcrumb-nav');
+    const ol  = document.getElementById('breadcrumb');
+    if (!nav || !ol || path.length < 2) {
+      if (nav) nav.hidden = true;
+      return;
+    }
+
+    ol.innerHTML = '';
+
+    path.forEach((node, idx) => {
+      const isLast = idx === path.length - 1;
+      const name   = lang === 'tr' ? node.name_tr
+                   : lang === 'de' ? (node.name_de || node.name_en)
+                   : node.name_en;
+
+      // Ayraç ekle (ilk öğe hariç)
+      if (idx > 0) {
+        const sep = document.createElement('li');
+        sep.className    = 'breadcrumb-sep';
+        sep.textContent  = '›';
+        sep.setAttribute('aria-hidden', 'true');
+        ol.appendChild(sep);
+      }
+
+      const li = document.createElement('li');
+      li.className = 'breadcrumb-item' + (isLast ? ' active' : '');
+
+      if (isLast) {
+        // Son öğe (mevcut enstrüman) — tıklanamaz
+        li.setAttribute('aria-current', 'page');
+        const span = document.createElement('span');
+        span.textContent = name;
+        li.appendChild(span);
+      } else {
+        // Tıklanabilir ata — ağaçta o düğüme zoom yap
+        const btn = document.createElement('button');
+        btn.type        = 'button';
+        btn.textContent = name;
+        btn.addEventListener('click', () => {
+          if (App.Radial) App.Radial.focusNodeById(node.id);
+        });
+        li.appendChild(btn);
+      }
+
+      ol.appendChild(li);
+    });
+
+    nav.hidden = false;
   },
 
   _setVideoBtnText(btn, lang, isOpen) {
@@ -367,6 +423,10 @@ window.App = {
 
     // ── Permalink: hash temizle ────────────────────────────────
     history.replaceState(null, '', location.pathname + location.search);
+
+    // ── Breadcrumb gizle ──────────────────────────────────────
+    const bcNav = document.getElementById('breadcrumb-nav');
+    if (bcNav) bcNav.hidden = true;
   },
 
   /* ─── DİL ────────────────────────────────────────────── */

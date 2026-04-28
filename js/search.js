@@ -2,6 +2,7 @@
  * search.js — Arama Fonksiyonu
  * App.Search namespace: anlık filtreleme, dropdown, klavye navigasyonu
  * Fuzzy search: %70 benzerlik eşiği ile yaklaşık eşleşme desteği
+ * Türkçe karakter normalizasyonu: "baglama" → "bağlama" eşleşir
  */
 
 App.Search = {
@@ -125,21 +126,49 @@ App.Search = {
     return Math.max(fullSim, wordSim, windowSim);
   },
 
+  /* ─── TÜRKÇE KARAKTER NORMALİZASYONU ───────────────────── */
+
+  /**
+   * Türkçe özgü karakterleri ASCII karşılıklarına dönüştürür.
+   * Kullanım: kullanıcı "baglama" yazarsa "bağlama" ile eşleşir.
+   * Hem sorgu hem de isimler normalize edilerek karşılaştırılır.
+   */
+  _normalize(str) {
+    return str
+      .replace(/ş/g, 's').replace(/Ş/g, 's')
+      .replace(/ç/g, 'c').replace(/Ç/g, 'c')
+      .replace(/ğ/g, 'g').replace(/Ğ/g, 'g')
+      .replace(/ü/g, 'u').replace(/Ü/g, 'u')
+      .replace(/ö/g, 'o').replace(/Ö/g, 'o')
+      .replace(/ı/g, 'i').replace(/İ/g, 'i');
+  },
+
   /* ─── ARAMA ALGORİTMASI ─────────────────────────────────── */
 
   _search(query) {
     const THRESHOLD = 0.70;   // %70 benzerlik eşiği
+    const queryN    = this._normalize(query); // normalize edilmiş sorgu
 
     return this._index
       .map(item => {
-        const tr = item.node.name_tr.toLowerCase();
-        const en = item.node.name_en.toLowerCase();
-        const de = (item.node.name_de || '').toLowerCase();
+        const tr  = item.node.name_tr.toLowerCase();
+        const en  = item.node.name_en.toLowerCase();
+        const de  = (item.node.name_de || '').toLowerCase();
+        // Normalize edilmiş versiyonlar (Türkçe harf olmadan)
+        const trN = this._normalize(tr);
+        const enN = this._normalize(en);
+        const deN = this._normalize(de);
 
         const score = Math.max(
+          // Orijinal karakterlerle karşılaştır
           this._fuzzyScore(tr, query),
           this._fuzzyScore(en, query),
-          this._fuzzyScore(de, query)
+          this._fuzzyScore(de, query),
+          // Normalize edilmiş versiyonlarla karşılaştır
+          // (örn. "baglama" → "bağlama", "seker" → "şeker")
+          this._fuzzyScore(trN, queryN),
+          this._fuzzyScore(enN, queryN),
+          this._fuzzyScore(deN, queryN)
         );
 
         return { item, score };
@@ -255,12 +284,27 @@ App.Search = {
 
   /* ─── YARDIMCI ──────────────────────────────────────────── */
 
-  /** Arama terimini vurgula — tam eşleşme varsa işaretle */
+  /** Arama terimini vurgula — orijinal ve normalize edilmiş eşleşmeleri işaretle */
   _highlight(text, query) {
-    const lower = text.toLowerCase();
-    const idx   = lower.indexOf(query.toLowerCase());
+    const lower  = text.toLowerCase();
+    const queryL = query.toLowerCase();
+
+    // 1. Doğrudan eşleşme dene
+    let idx = lower.indexOf(queryL);
+
+    // 2. Bulunamazsa normalize ederek dene (örn. "baglama" → "bağlama")
     if (idx < 0) {
-      // Fuzzy eşleşme: tam alt-dizi yok, ismi olduğu gibi göster
+      const normText  = this._normalize(lower);
+      const normQuery = this._normalize(queryL);
+      const normIdx   = normText.indexOf(normQuery);
+      if (normIdx >= 0) {
+        // Normalize edilmiş konum, orijinal metinde de aynı konuma denk gelir
+        idx = normIdx;
+      }
+    }
+
+    if (idx < 0) {
+      // Fuzzy eşleşme: alt-dizi yok, ismi olduğu gibi göster
       return this._escapeHtml(text);
     }
     return (
