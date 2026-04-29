@@ -221,7 +221,7 @@
                 "description_tr": "Kanun (HS 314.122), Orta Doğu, Kuzey Afrika, Türkiye ve Orta Asya müziğinin temel çalgılarından biridir; adı Arapça 'kural, yasa' anlamına gelen qānūn kelimesinden gelir. Trapez biçimli tahtanın üzerine 24-26 koro halinde (her koro 2-4 tel) toplam 63-78 tel gerilir; ses aralığı yaklaşık üç buçuk oktavdır. Her korunun altında mandallar (urwah) yer alır: bunlar tele değen küçük metal kaldıraçlar olup yarım ton ve mikrotonal ayarlamalar sağlar; bu mekanizma Arap ve Türk makam müziğinin nüanslı perdelerini icra etmeye olanak verir. Sağ ve sol elde takılan metalik mızraplar (parmak kılıfları) teli koparır.",
                 "description_en": "The kanun (HS 314.122) is one of the fundamental instruments of Middle Eastern, North African, Turkish and Central Asian music; its name derives from the Arabic qānūn meaning 'rule, law'. 63–78 strings in 24–26 courses (2–4 strings per course) are stretched over a trapezoidal board; the range is approximately three and a half octaves. Under each course are levers (urwah), small metal devices that touch the string to provide semitone and microtonal adjustments — this mechanism enables performance of the nuanced pitches of Arab and Turkish maqam music. Metal plectra worn on both hands pluck the strings.",
                 "icon": "🎵",
-                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Qanun.jpg/330px-Qanun.jpg",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Q%C4%81n%C5%ABn_-_MET_89.4.330.jpg/330px-Q%C4%81n%C5%ABn_-_MET_89.4.330.jpg",
                 "name_de": "Kanun",
                 "description_de": "Die Kanun (HS 314.122) ist eines der Grundinstrumente der nahöstlichen, nordafrikanischen, türkischen und zentralasiatischen Musik; der Name leitet sich vom arabischen qānūn ('Regel, Gesetz') ab. 63–78 Saiten in 24–26 Chören (2–4 Saiten pro Chor) sind über ein Trapezbrett gespannt; der Umfang beträgt ca. dreieinhalb Oktaven. Unter jedem Chor befinden sich Hebel (Urwah) für Halbton- und Mikrotonkorrekturen – dieses Mechanismus ermöglicht die feinen Töne der arabischen und türkischen Makam-Musik.",
                 "video_id": "Ma6gNCvhyoM",
@@ -229,7 +229,7 @@
                 "region_en": "Middle East / Turkey",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Qanun.jpg/330px-Qanun.jpg",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Q%C4%81n%C5%ABn_-_MET_89.4.330.jpg/330px-Q%C4%81n%C5%ABn_-_MET_89.4.330.jpg",
                     "caption": "Kanun — Orta Doğu trapezoidal çalgısı"
                   }
                 ]
@@ -305,13 +305,13 @@
                 "description_tr": "Swarmandal (ya da surmandal, HS 314.122), Kuzey Hindistan'a özgü bir ziter/arptır. 21 ile 36 arasında değişen tel sayısıyla yatay konumda çalınan bu çalgı, klasik vokal performanslarında (khyal, thumri, bhajan) şarkıcının kendi kendine eşlik ettiği temel araç olarak işlev görür. Parmak ve başparmakla koparılarak çalınır; glissando arpejler ragas içinde karakteristik bir ton halesi oluşturur. Usul olarak raga ve tala sistemine entegre olmuştur. Ses tınısı Hintçe'de 'kozmik armonik rezonans' anlamına gelen swara mandala kavramıyla ilişkilendirilir. Pandit Jasraj ve Kishori Amonkar gibi ustalar performanslarında swarmandal kullanmıştır.",
                 "description_en": "The swarmandal (or surmandal, HS 314.122) is a zither/harp native to North India. With a string count ranging from 21 to 36, played horizontally, it functions as the primary instrument for classical vocal performers (khyal, thumri, bhajan) to self-accompany. Played by plucking with fingers and thumbs; glissando arpeggios create a characteristic tonal halo within ragas. It is integrated into the raga and tala system. Its sound timbre is associated with the concept of swara mandala meaning 'cosmic harmonic resonance' in Hindi. Masters such as Pandit Jasraj and Kishori Amonkar have used the swarmandal in their performances.",
                 "icon": "🎵",
-                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Swarmandal.jpg/330px-Swarmandal.jpg",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Jasraj_001.jpg/330px-Jasraj_001.jpg",
                 "name_de": "Swarmandal",
                 "description_de": "Die Swarmandal (oder Surmandal, HS 314.122) ist eine Zither/Harfe aus Nordindien mit 21–36 Saiten. Horizontal gespielt, dient sie klassischen Vokalisten (Khyal, Thumri, Bhajan) als Selbstbegleitungsinstrument. Gespielt durch Zupfen mit Fingern und Daumen; Glissando-Arpeggios erzeugen einen charakteristischen Klangschleier innerhalb der Ragas. Das Instrument ist in das Raga- und Tala-System integriert.",
                 "video_id": "1h4iDsnXxBU",
                 "images": [
                   {
-                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Swarmandal.jpg/330px-Swarmandal.jpg",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Jasraj_001.jpg/330px-Jasraj_001.jpg",
                     "caption": "Swarmandal — Hint kutulu zither"
                   }
                 ],
