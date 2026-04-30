@@ -884,6 +884,26 @@
                 ],
                 "region_tr": "Türkiye / Anadolu",
                 "region_en": "Turkey / Anatolia"
+              },
+              {
+                "id": "goge",
+                "name_tr": "Goge",
+                "name_en": "Goge (Hausa Fiddle)",
+                "name_de": "Goge",
+                "hs_code": "321.313",
+                "description_tr": "Goge, Batı Afrika'nın Hausa halkına ait tek telli bir yaylı enstrümandır. Bir kase ya da küre şeklindeki tahta rezonatörü vardır; at kuyruğu teli ile kıl yay kullanılır. Törensel müzikte, hikaye anlatımında ve Bori ayinlerinde kullanılır.",
+                "description_en": "The goge is a single-stringed spike fiddle of the Hausa people of West Africa, particularly Nigeria and Niger. It has a bowl or gourd resonator covered with lizard skin and is played with a horsehair bow. It is central to Hausa ceremonial music, storytelling, and Bori spirit possession rituals.",
+                "description_de": "Die Goge ist eine einsaitige Spieß-Fiedel der Hausa in Westafrika, besonders in Nigeria und Niger. Sie besitzt einen Kalebassenresonator mit Echsenhaut und wird mit einem Rosshaarbogen gespielt. Sie ist zentral in der Hausa-Zeremonialmusik und bei Bori-Geisterbeschwörungen.",
+                "region_tr": "Nijerya / Nijer (Batı Afrika - Hausa halkı)",
+                "region_en": "Nigeria / Niger (West Africa - Hausa people)",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Goje.jpg/330px-Goje.jpg",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Goje.jpg/330px-Goje.jpg",
+                    "caption": "Goge (Hausa fiddle)"
+                  }
+                ],
+                "video_id": ""
               }
             ],
             "name_de": "Spiesslauten",
@@ -1884,6 +1904,26 @@
                         "caption": "Antik Mısır Arpı — Firavunlar döneminin arfı"
                       }
                     ]
+                  },
+                  {
+                    "id": "adungu",
+                    "name_tr": "Adungu",
+                    "name_en": "Adungu",
+                    "name_de": "Adungu",
+                    "hs_code": "323.1",
+                    "description_tr": "Adungu, Uganda'nın kuzeyindeki Acholi ve Alur halkına ait kavisli bir arptır. 6 ila 10 telden oluşur; rezonans kutusu tahta oyulup deri ile kaplanarak yapılır. Pentatonik akort sistemiyle çalınır ve törensel müzikte önemli bir yere sahiptir.",
+                    "description_en": "The adungu is an arched harp from the Acholi and Alur peoples of northern Uganda. It has 6 to 10 strings stretched over a hollowed wooden body covered with cowhide. Tuned to a pentatonic scale, it is central to ceremonial music and is played in various sizes from soprano to bass.",
+                    "description_de": "Die Adungu ist eine Bogenharfe der Acholi und Alur im Norden Ugandas. Sie besitzt 6 bis 10 Saiten, gespannt über einen ausgehöhlten Holzkörper mit Kuhhaut. Sie wird pentatonisch gestimmt und spielt eine wichtige Rolle in der Zeremonialmusik.",
+                    "region_tr": "Uganda (Doğu Afrika)",
+                    "region_en": "Uganda (East Africa)",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Three_Adungu_Harps.jpg/330px-Three_Adungu_Harps.jpg",
+                    "images": [
+                      {
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Three_Adungu_Harps.jpg/330px-Three_Adungu_Harps.jpg",
+                        "caption": "Three Adungu harps"
+                      }
+                    ],
+                    "video_id": ""
                   }
                 ],
                 "name_de": "Bogenharfen (Offene Harfen)",
@@ -2103,6 +2143,26 @@
                 ],
                 "region_tr": "Batı Afrika (Mande halkları)",
                 "region_en": "West Africa (Mande peoples)"
+              },
+              {
+                "id": "mvet",
+                "name_tr": "Mvet",
+                "name_en": "Mvet",
+                "name_de": "Mvet",
+                "hs_code": "312.12",
+                "description_tr": "Mvet, Orta Afrika'nın Fang ve Beti halklarına özgü bir arp-ziteridir. Birbirine bağlanmış kamışlardan oluşur; üzerindeki teller hem çalınır hem de rezonans için kullanılır. Geleneksel hikaye anlatıcılığında ve 'mvet' adı verilen destansı şiirlerin icrasında kullanılır.",
+                "description_en": "The mvet is a harp-zither of the Fang and Beti peoples of Central Africa, particularly Cameroon and Gabon. It consists of several raffia palm stalks tied together with strings stretched between notches. It is used by poet-musicians called 'mvet players' to accompany epic narratives and oral literature.",
+                "description_de": "Die Mvet ist eine Harfenzither der Fang und Beti in Zentralafrika, besonders in Kamerun und Gabun. Sie besteht aus mehreren Raphiapalmstielen mit gespannten Saiten. Sie wird von Dichtmusikern begleitet, um epische Erzählungen und mündliche Literatur zu vertonen.",
+                "region_tr": "Kamerun / Gabon (Orta Afrika)",
+                "region_en": "Cameroon / Gabon (Central Africa)",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Mus%C3%A9e_africain_de_Gunsbach-Mvett.jpg/330px-Mus%C3%A9e_africain_de_Gunsbach-Mvett.jpg",
+                "images": [
+                  {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Mus%C3%A9e_africain_de_Gunsbach-Mvett.jpg/330px-Mus%C3%A9e_africain_de_Gunsbach-Mvett.jpg",
+                    "caption": "Mvet at Musée Africain de Gunsbach"
+                  }
+                ],
+                "video_id": ""
               }
             ],
             "name_de": "Harfenlauten",
@@ -3598,6 +3658,26 @@
                         ],
                         "region_tr": "Avrupa",
                         "region_en": "Europe"
+                      },
+                      {
+                        "id": "algaita",
+                        "name_tr": "Algaita",
+                        "name_en": "Algaita",
+                        "name_de": "Algaita",
+                        "hs_code": "422.212",
+                        "description_tr": "Algaita, Nijerya ve Nijer'deki Hausa halkına ait konik borulu çift kamışlı bir üflemeli enstrümandır. Yaklaşık 45 cm uzunluğunda olup genişleyen bir ağız kısmına sahiptir. Circular breathing tekniğiyle sürekli ton üretilir; kraliyet törenlerinde ve Emir saraylarında çalınır.",
+                        "description_en": "The algaita is a double-reed wind instrument with a conical bore, played by the Hausa people of Nigeria and Niger. About 45 cm long with a flared bell, it is made from hardwood covered with leather. Players use circular breathing for continuous tone. It is prominent in royal ceremonies and the courts of Hausa emirs.",
+                        "description_de": "Die Algaita ist ein Doppelrohrblattinstrument mit konischer Bohrung, gespielt von den Hausa in Nigeria und Niger. Sie ist etwa 45 cm lang mit einem ausgestellten Schallbecher aus Hartholz und Leder. Durch Zirkuläratmung wird ein kontinuierlicher Ton erzeugt. Sie ist bei Hofzeremonien der Hausa-Emire verbreitet.",
+                        "region_tr": "Nijerya / Nijer (Batı Afrika - Hausa halkı)",
+                        "region_en": "Nigeria / Niger (West Africa - Hausa people)",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/An_algaita_player%2C_fulbeized_Kapsiki.jpg/330px-An_algaita_player%2C_fulbeized_Kapsiki.jpg",
+                        "images": [
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/An_algaita_player%2C_fulbeized_Kapsiki.jpg/330px-An_algaita_player%2C_fulbeized_Kapsiki.jpg",
+                            "caption": "Algaita player and his apprentice"
+                          }
+                        ],
+                        "video_id": ""
                       }
                     ],
                     "name_de": "Konisch-Doppelrohrblatt",
@@ -4228,6 +4308,26 @@
                             "caption": "Vuvuzela — Güney Afrika stadyum borusu"
                           }
                         ]
+                      },
+                      {
+                        "id": "kakaki",
+                        "name_tr": "Kakaki",
+                        "name_en": "Kakaki",
+                        "name_de": "Kakaki",
+                        "hs_code": "423.121.2",
+                        "description_tr": "Kakaki, Batı Afrika'nın Hausa kraliyet törenlerine özgü uzun bir metal trompettir. Uzunluğu 2-3 metreye kadar ulaşabilir ve açık, güçlü bir ses üretir. Emir ya da sultanın girişini ilan etmek için kullanılır; tarihsel olarak siyasi otorite ve devlet gücünün simgesidir.",
+                        "description_en": "The kakaki is a long ceremonial metal trumpet of the Hausa people, used in royal courts across West Africa. It can reach 2-3 meters in length and produces a powerful, resonant tone. Traditionally played to announce the arrival of an emir or sultan, it symbolizes political authority and state power.",
+                        "description_de": "Die Kakaki ist eine lange zeremonielle Metalltrompete der Hausa-Könige in Westafrika. Sie kann 2-3 Meter Länge erreichen und erzeugt einen kraftvollen Klang. Traditionell wird sie gespielt, um die Ankunft eines Emirs oder Sultans anzukündigen, und symbolisiert politische Autorität.",
+                        "region_tr": "Nijerya / Gana / Mali (Batı Afrika - Hausa kraliyet geleneği)",
+                        "region_en": "Nigeria / Ghana / Mali (West Africa - Hausa royal tradition)",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kakaki.jpeg/330px-Kakaki.jpeg",
+                        "images": [
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kakaki.jpeg/330px-Kakaki.jpeg",
+                            "caption": "Kakaki ceremonial trumpet"
+                          }
+                        ],
+                        "video_id": ""
                       }
                     ],
                     "name_de": "Rohrförmige Naturtrompeten",
@@ -5072,6 +5172,26 @@
                             ],
                             "region_tr": "Avrupa / Afrika",
                             "region_en": "Europe / Africa"
+                          },
+                          {
+                            "id": "gyil",
+                            "name_tr": "Gyil",
+                            "name_en": "Gyil",
+                            "name_de": "Gyil",
+                            "hs_code": "111.212.1",
+                            "description_tr": "Gyil, Burkina Faso ve Gana'daki Dagara ve Lobi halklarına ait geleneksel bir ksilofondur. 14 ila 18 ahşap çubuğa sahip olup altında calabash kabakları rezonatör görevi görür. Batı Afrika'nın en önemli xylofon geleneğlerinden birini temsil eder; şifacılık ve cenaze törenlerinde kullanılır.",
+                            "description_en": "The gyil is a traditional xylophone of the Dagara and Lobi peoples of Burkina Faso and Ghana. It has 14 to 18 hardwood keys with calabash gourd resonators suspended beneath each key. One of West Africa's most important xylophone traditions, it is used in healing ceremonies, funerals, and social gatherings.",
+                            "description_de": "Die Gyil ist ein traditionelles Xylophon der Dagara und Lobi in Burkina Faso und Ghana. Sie hat 14 bis 18 Hartholzstäbe mit darunter hängenden Kalebassenresonatoren. Sie ist eine der bedeutendsten Xylophon-Traditionen Westafrikas und wird bei Heilungszeremonien, Beerdigungen und Festen gespielt.",
+                            "region_tr": "Burkina Faso / Gana (Batı Afrika - Dagara ve Lobi halkları)",
+                            "region_en": "Burkina Faso / Ghana (West Africa - Dagara and Lobi peoples)",
+                            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/African_Balafon_in_Museu_Oscar_Niemeyer.jpg/330px-African_Balafon_in_Museu_Oscar_Niemeyer.jpg",
+                            "images": [
+                              {
+                                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/African_Balafon_in_Museu_Oscar_Niemeyer.jpg/330px-African_Balafon_in_Museu_Oscar_Niemeyer.jpg",
+                                "caption": "Gyil xylophone (Dagara)"
+                              }
+                            ],
+                            "video_id": ""
                           }
                         ],
                         "name_de": "Xylophon-Gruppe (Stabspiele)",
@@ -5862,6 +5982,26 @@
                     ],
                     "region_tr": "Türkiye / Osmanlı İmparatorluğu",
                     "region_en": "Turkey / Ottoman Empire"
+                  },
+                  {
+                    "id": "axatse",
+                    "name_tr": "Axatse",
+                    "name_en": "Axatse",
+                    "name_de": "Axatse",
+                    "hs_code": "112.13",
+                    "description_tr": "Axatse, Gana ve Togo'daki Ewe halkına özgü bir boncuk çıngıraklıdır. Kurutulmuş bir kabağın üzerine ip ve tohumlardan oluşan bir ağ geçirilmiştir. Ewe topluluk müziğinin vazgeçilmez bir parçasıdır; çalarken hem sallanır hem de elle vurulur.",
+                    "description_en": "The axatse is a beaded rattle of the Ewe people of Ghana and Togo, made from a dried gourd covered with a net of seeds or beads. It is an essential component of Ewe community music ensembles. The player shakes it against the hand and body, creating a characteristic rhythmic texture alongside the gankogui bell.",
+                    "description_de": "Die Axatse ist eine Perlenschnurrassel der Ewe in Ghana und Togo, gefertigt aus einer getrockneten Kalebasse mit einem Netz aus Samen oder Perlen. Sie ist ein wesentlicher Bestandteil des Ewe-Gemeinschaftsmusikensembles. Der Spieler schlägt sie gegen Hand und Körper und erzeugt eine charakteristische Rhythmustextur.",
+                    "region_tr": "Gana / Togo (Batı Afrika - Ewe halkı)",
+                    "region_en": "Ghana / Togo (West Africa - Ewe people)",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Axatse.JPG/330px-Axatse.JPG",
+                    "images": [
+                      {
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Axatse.JPG/330px-Axatse.JPG",
+                        "caption": "Axatse gourd rattle"
+                      }
+                    ],
+                    "video_id": ""
                   }
                 ],
                 "name_de": "Schüttelinstrumente (Rasseln)",
@@ -7243,6 +7383,26 @@
                         ],
                         "region_tr": "Batı Afrika (Mali)",
                         "region_en": "West Africa (Mali)"
+                      },
+                      {
+                        "id": "ashiko",
+                        "name_tr": "Ashiko",
+                        "name_en": "Ashiko",
+                        "name_de": "Ashiko",
+                        "hs_code": "211.261.11",
+                        "description_tr": "Ashiko, Nijerya ve Benin'deki Yoruba halkına ait konik bir davuldur. Geniş ağzı yukarıda yer alır ve derisi gerilmiş şekilde elle çalınır. Djembe'den daha ince bir sese sahiptir; törensel amaçlarla ve günümüzde dans müziğinde yaygın biçimde kullanılır.",
+                        "description_en": "The ashiko is a conical drum of the Yoruba people of Nigeria and Benin, with the single head at the wide open top. Played with bare hands, it produces a sound distinct from the djembe, with a higher-pitched slap tone. Traditionally used in ceremonies, it is now also popular in contemporary West African dance music.",
+                        "description_de": "Die Ashiko ist eine konische Trommel der Yoruba in Nigeria und Benin, mit dem einzelnen Fell an der breiten Oberseite. Mit bloßen Händen gespielt, erzeugt sie einen anderen Klang als die Djembe, mit einem helleren Slap-Ton. Traditionell zeremonielle Verwendung, heute auch in westafrikanischer Tanzmusik verbreitet.",
+                        "region_tr": "Nijerya / Benin (Batı Afrika - Yoruba halkı)",
+                        "region_en": "Nigeria / Benin (West Africa - Yoruba people)",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Ashiko.jpg/330px-Ashiko.jpg",
+                        "images": [
+                          {
+                            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Ashiko.jpg/330px-Ashiko.jpg",
+                            "caption": "Ashiko drum"
+                          }
+                        ],
+                        "video_id": ""
                       }
                     ],
                     "name_de": "Konische Trommeln",
