@@ -37,12 +37,56 @@ window.App = {
     eventsAttached: false,
   },
 
+  /* ─── DOM CACHE ─────────────────────────────────────── */
+  _els: null,
+
+  _initEls() {
+    this._els = {
+      backdrop:        document.getElementById('modal-backdrop'),
+      modal:           document.getElementById('modal'),
+      aboutBackdrop:   document.getElementById('about-backdrop'),
+      aboutModal:      document.getElementById('about-modal'),
+      aboutClose:      document.getElementById('about-close'),
+      aboutPanel:      document.getElementById('panel-about'),
+      supportBackdrop: document.getElementById('support-backdrop'),
+      supportModal:    document.getElementById('support-modal'),
+      supportClose:    document.getElementById('support-close'),
+      supportOpenBtn:  document.getElementById('support-open-btn'),
+    };
+  },
+
+  /* Backdrop'u görünür/gizli yap (opacity transition) */
+  _showBackdrop(el) {
+    el.hidden = false;
+    el.setAttribute('aria-hidden', 'false');
+    requestAnimationFrame(() => el.classList.add('is-visible'));
+  },
+  _hideBackdrop(el) {
+    el.classList.remove('is-visible');
+    el.setAttribute('aria-hidden', 'true');
+    const done = () => { el.hidden = true; el.removeEventListener('transitionend', done); };
+    el.addEventListener('transitionend', done);
+  },
+
+  /* Modal'ı animasyonla kapat */
+  _animClose(modalEl, cb) {
+    modalEl.classList.add('is-closing');
+    const done = () => {
+      modalEl.removeEventListener('animationend', done);
+      modalEl.classList.remove('is-closing');
+      modalEl.hidden = true;
+      modalEl.setAttribute('aria-hidden', 'true');
+      if (cb) cb();
+    };
+    modalEl.addEventListener('animationend', done);
+  },
+
   /* ─── MODAL ──────────────────────────────────────────── */
 
   openModal(node, path = []) {
     const lang     = this.state.language;
-    const backdrop = document.getElementById('modal-backdrop');
-    const modal    = document.getElementById('modal');
+    const backdrop = this._els.backdrop;
+    const modal    = this._els.modal;
 
     const primaryName   = lang === 'tr' ? node.name_tr : lang === 'de' ? node.name_de : node.name_en;
     const secondaryName = lang === 'tr' ? node.name_en : lang === 'de' ? node.name_en : node.name_tr;
@@ -113,8 +157,7 @@ window.App = {
       videoBtn.hidden = true;
     }
 
-    backdrop.hidden = false;
-    backdrop.setAttribute('aria-hidden', 'false');
+    this._showBackdrop(backdrop);
     modal.hidden = false;
     modal.setAttribute('aria-hidden', 'false');
 
@@ -399,8 +442,7 @@ window.App = {
   },
 
   closeModal() {
-    const backdrop    = document.getElementById('modal-backdrop');
-    const modal       = document.getElementById('modal');
+    const { backdrop, modal } = this._els;
     const videoIframe = document.getElementById('modal-video-iframe');
     const videoWrap   = document.getElementById('modal-video-wrap');
     const videoBtn    = document.getElementById('modal-video-btn');
@@ -416,17 +458,14 @@ window.App = {
     this._carousel.images = [];
     this._carousel.idx    = 0;
 
-    backdrop.hidden = true;
-    backdrop.setAttribute('aria-hidden', 'true');
-    modal.hidden = true;
-    modal.setAttribute('aria-hidden', 'true');
-
-    // ── Permalink: hash temizle ────────────────────────────────
-    history.replaceState(null, '', location.pathname + location.search);
-
-    // ── Breadcrumb gizle ──────────────────────────────────────
-    const bcNav = document.getElementById('breadcrumb-nav');
-    if (bcNav) bcNav.hidden = true;
+    this._hideBackdrop(backdrop);
+    this._animClose(modal, () => {
+      // ── Permalink: hash temizle ──────────────────────────────
+      history.replaceState(null, '', location.pathname + location.search);
+      // ── Breadcrumb gizle ────────────────────────────────────
+      const bcNav = document.getElementById('breadcrumb-nav');
+      if (bcNav) bcNav.hidden = true;
+    });
   },
 
   /* ─── DİL ────────────────────────────────────────────── */
@@ -592,20 +631,21 @@ window.App = {
   /* ─── ABOUT MODAL ───────────────────────────────────────── */
 
   openAbout() {
-    document.getElementById('about-backdrop').hidden = false;
-    document.getElementById('about-backdrop').setAttribute('aria-hidden', 'false');
-    document.getElementById('about-modal').hidden = false;
-    document.getElementById('about-modal').setAttribute('aria-hidden', 'false');
+    const { aboutBackdrop, aboutModal, aboutClose, aboutPanel } = this._els;
+    // Panel scroll'u sıfırla
+    if (aboutPanel) aboutPanel.scrollTop = 0;
+    this._showBackdrop(aboutBackdrop);
+    aboutModal.hidden = false;
+    aboutModal.setAttribute('aria-hidden', 'false');
     // İlk sekmeyi aktif yap
     this._switchAboutTab('panel-about');
-    requestAnimationFrame(() => document.getElementById('about-close').focus());
+    requestAnimationFrame(() => aboutClose.focus());
   },
 
   closeAbout() {
-    document.getElementById('about-backdrop').hidden = true;
-    document.getElementById('about-backdrop').setAttribute('aria-hidden', 'true');
-    document.getElementById('about-modal').hidden = true;
-    document.getElementById('about-modal').setAttribute('aria-hidden', 'true');
+    const { aboutBackdrop, aboutModal } = this._els;
+    this._hideBackdrop(aboutBackdrop);
+    this._animClose(aboutModal);
   },
 
   _switchAboutTab(panelId) {
@@ -750,6 +790,9 @@ window.App = {
     syncHeaderH();
     window.addEventListener('resize', syncHeaderH);
 
+    // DOM referanslarını cache'le
+    this._initEls();
+
     // Radial ağacı başlat
     App.Radial.init(this.state.data);
 
@@ -774,15 +817,34 @@ window.App = {
 
     // Modal kapatma
     document.getElementById('modal-close').addEventListener('click',    () => this.closeModal());
-    document.getElementById('modal-backdrop').addEventListener('click', () => this.closeModal());
+    this._els.backdrop.addEventListener('click', () => this.closeModal());
 
     // About modal — her açılışta dili senkronize et
     document.getElementById('about-btn').addEventListener('click', () => {
       this._updateAboutLang(this.state.language);
       this.openAbout();
     });
-    document.getElementById('about-close').addEventListener('click',    () => this.closeAbout());
-    document.getElementById('about-backdrop').addEventListener('click', () => this.closeAbout());
+    this._els.aboutClose.addEventListener('click',      () => this.closeAbout());
+    this._els.aboutBackdrop.addEventListener('click',   () => this.closeAbout());
+
+    // Destek popup
+    const { supportOpenBtn, supportModal, supportBackdrop, supportClose } = this._els;
+    const openSupport = () => {
+      this._showBackdrop(supportBackdrop);
+      supportModal.hidden = false;
+      supportModal.setAttribute('aria-hidden', 'false');
+      requestAnimationFrame(() => { if (supportClose) supportClose.focus(); });
+    };
+    const closeSupport = () => {
+      this._hideBackdrop(supportBackdrop);
+      this._animClose(supportModal, () => { if (supportOpenBtn) supportOpenBtn.focus(); });
+    };
+    if (supportOpenBtn)  supportOpenBtn.addEventListener('click',  openSupport);
+    if (supportClose)    supportClose.addEventListener('click',    closeSupport);
+    if (supportBackdrop) supportBackdrop.addEventListener('click', closeSupport);
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && supportModal && !supportModal.hidden) closeSupport();
+    });
 
     // Görünüm toggle: Radyal Ağaç ↔ Harita
     const treeStage  = document.getElementById('tree-stage');
@@ -819,10 +881,10 @@ window.App = {
 
     // Klavye kısayolları
     document.addEventListener('keydown', (e) => {
-      const modalOpen = !document.getElementById('modal').hidden;
+      const modalOpen = !this._els.modal.hidden;
       if (e.key === 'Escape') {
-        if (modalOpen)                                          this.closeModal();
-        if (!document.getElementById('about-modal').hidden)   this.closeAbout();
+        if (modalOpen)                              this.closeModal();
+        if (!this._els.aboutModal.hidden)           this.closeAbout();
       }
       // Carousel klavye navigasyonu (modal açıkken ← →)
       if (modalOpen && this._carousel.images.length > 1) {

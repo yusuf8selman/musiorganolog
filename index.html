@@ -69,7 +69,7 @@
     integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H"
     crossorigin="anonymous"
   />
-  <link rel="stylesheet" href="css/style.css?v=22">
+  <link rel="stylesheet" href="css/style.css?v=25">
 
   <!-- ── Schema.org JSON-LD ───────────────────────────────────────── -->
   <script type="application/ld+json">
@@ -392,6 +392,22 @@
         <div class="about-stat"><span class="about-stat-num" id="stat-visitors">—</span><span class="about-stat-label" id="stat-visitors-label">Ziyaret</span></div>
       </div>
       <p class="about-credit" id="about-credit">Hornbostel-Sachs (1914) · MIMO Thesaurus (2011, 2021)</p>
+
+      <!-- museicologie.com link -->
+      <div class="about-extra">
+        <a class="about-site-link" href="http://museicologie.com" target="_blank" rel="noopener">
+          daha fazlası için <strong>museicologie.com</strong>
+        </a>
+
+        <!-- Bağış bölümü -->
+        <div class="about-bagis-section">
+          <p class="about-bagis-title">yusuf selman bağış</p>
+          <div class="about-bagis-buttons">
+            <a class="about-contact-btn" href="mailto:yusuf8selman@gmail.com">Öneriler için iletişim</a>
+            <button class="about-support-btn" id="support-open-btn">Destek ol!</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Panel: Kaynaklar -->
@@ -435,6 +451,24 @@
 
   </div>
 
+  <!-- ─── DESTEK POPUP ─────────────────────────────── -->
+  <div class="modal-backdrop" id="support-backdrop" hidden aria-hidden="true"></div>
+  <div class="support-modal" id="support-modal" role="dialog" aria-modal="true" aria-labelledby="support-modal-title" hidden>
+    <button class="modal-close" id="support-close" aria-label="Kapat">×</button>
+    <h3 class="support-modal-title" id="support-modal-title">Destek ol!</h3>
+    <p class="support-modal-desc">Projeyi desteklemek için bir platform seç:</p>
+    <div class="support-options">
+      <a class="support-option" id="support-patreon" href="https://www.patreon.com/" target="_blank" rel="noopener">
+        <span class="support-flag">🌍</span>
+        <span class="support-platform">Patreon</span>
+      </a>
+      <a class="support-option" id="support-kreosus" href="https://kreosus.com/" target="_blank" rel="noopener">
+        <span class="support-flag">🇹🇷</span>
+        <span class="support-platform">Kreosus</span>
+      </a>
+    </div>
+  </div>
+
   <!-- ─── ZİYARETÇİ SAYACI ────────────────────────── -->
   <script src="js/visitor.js?v=1"></script>
 
@@ -452,7 +486,7 @@
     crossorigin="anonymous"
   ></script>
   <!-- app.js ilk yüklenir: global App namespace'i tanımlar -->
-  <script src="js/app.js?v=21"></script>
+  <script src="js/app.js?v=23"></script>
   <!-- radial.js: App.Radial ekler -->
   <script src="js/radial.js?v=39"></script>
   <!-- search.js: App.Search ekler -->
